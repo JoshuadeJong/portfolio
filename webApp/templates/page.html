@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block base_head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+{% endblock %}
+{% block base_body %}
+    <div class="container padding-64">
+        {% block page %}
+        {% endblock %}
+    </div>
+{% endblock %}

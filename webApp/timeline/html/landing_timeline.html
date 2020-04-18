@@ -1,0 +1,298 @@
+{% extends "base.html" %}
+
+{% block base_head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block base_body %}
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l8">
+                <div class="col s12 m4 l8">
+                    <!-- 2020 --->
+                    <span class="date">2020</span>
+                    <ul>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">code</i>
+                                <a href="/timeline" class="title">Personal Website</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">ac_unit</i>
+                                <a href="/timeline" class="title">Stevens Pass, Washington</a>
+                            </div>
+                            <span class="content">
+                                Took a long weekend with some of my close friends to go skiing!
+                                The weather was great with a lot of powder the second day.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">work</i>
+                                <a href="/timeline" class="title">Expeditors International</a>
+                            </div>
+                            <span class="content">
+                                Started a job at Expeditors International as a System Analyst for the Enterprise Monitoring Team team!
+                            </span>
+                        </li>
+                    </ul>
+
+
+                    <!-- 2019 --->
+                    <span class="date">2019</span>
+                    <ul>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">ac_unit</i>
+                                <a href="/timeline" class="title">Loveland Ski Area, Colorado</a>
+                            </div>
+                            <span class="content">
+                                While in Colorado I made sure to get the most out of the snow!
+                                As it was early in the season there was just enough snow for my favorites run to be open.
+                                However, the lack of snow didn't stop me from getting 4 days of skiing in!
+                                I started to learn how to carve like a pro and learned how cold it can get 14000 feet.
+                                Man, that was a cold day.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">local_airport</i>
+                                <a href="/timeline" class="title">Denver, Colorado</a>
+                            </div>
+                            <span class="content">
+
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">home</i>
+                                <a href="/timeline" class="title">Seattle, Washington</a>
+                            </div>
+                            <span class="content">
+                                Well, it turns out the temptation of Seattle was so much I ended up moving!
+                                Perhaps it was the lovely weather, nice people, and short commutes.
+                                Or maybe it was just the fantastic job opportunities and the company of my best friends.
+                                We will never know!
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">local_airport</i>
+                                <a href="/timeline" class="title">Seattle, Washington</a>
+                            </div>
+                            <span class="content">
+                                I have always heard great things about Seattle and as I had never been; I thought it was time to take a visit.
+                                With my best friends currently residing in city I made it a point to see what they had all been up to!
+                                We visited the aquarium, a Sounders game, and a had a great ski line tour of the city over a pint in the Columbia Center.
+                                Seattle lived up to all that people made it out to be, maybe I should move here some day.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">directions_car</i>
+                                <a href="/timeline" class="title">National Parks Trip</a>
+                            </div>
+                            <span class="content">
+
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">work</i>
+                                <a href="/timeline" class="title">CafeParts</a>
+                            </div>
+                            <span class="content">
+                                Started a job at CafeParts as a Junior Data Analyst!
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">ac_unit</i>
+                                <a href="/timeline" class="title">Copper Mountain, Colorado</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">ac_unit</i>
+                                <a href="/timeline" class="title">Keystone Mountain, Colorado</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                    </ul>
+
+
+                    <!-- 2018 --->
+                    <span class="date">2018</span>
+                    <ul>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">ac_unit</i>
+                                <a href="/timeline" class="title">Loveland Ski Area, Colorado</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">home</i>
+                                <a href="/timeline" class="title">Denver, Colorado</a>
+                            </div>
+                            <span class="content">
+                                I
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">school</i>
+                                <a href="/timeline" class="title">Undergraduate, Colorado State University</a>
+                            </div>
+                            <span class="content">
+                                I finished my Bachelor of Science in Mathematics at Colorado State University!
+                                The past four years have been extremely busy but I wouldn't trade it for anything.
+                                I'm looking forward to joining the work force and one day returning to university to get that Phd!
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">CSU Mathematics Poster Conference</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">functions</i>
+                                <a href="/timeline" class="title">Neolithic Transition</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">work</i>
+                                <a href="/timeline" class="title">Research Assistant</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">CSU Mathematics Poster Conference</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">Southwestern Undergraduate Mathematics Research Conference, New Mexico</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">directions_car</i>
+                                <a href="/timeline" class="title">Moab, Utah</a>
+                            </div>
+                            <span class="content">
+                                As I have always enjoyed the outdoors and was being a bit adventurous at the time, I took up a friends offer to go 4 wheeling in Moab.
+                                I had never been 4 wheeling before so I wasn't sure for what I signed up.
+                                To put it frankly; the shaking of the vehicle, crawling over once impassable obstacles, and the breath taking scenery made for one of the best experiences of my life.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">functions</i>
+                                <a href="/timeline" class="title">Van der Waerden Numbers</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">Joint Mathematics Meeting, San Diego</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                    </ul>
+
+
+                    <!-- 2017 --->
+                    <span class="date">2017</span>
+                    <ul>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">CSU Mathematics Poster Conference</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">functions</i>
+                                <a href="/timeline" class="title">Graph Theory</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">emoji_people</i>
+                                <a href="/timeline" class="title">Joint Mathematics Meeting</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                    </ul>
+
+
+                    <!-- 2016 --->
+                    <span class="date">2016</span>
+                    <ul>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">work</i>
+                                <a href="/timeline" class="title">Math Club, President</a>
+                            </div>
+                            <span class="content">
+                                After helping out CSU's Math Club for a few semesters I've decided to step up and take a leadership position.
+                                As the club's membership was dwindling, I made it a focus to reinvent the club's image and thus audience.
+                                This wasn't going to be a club with monthly lectures and poor retention.
+                                While there I raised participation from 5 people a month to 30 people a week, funded 25 students to attend national mathematics conferences, ran 3 large department parties, and changed the perception of the CSU mathematics department.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">work</i>
+                                <a href="/timeline" class="title">Undergraduate Teacher Assistant</a>
+                            </div>
+                            <span class="content">PUT TEXT HERE</span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">functions</i>
+                                <a href="/timeline" class="title">De Bruijn Research</a>
+                            </div>
+                            <span class="content">
+                                I am starting my first research project under Patrick Shipman.
+                                While I don't know much about the topic i'm
+                            </span>
+                        </li>
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">local_airport</i>
+                                <a href="/timeline" class="title">British Virgin Islands</a>
+                            </div>
+                            <span class="content">As a son of Sailor I had always heard of the great trips my father took. However, as I lived in a land locked state for majority of my life, I never had any of my own stories to share. With my wish to have a sea bearing adventure and my father's dream to return to the sea again we set off to BVI. Here I formed my own sea bearing stories, learned a dying mode of transportation, and had a life time experience with my father.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+{% endblock %}

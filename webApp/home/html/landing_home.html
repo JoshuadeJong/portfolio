@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block base_head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/terminal.js') }}"></script>
+{% endblock %}
+
+{% block base_body %}
+    <div class="container">
+        <div class="wrapper fixed-wrapper desktop-only">
+            <section id="terminal">
+                <div id="terminal-container">
+                    <div class="terminal">
+                        <div class="window-title">
+                            <div class="win-buttons">
+                                <a id="close" class="button" href="#"></a>
+                                <a id="min" class="button" href="#"></a>
+                                <a id="max" class="button" href="#"></a>
+                            </div>
+                            <span class="title">~/Public</span>
+                        </div>
+                        <div class="message">
+                            <span class='prompt'><span class='user'>MaanMan</span><span class="at">@web-app</span><span
+                                    class="path">~/Public</span>><span class="caret">$</span></span>
+                            <span class="typed"></span>
+                            <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"></input></form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="wrapper scroll-wrapper">
+            <div class="top-text">
+                <p class="text-title desktop-view">Joshua de Jong</p>
+                <p class="text-title mobile-view">Joshua de Jong</p>
+                <div>
+                    <a target="_blank" href="https://github.com/ManVanMaan">
+                        <img class="title-logo" src="static/images/github.svg">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/joshua-de-jong/">
+                        <img class="title-logo" src="static/images/linkedin-logo.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="middle-text">
+
+                <p class="text-content">
+                    I currently work at Expeditors Seattle as a software developer for the Enterprise Monitoring team.
+                    I have been working with the team to improve the performance of their java code base.
+                    So far I’ve improved multiple code blocks down to O(n) or O(log(n)) time!
+                    I have also been helping the team develop their CI/CD pipelines and readiness for their next product release.
+                </p>
+
+                <p class="text-content">
+                    I originally started my career at Colorado State University where I studied mathematics and worked as a researcher in a chemistry lab.
+                    It was here where I found a passion for coding by developing machine vision tools and numerical models of experiments.
+                    After university I started work as a data analyst where I built predictive models, and built an item recommendation system using machine learning!
+                </p>
+
+                <p class="text-content">
+                    I am always seeking to challenge myself and learn new skills.
+                    If you feel I might be the right person for your team feel free to reach out!
+                </p>
+
+                <p class="text-content">
+                    You can find me on <a href="http://in.linkedin.com/in/joshua-de-jong/">LinkedIn</a>,
+                    or see my repositories <a href="https://github.com/ManVanMaan">here</a>.
+                </p>
+
+                <p class="text-content">Hope to hear from you!</p>
+
+                <p class="text-content">Josh</p>
+
+                <br>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+{% endblock %}
