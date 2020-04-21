@@ -13,8 +13,6 @@ def create_app(config_class=Config):
     from webApp.timeline.routes import timeline_bp # Add About page
     app.register_blueprint(timeline_bp)
 
-
-
     return app
 
 
