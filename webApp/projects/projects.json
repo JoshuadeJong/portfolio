@@ -1,0 +1,360 @@
+{
+  "projects": [
+    {
+      "name": "Category Theory",
+      "link": "",
+      "date": "Nov 2018",
+      "short": "My final project for my Advanced Real Analysis course which I presented at the 2018 CSU Poster Contest.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster", "Presentation"],
+      "videos": [
+        "<iframe width=\"1351\" height=\"533\" src=\"https://www.youtube.com/embed/OmDS-FdotNU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ],
+      "photos": ["/static/experiences/tesseract/img-1.jpg"]
+    },
+    {
+      "name": "ODE Technical Manual",
+      "nameLong": "Technical Manual for Ordinary Differential Equations",
+      "link": "",
+      "date": "Jul 2017",
+      "short": "Wrote a study manual and problem sets going over Ordinary Differential Equals and techniques to solve them",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Book", "Math"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Voronoi Diagram Art",
+      "link": "",
+      "date": "Dec 2018",
+      "short": "A poster showing how Voronoi Diagrams could be used to create mosaic like art. ",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Art", "Poster", "Presentation"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Powerline Communication",
+      "link": "",
+      "date": "Mar 2018",
+      "short": "A poster showing the mathematics of how powerlines could be used to communicate long distances.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster", "Presentation"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Singular Value Decomposition",
+      "link": "",
+      "date": "Mar 2018",
+      "short": "A poster giving a brief introduction to what singular value decomposition is, how it was derived, and how it can be used.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster", "Presentation"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "A New Way to Knit",
+      "link": "",
+      "date": "Feb 2018",
+      "short": "A presentation and coding project on how to recreate an image using a single piece of thread and a few anchor points.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Art", "Presentation", "Code"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Laplacian Smoothing",
+      "nameLong": "Laplacian Smoothing of Meshes",
+      "link": "",
+      "date": "Dec 2017",
+      "short": "A poster explaining the algorithm of laplacian smoothing on a mesh.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Poster", "Math", "Presentation", "Code"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Grind, Level Design",
+      "link": "",
+      "date": "Sep 2017",
+      "short": "Created a multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["CSGO", "Level Design"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "8 bit Arithmetic Logic Unit",
+      "link": "",
+      "date": "May 2017",
+      "short": "Designed and built a digital circuit to do basic math functions for my electrical engineering course.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Hardware"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Online Sprinkler Control System",
+      "link": "",
+      "date": "Jun 2015",
+      "short": "Built an Arduino system to control and schedule sprinklers from a web application.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Hardware"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "De Bruijn",
+      "link": "",
+      "date": "Aug 2017",
+      "short": "Research and developed algorithms to find de Bruijn graphs, sequences, and extensions",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Research", "Code"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Graph Theory",
+      "link": "",
+      "date": "Aug 2017",
+      "short": "Researched graph theory and developed a technique to answer a wide range of combinatorial questions.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Research", "Math", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Van der Waerden",
+      "link": "",
+      "date": "May 2018",
+      "short": "Conducted research and developed a SAT Solver to improve known for Van der Waerden bounds.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Research", "Code", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Vapor-to-Particle Reaction",
+      "link": "",
+      "date": "Jul 2018",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster", "Chemistry", "Code"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Neolithic Transition",
+      "link": "",
+      "date": "Aug 2018",
+      "short": "Researched and modeled the spread of agriculture throughout Europe.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Research", "Code", "Math"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Notakto",
+      "link": "",
+      "date": "Aug 2019",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Java", "OOP"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Vending Machine",
+      "link": "",
+      "date": "Mar 2019",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "C/C++"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Blackjack",
+      "link": "",
+      "date": "May 2019",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Java", "OOP"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Used Car Analysis",
+      "link": "",
+      "date": "Nov 2019",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Python", "Data Analysis"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Double Pendulum",
+      "link": "",
+      "date": "Oct 2017",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "MatLab"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Mouse Listener",
+      "link": "",
+      "date": "Jul 2019",
+      "short": "A quick demo for a friend on how to track mouse clicks in Java.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Java"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Website Scrapper",
+      "link": "",
+      "date": "Dec 2019",
+      "short": "Practice using Beautiful soup to scrap websites.",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Python", "Beautiful Soup"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Seattle Fire Dispatch",
+      "link": "",
+      "date": "",
+      "short": "",
+      "long": "",
+      "status": "Work in Progress",
+      "tags": ["Code", "Python", "SQL", "OOP"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Personal Website",
+      "link": "",
+      "date": "",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Python"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Flappy Bird AI",
+      "link": "",
+      "date": "Nov 2017",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Matlab"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Buffon's Needle Drop",
+      "link": "",
+      "date": "Oct 2017",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Code", "MatLab", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Birthday Paradox",
+      "link": "",
+      "date": "Oct 2017",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Code", "MatLab", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Origami Poster",
+      "link": "",
+      "date": "Mar 2018",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "CSU String Art",
+      "link": "",
+      "date": "Oct 2018",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "Art", "MatLab", "Poster"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Vending Machine",
+      "link": "",
+      "date": "Mar 2019",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Code", "C/C++"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Ram Welcome",
+      "link": "",
+      "date": "Apr 2018",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Presentation", "Math"],
+      "videos": [],
+      "photos": []
+    },
+    {
+      "name": "Dynamic Systems",
+      "link": "",
+      "date": "Oct 2018",
+      "short": "",
+      "long": "",
+      "status": "Finished",
+      "tags": ["Math", "Poster"],
+      "videos": [],
+      "photos": []
+    }
+  ]
+}
