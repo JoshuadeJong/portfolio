@@ -6,22 +6,22 @@ projects_bp = Blueprint('projects', __name__, template_folder='html')
 project_bp = Blueprint('project', __name__, template_folder='html')
 
 
-
 @projects_bp.route('/projects')
 def landing():
     data = get_static_json('projects.json')['projects']
     data.sort(key=order_projects_by_date, reverse=True)
 
-    tag = request.args.get('tags')
-    if tag:
-        data = [project for project in data if tag.lower() in [project_tag.lower() for project_tag in project['tags']]]
+    tags = request.args.get('tags')
 
-    return render_template('landing_projects.html', projects= data, tag= tag)
+    if tags:
+        tags = tags.split(',')
+        data = [project for project in data if set(tags) <= set(project['tags'])]
+
+    return render_template('landing_projects.html', projects=data, tags=tags)
 
 @project_bp.route('/projects/<title>')
 def project():
     pass
-
 
 def get_static_file(path):
     site_root = os.path.realpath(os.path.dirname(__file__))
@@ -37,6 +37,7 @@ def order_projects_by_weight(projects):
         return int(projects['weight'])
     except KeyError:
         return 0
+
 
 def order_projects_by_date(projects):
     try:

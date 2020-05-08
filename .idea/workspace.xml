@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3414615e-7630-4ade-8616-d9c9fb6d863a" name="Default Changelist" comment="Update to timeline">
-      <change afterPath="$PROJECT_DIR$/webApp/projects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/projects/projects.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/projects/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/static/css/projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/html/landing_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/home/html/landing_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,42 +154,42 @@
     </state>
     <state x="975" y="229" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1580098069560" />
     <state x="1135" y="325" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1587261279149" />
-    <state width="1047" height="280" key="GridCell.Tab.0.bottom" timestamp="1588745638132">
+    <state width="1081" height="278" key="GridCell.Tab.0.bottom" timestamp="1588909603731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588745638132" />
+    <state width="1081" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588909603731" />
     <state width="1338" height="330" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1587261291442" />
-    <state width="1047" height="280" key="GridCell.Tab.0.center" timestamp="1588745638132">
+    <state width="1081" height="278" key="GridCell.Tab.0.center" timestamp="1588909603731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588745638132" />
+    <state width="1081" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588909603731" />
     <state width="1338" height="330" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1587261291442" />
-    <state width="1047" height="280" key="GridCell.Tab.0.left" timestamp="1588745638132">
+    <state width="1081" height="278" key="GridCell.Tab.0.left" timestamp="1588909603731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588745638132" />
+    <state width="1081" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588909603731" />
     <state width="1338" height="330" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1587261291442" />
-    <state width="1047" height="280" key="GridCell.Tab.0.right" timestamp="1588745638132">
+    <state width="1081" height="278" key="GridCell.Tab.0.right" timestamp="1588909603731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588745638132" />
+    <state width="1081" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588909603731" />
     <state width="1338" height="330" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1587261291442" />
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1588707357715">
+    <state width="1081" height="346" key="GridCell.Tab.1.bottom" timestamp="1588908112905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588707357715" />
-    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1588707357714">
+    <state width="1081" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588908112905" />
+    <state width="1081" height="346" key="GridCell.Tab.1.center" timestamp="1588908112905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588707357714" />
-    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1588707357714">
+    <state width="1081" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588908112905" />
+    <state width="1081" height="346" key="GridCell.Tab.1.left" timestamp="1588908112905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588707357714" />
-    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1588707357715">
+    <state width="1081" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588908112905" />
+    <state width="1081" height="346" key="GridCell.Tab.1.right" timestamp="1588908112905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588707357715" />
+    <state width="1081" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588908112905" />
     <state x="170" y="325" key="SettingsEditor" timestamp="1587763307282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,20 +199,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="327" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588729992424" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/webApp/projects/routes.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/webApp/projects/routes.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
