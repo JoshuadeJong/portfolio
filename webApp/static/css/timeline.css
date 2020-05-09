@@ -30,3 +30,7 @@
     display: flex;
     align-items: center;
 }
+
+.no-bullet {
+    list-style: none;
+}

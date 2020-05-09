@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3414615e-7630-4ade-8616-d9c9fb6d863a" name="Default Changelist" comment="Update to timeline">
+      <change afterPath="$PROJECT_DIR$/webApp/timeline/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/projects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/projects/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/timeline/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/timeline/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

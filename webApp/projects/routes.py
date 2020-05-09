@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-import io, json, os
+import json, os
 from datetime import datetime
 
 projects_bp = Blueprint('projects', __name__, template_folder='html')
