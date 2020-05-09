@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block base_head %}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/projects.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+{% endblock %}
+
+{% block base_body %}
+    <div class="row cards-container">
+        <div class="row">
+            {% if tags is not none %}
+                <div>
+                    <span class="card-title activator grey-text text-darken-4">Filter: </span>
+                </div>
+                {% for tag in tags %}
+                    <div class="md-chip md-chip-clickable">
+                        <a class="md-chip-link" href="{{ url_for('projects.landing') }}">
+                            {{tag}}
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+<!--
+    {% if tag is not none %}
+        <div class="row">
+            <div class="md-chips md-chips-center col s2 offset-s5">
+                <div class="md-chip md-chip-hover">
+                    <a class="md-chip-link" href="/projects">{{tag}}</a>
+                    <div class="md-chip-remove"><a href="/projects" class="md-chip-remove-span">X</a></div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+-->
+
+    <div class="row cards-container">
+        {% for project in projects %}
+            {% include "card.html" %}
+        {% endfor %}
+    </div>
+{% endblock %}
