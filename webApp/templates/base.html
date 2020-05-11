@@ -8,16 +8,26 @@
 
 
     <title>Joshua de Jong</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='images/favicon/site.webmanifest') }}">
+    <link rel="mask-icon" color="#da532c" href="{{ url_for('static', filename='images/favicon/safari-pinned-tab.svg') }}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     {% block base_head %}
     {% endblock %}
 </head>
 <body>
+
     <div class="navbar-ul">
         <ul id="navbar-list" class="list-inline">
             <li><a class="navbar-ref" href="{{ url_for('home.landing') }}">Home</a></li>
             <li><a class="navbar-ref" href="{{ url_for('projects.landing') }}">Projects</a></li>
             <li><a class="navbar-ref" href="{{ url_for('timeline.landing') }}">Timeline</a></li>
-            <li><a class="navbar-ref" href="{{ url_for('home.landing') }}">About</a></li>
+            <li><a class="navbar-ref" href="{{ url_for('about.landing') }}">About</a></li>
         </ul>
     </div>
 

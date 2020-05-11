@@ -33,11 +33,17 @@
             </div>
         </div>
         <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">{{project['name']}}<i
-                    class="material-icons right">close</i></span>
-            <div><span class="status">{{project['date']}}</span></div>
+            <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right">close</i></span>
+            {% if 'Finished' == project['status'] %}
+                <div><span class="status">{{project['date']}}</span></div>
+            {% else %}
+                <div><span class="status">{{project['status']}}</span></div>
+            {% endif %}
             <p>{{project['short']}}</p>
             <span><a href="/projects/{{project['link']}}">Read More</a></span>
+            {% if 'github' in project %}
+            <span><a class="github" href={{project['github']}}> | Github</a></span>
+            {% endif %}
         </div>
     </div>
 </div>

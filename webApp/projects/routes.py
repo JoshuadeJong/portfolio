@@ -1,6 +1,6 @@
-from flask import Blueprint, render_template, request
-import json, os
 from datetime import datetime
+from flask import Blueprint, render_template, request, abort
+from webApp.functions import get_static_json
 
 projects_bp = Blueprint('projects', __name__, template_folder='html')
 project_bp = Blueprint('project', __name__, template_folder='html')
@@ -9,7 +9,7 @@ project_bp = Blueprint('project', __name__, template_folder='html')
 @projects_bp.route('/projects')
 def landing():
     data = get_static_json('projects.json')['projects']
-    data.sort(key=order_projects_by_date, reverse=True)
+    data.sort(key=order_projects_by_date)
 
     tags = request.args.get('tags')
 
@@ -19,17 +19,18 @@ def landing():
 
     return render_template('landing_projects.html', projects=data, tags=tags)
 
+
 @project_bp.route('/projects/<title>')
-def project():
-    pass
+def project(title):
+    projects = get_static_json('projects.json')['projects']
+    project = next((project for project in projects if project['link'] == title), None)
 
-def get_static_file(path):
-    site_root = os.path.realpath(os.path.dirname(__file__))
-    return os.path.join(site_root, path)
-
-
-def get_static_json(path):
-    return json.load(open(get_static_file(path)))
+    if project is None:  # Project doesn't exists
+        abort(404)
+    if project['long'] == "" or project['long'] is None:  # Project page is under construction
+        abort(501)
+    else:
+        return render_template('project.html', project=project)
 
 
 def order_projects_by_weight(projects):
@@ -39,10 +40,21 @@ def order_projects_by_weight(projects):
         return 0
 
 
-def order_projects_by_date(projects):
+def order_projects_by_date(project):
+    if project['status'] == 'Work in Progress':
+        status = 0
+    elif project['status'] == 'Finished':
+        status = 1
+    else:
+        status = -1
+
     try:
-        return int(datetime.strptime(projects['date'], "%b %Y").strftime("%Y%m%d"))
+        date = -int(datetime.strptime(project['date'], "%b %Y").strftime("%Y%m%d"))
     except KeyError:
-        return 0
+        date = 0
     except ValueError:
-        return 0
+        date = 0
+
+    output = (status, date)
+
+    return output

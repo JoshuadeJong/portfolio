@@ -14,7 +14,10 @@ def create_app(config_class=Config):
     app.register_blueprint(timeline_bp)
     from webApp.projects.routes import projects_bp # Add Projects page
     app.register_blueprint(projects_bp)
-
+    from webApp.projects.routes import project_bp # Add Project page
+    app.register_blueprint(project_bp)
+    from webApp.about.routes import about_bp # Add About page
+    app.register_blueprint(about_bp)
 
     return app
 

@@ -1,0 +1,175 @@
+{
+  "years": [
+    {
+      "date": 2020,
+      "events": [
+        {
+          "name": "Portfolio",
+          "icon": "code",
+          "desc": "I released my personal portfolio!",
+          "link": "projects/portfolio"
+        },
+        {
+          "name": "Stevens Pass, Washington",
+          "icon": "ac_unit",
+          "desc": "I took a long weekend with a group of friends to experience east coast snow for the first time! We rented a rustic wood burning cabin near Leavenworth, a American town with the facade of a Bavarian village. We got two days of skiing in; the first one was sunny with nice groomed runs, and the second was blizzard conditions with deep powder. The trip was a lot of fun, however digging my car out after a full day of skiing was not so much fun."
+        },
+        {
+          "name": "Expeditors International",
+          "icon": "work",
+          "desc": "I started a job at Expeditors International as a software developer for the Enterprise Monitoring team!"
+        }
+      ]
+    },
+    {
+      "date": 2019,
+      "events": [
+        {
+          "name": "Loveland Ski Area, Colorado",
+          "icon": "ac_unit",
+          "desc": "While in Colorado I made sure to get the most out of the snow! As it was early in the season there was just enough snow for my favorites run to be open. However, the lack of snow didn't stop me from getting 4 days of skiing in! I started to learn how to carve like a pro and learned how cold it can get 14000 feet. Man, that was a cold day."
+        },
+        {
+          "name": "Denver, Colorado",
+          "icon": "local_airport",
+          "desc": "With the holidays right around the corner I figured it was time to see my family again. I spent the week of christmas with my family in Denver and brought my skis just in case. It was a blast to see my family again and I'm looking forward to my next trip to see them."
+        },
+        {
+          "name": "Seattle, Washington",
+          "icon": "home",
+          "desc": "Well, it turns out the temptation of Seattle was so much I ended up moving! Perhaps it was the lovely weather, nice people, and short commutes. Or maybe it was just the fantastic job opportunities and the company of my best friends. We will never know!"
+        },
+        {
+          "name": "Seattle, Washington",
+          "icon": "local_airport",
+          "desc": "I have always heard great things about Seattle and as I had never been; I thought it was time to take a visit. With my best friends currently residing in city I made it a point to see what they had all been up to! We visited the aquarium, a Sounders game, and a had a great sky line tour of the city over a pint in the Columbia Center. Seattle lived up to all that people made it out to be! Maybe I should move here some day..."
+        },
+        {
+          "name": "National Parks Trip",
+          "icon": "directions_car",
+          "desc": "I've always wanted to do a long road trip and visit multiple national parks. With a best friend and my small Pontiac Vibe packed to the brim we started our trip from Denver, Colorado. We ended up visiting; Colorado National Monument, Arches National Park, Canyonlands National Park, Dinosaur Nation Monument, Yellowstone National Park, and a small part of Arapaho & Roosevelt National Forest. The trip was a blast and something I would do again in a heartbeat, maybe I would bring a larger car next time."
+        },
+        {
+          "name": "CafeParts",
+          "icon": "work",
+          "desc": "I started a job at CafeParts as a Junior Data Analyst!"
+        },
+        {
+          "name": "Copper Mountain, Colorado",
+          "icon": "ac_unit",
+          "desc": "At this point of my skiing career I had got quite a few days in, purchased equipment, and was feeling brave. When an old neighbor said he was going up to the mountains to ski I thought I would be able to keep up! It turns out I was a little too brave and my neighbor's age didn't slow him down at all! I was being pushed to my limits every run but in the end I learned more that day than I had before!"
+        },
+        {
+          "name": "Keystone Mountain, Colorado",
+          "icon": "ac_unit",
+          "desc": "Someone thought it was a good idea to take brand new skier on a expensive trip with lodging and ski passes. While I wasn't sure if I would make the most out of the ski pass, I sure wasn't going to turn down this great experience. I got to ski multiple days in Keystone learning all sorts of techniques and eventual went down my first blue! It was a great trip even if I was tricked into riding that first blue."
+        }
+      ]
+    },
+    {
+      "date": 2018,
+      "events": [
+        {
+          "name": "Loveland Ski Area, Colorado",
+          "icon": "ac_unit",
+          "desc": "After skirting around skiing for most of my life a friend decided it was time for me to learn how to ski. They dragged me up the mountain, lent me some gear, and sent me down the mountain. Well more or less fall down the mountain because man, skiing is hard.After two days of bumps and bruises I was starting to enjoy skiing."
+        },
+        {
+          "name": "Denver, Colorado",
+          "icon": "home",
+          "desc": "As I no longer need to live in Fort Collins, Colorado for university, I decided to to move back to Denver, Colorado. It was quite sad leaving my apartment and even harder to find someone to find to take over the lease. In the end I found a student studying economics to take over the lease and I was freed of that burden."
+        },
+        {
+          "name": "Undergraduate, Colorado State University",
+          "icon": "school",
+          "desc": "I finished my Bachelor of Science in Mathematics at Colorado State University! The past four years have been extremely busy but I wouldn't trade it for anything. I'm looking forward to joining the work force and one day returning to university to get that Phd!"
+        },
+        {
+          "name": "CSU Mathematics Poster Conference",
+          "icon": "emoji_people",
+          "desc": ""
+        },
+        {
+          "name": "Neolithic Transition",
+          "icon": "functions",
+          "desc": "As part of my last semester in university I had to take a required course I had been delaying for far to long. This course was Plant Sciences 101, and to pass the course I would have to write a long paper on the medical or social impacts of a plant species. However, as a mathematician this project did not excite me one bit. So after a brief talk with the professor and ended up modeling the Neolithic Transition with his research team. The research was successful and I was saved the horror of reading about plants for the whole semester."
+        },
+        {
+          "name": "Research Assistant",
+          "icon": "work",
+          "desc": "I had the honour of working in a chemistry lab as a mathematician and software developer. During my time there I built software implementing machine learning techniques to help capture, processed, and analyze data. I also derived partial differential equations to model and explain different chemical experiments. While I was unable to attend, the research won awards at the 2019 Joint Mathematics Meeting in Baltimore."
+        },
+        {
+          "name": "CSU Mathematics Poster Conference",
+          "icon": "emoji_people",
+          "desc": ""
+        },
+        {
+          "name": "Southwestern Undergraduate Mathematics Research Conference, New Mexico",
+          "icon": "emoji_people",
+          "desc": "As I had done a wide range of research at this point for the department I was asked if I would like to represent the university in New Mexico. The university end up sending 5 of us out to give presentation and attend talks from other universities. While the lectures were all a hit, the peak of the trip was the mathematics contest. The contest was a rush of brain power and adrenaline colliding to form a frantic group solving session. With no prep and just the pens in our pockets were we able to finish before all the other team. Well frankly quite a bit ahead of the other teams and it was quite worrisome. The following day we found out that we not only finished first but got every question correct! This caused quite the controversy as we were the new university, beat the reigning champions of 5 years, and no other team came close."
+        },
+        {
+          "name": "Moab, Utah",
+          "icon": "directions_car",
+          "desc": "As I have always enjoyed the outdoors and was being a bit adventurous at the time, I took up a friends offer to go 4 wheeling in Moab. I had never been 4 wheeling before so I wasn't sure for what I signed up. To put it frankly; the shaking of the vehicle, crawling over once impassable obstacles, and the breath taking scenery made for one of the best experiences of my life."
+        },
+        {
+          "name": "Van der Waerden Numbers",
+          "icon": "functions",
+          "desc": "With a building passion for computational maths I started looking for different topics which may interest me. As patterns had always caught my interest the thoughts of constructing sequences with no arithmetic sequences catch my attention. During this project I learned a lot about programming and eventually made a SAT Solver to traverse my tree of possible solutions. While I didn't make any break throughs during this project, I was able to verify some of the previous records!"
+        },
+        {
+          "name": "Joint Mathematics Meeting, San Diego",
+          "icon": "emoji_people",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "date": 2017,
+      "events": [
+        {
+          "name": "CSU Mathematics Poster Conference",
+          "icon": "emoji_people",
+          "desc": "This was my first judged poster conference and while I had done a lot of public speaking the thought of being judge was nerve racking. I had made poster for my recent work on Graph Theory and also had a poster I helped a friend build on Laplacian Smoothing. What I thought would be a train wreck turned into a very fun experience where I got to share my work and network with new people. As a plus I found out I had placed in second for my Graph Theory poster and my friend had won first place!"
+        },
+        {
+          "name": "Graph Theory",
+          "icon": "functions",
+          "desc": "While taking a graduate level combinatorics course at came across an interesting idea relating to graph theory. After taking to the professor about the idea I started to pursue research in the area. While I did not make any break throughs in the field, I was able to find a generalized method to solve a wide range of existing problems. I later presented these ideas at multiple conferences and published a paper detailing the method."
+        },
+        {
+          "name": "Joint Mathematics Meeting",
+          "icon": "emoji_people",
+          "desc": "At this point in my math career I had felt like I belonged to a community. When ever I meet with another someone I would have to veer away from mathematics or over simplify them. However, that all changed when I went to the JMM. Seeing a conference hall full of people who also shared the same passion as me was eye opening. While I didn't present, the act of attending the conference showed me that I still had a lot to learn and the variety of subjects in mathematics."
+        }
+      ]
+    },
+    {
+      "date": 2016,
+      "events": [
+        {
+          "name": "Math Club, President",
+          "icon": "work",
+          "desc": "After helping out CSU's Math Club for a few semesters I've decided to step up and take a leadership position. As the club's membership was dwindling, I made it a focus to reinvent the club's image and thus audience. This wasn't going to be a club with monthly lectures and poor retention. While there I raised participation from 5 people a month to 30 people a week, funded 25 students to attend national mathematics conferences, ran 3 large department parties, and changed the perception of the CSU mathematics department."
+        },
+        {
+          "name": "Undergraduate Teacher Assistant",
+          "icon": "work",
+          "desc": "In search of some money to spend on hobbies I sought out my first job. The act of finding it most likely will be easiest job search in my lifetime! I asked one of my previous professors about getting a job as a grader and I got the job that hour! I started out grading for differential equations but got to grade for all sorts of courses by the time I graduated."
+        },
+        {
+          "name": "De Bruijn Research",
+          "icon": "functions",
+          "desc": "Early on in my math career I had no clue what topics in mathematics existed or which topics interested me. After taking to my professor about my interest in research he gave me a research topics and showed me the basic ideas. During that week I spent a lot of time trying different things out and experimenting with the basic ideas. I soon came to love the concept of graph theory and de Bruijn Graphs"
+        },
+        {
+          "name": "British Virgin Islands",
+          "icon": "local_airport",
+          "desc": "As a son of Sailor I had always heard of the great trips my father took. However, as I lived in a land locked state for majority of my life, I never had any of my own stories to share. With my wish to have a sea bearing adventure and my father's dream to return to the sea again we set off to BVI. Here I formed my own sea bearing stories, learned a dying mode of transportation, and had a life time experience with my father."
+        }
+      ]
+    }
+  ]
+}
