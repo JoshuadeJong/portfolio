@@ -1,3 +1,74 @@
-.container {
-  max-width: 950px;
+.center{
+    justify: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-logo{
+    height:24px;
+    width:24px;
+    margin: 0px 10px 0px 10px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    text-decoration:none;
+}
+
+.title-logo:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-decoration:none;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 0px;
+}
+
+.profile{
+    padding: 0px 10px 0px 10px;
+    max-height: 355px;
+    min-height: 250px;
+    max-width: 290px;
+    min-width: 275px;
+}
+
+.container-outer {
+  overflow: hidden;
+}
+
+.container-inner {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  /*kinda hacky solution to remove that ugly scrollbar*/
+  margin-bottom: -25px; /* maximum width of scrollbar */
+  padding-bottom: 25px; /* maximum width of scrollbar */
+}
+
+.card-avatar {
+    padding-top:10px;
+    max-width:400px;
+    max-height:400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .card-avatar img.card-avatar {
+    max-height: 180px;
+    min-height: 180px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.col img.responsive-img {
+  margin: 0 auto;
+  height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }

@@ -2,17 +2,95 @@
 
 {% block base_head %}
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/about.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 {% endblock %}
 
 {% block base_body %}
+<div class="container">
+    <div class="row">
+        <div class="col s6 m4 l3">
+            <div class="card profile-card">
+                <div class="card-avatar">
+                    <img class="card-avatar" src="\static\images\avatar.jpg">
+                </div>
+                <div class="container-outer">
+                    <div class="container-inner">
+                        <div>
+                            <div class="center">
+                                <h5>{{about['name']}}</h5>
+                            </div>
+                            <div class="center">
+                                <p>{{about['title']}}</p>
+                            </div>
+                            <div class="center">
+                                <div>
+                                    {% if about['github'] is not none %}
+                                    <a target="_blank" href={{about['github']}}>
+                                        <img class="title-logo" src="static/images/github.svg">
+                                    </a>
+                                    {% endif %}
+                                    {% if about['linkedin'] is not none %}
+                                    <a target="_blank" href={{about['linkedin']}}>
+                                        <img class="title-logo" src="static/images/linkedin-logo.svg">
+                                    </a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="col s12 m8 l9">
+            <h5>Summary</h5>
+            {{about['summary']}}
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Experience</h5>
 
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Skills</h5>
+            {% for block in about['skills'] %}
+            <div class="card">
+                <h5>{{block['topic']}}</h5>
+                <div class="row text-center">
+                    {% for skill in block['info'] %}
+                    <div class="col s6 m4 l2 center">
+                        <img class="responsive-img" src={{skill['image']}}>
+                        {{skill['name']}}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Projects</h5>
+        </div>
+        {% for project in projects %}
+        {% include "card.html" %}
+        {% endfor %}
+    </div>
+
+</div>
 {% endblock %}

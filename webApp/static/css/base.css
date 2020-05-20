@@ -46,3 +46,8 @@ a::selection,
 span::-moz-selection {
   background: #ffb7b7; /* Gecko Browsers */
 }
+
+.container {
+    max-width:950px;
+    padding-top: 25px;
+}

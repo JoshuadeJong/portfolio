@@ -61,7 +61,6 @@
       "tags": [
         "Code",
         "Python",
-        "Data Analysis",
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Used-Car-EDA",
@@ -148,7 +147,6 @@
         "Math",
         "Art",
         "Poster",
-        "Presentation",
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Voronoi-Art"
@@ -162,8 +160,7 @@
       "status": "Finished",
       "tags": [
         "Math",
-        "Poster",
-        "Presentation"
+        "Poster"
       ]
     },
     {
@@ -223,8 +220,7 @@
       "status": "Finished",
       "tags": [
         "Math",
-        "Poster",
-        "Presentation"
+        "Poster"
       ],
       "photos": [
         "/static/images/powerline-communication/icon.png"
@@ -239,8 +235,7 @@
       "status": "Finished",
       "tags": [
         "Math",
-        "Poster",
-        "Presentation"
+        "Poster"
       ]
     },
     {
@@ -268,7 +263,6 @@
       "tags": [
         "Math",
         "Art",
-        "Presentation",
         "Code"
       ],
       "photos": [
@@ -286,7 +280,6 @@
       "tags": [
         "Poster",
         "Math",
-        "Presentation",
         "Code"
       ]
     },

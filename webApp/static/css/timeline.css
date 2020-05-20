@@ -22,10 +22,6 @@
   font-weight:300;
 }
 
-.container{
-  max-width:900px;
-}
-
 .icon-title{
     display: flex;
     align-items: center;

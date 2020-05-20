@@ -8,17 +8,16 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 {% endblock %}
 
 {% block base_body %}
-    <div class="row cards-container">
+ <div class="container">
+     {% if tags is not none %}
         <div class="row">
-            {% if tags is not none %}
-                <div>
-                    <span class="card-title activator grey-text text-darken-4">Filter: </span>
-                </div>
+            <div class="col s12 m12 l12">
+                <span><h5>Filter: </h5></span>
                 {% for tag in tags %}
                     <div class="md-chip md-chip-clickable">
                         <a class="md-chip-link" href="{{ url_for('projects.landing') }}">
@@ -26,13 +25,14 @@
                         </a>
                     </div>
                 {% endfor %}
-            {% endif %}
+            </div>
         </div>
-    </div>
+    {% endif %}
 
-    <div class="row cards-container">
+    <div class="row">
         {% for project in projects %}
             {% include "card.html" %}
         {% endfor %}
     </div>
+</div>
 {% endblock %}

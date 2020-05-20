@@ -1,6 +1,3 @@
-.cards-container {
-  max-width: 950px;
-}
 
 #title {
   font-size: 1.2rem;
@@ -28,10 +25,17 @@
 }
 
 .card {
-  margin:10px;
-  max-height: 325px;
-  min-height: 325px;
-  max-width: 320px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.project {
+    padding: 10px 0px 10px 10px;
+    max-height: 355px;
+    min-height: 250px;
+    max-width: 300px;
+    min-width: 250px;
 }
 
 .card-reveal .card-title {
@@ -64,7 +68,7 @@
 }
 
 .card-title {
-overflow: hidden;
+    overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }

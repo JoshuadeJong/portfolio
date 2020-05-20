@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 
 {% block base_head %}
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 {% endblock %}
 
 {% block base_body %}
-    <h1>Oops. Page Not Found (404)</h1>
-    <p>That page does not exist. Please try a different location</p>
+    <div class="container">
+        <div class="row">
+            <h1>Oops. Page Not Found (404)</h1>
+            <p>That page does not exist. Please try a different location</p>
+        </div>
+    </div>
 {% endblock %}

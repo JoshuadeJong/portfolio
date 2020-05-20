@@ -1,49 +1,56 @@
-<div class="col s12 m4 l4">
-    <div class="card hoverable">
-        <div class="card-image waves-effect waves-block waves-light">
-            {% if 'photos' in project %}
-            <img class="card-image activator" src={{project['photos'][0]}}/>
-            {% else %}
-            <img class="card-image activator" src="/static/images/dev.jpg/">
-            {% endif %}
-        </div>
-        <div class="card-content activator">
-            <div class="container-outer">
-                <div class="md-chips container-inner">
-                    {% for tag in project['tags'] %}
-                    <div class="md-chip md-chip-clickable">
-                        <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
-                            {{tag}}
-                        </a>
+<head>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+</head>
+
+<body>
+    <div class="col s12 m6 l4">
+        <div class="card hoverable project">
+            <div class="card-image waves-effect waves-block waves-light">
+                {% if 'photos' in project %}
+                <img class="card-image activator" src={{project['photos'][0]}}/>
+                {% else %}
+                <img class="card-image activator" src="/static/images/dev.jpg/">
+                {% endif %}
+            </div>
+            <div class="card-content activator">
+                <div class="container-outer">
+                    <div class="md-chips container-inner">
+                        {% for tag in project['tags'] %}
+                        <div class="md-chip md-chip-clickable">
+                            <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
+                                {{tag}}
+                            </a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
+                </div>
+                <div>
+                <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
+                    {{project['name']}}
+                </span>
+                    <i class="material-icons right activator">more_vert</i>
+                </div>
+                <div>
+                    <span><a href="/projects/{{project['link']}}">Read More</a></span>
+                    {% if 'github' in project %}
+                    <span><a class="github" href={{project['github']}}> | Github</a></span>
+                    {% endif %}
                 </div>
             </div>
-            <div>
-            <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
-                {{project['name']}}
-            </span>
-                <i class="material-icons right activator">more_vert</i>
-            </div>
-            <div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right">close</i></span>
+                {% if 'Finished' == project['status'] %}
+                    <div><span class="status">{{project['date']}}</span></div>
+                {% else %}
+                    <div><span class="status">{{project['status']}}</span></div>
+                {% endif %}
+                <p>{{project['short']}}</p>
                 <span><a href="/projects/{{project['link']}}">Read More</a></span>
                 {% if 'github' in project %}
                 <span><a class="github" href={{project['github']}}> | Github</a></span>
                 {% endif %}
             </div>
         </div>
-        <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right">close</i></span>
-            {% if 'Finished' == project['status'] %}
-                <div><span class="status">{{project['date']}}</span></div>
-            {% else %}
-                <div><span class="status">{{project['status']}}</span></div>
-            {% endif %}
-            <p>{{project['short']}}</p>
-            <span><a href="/projects/{{project['link']}}">Read More</a></span>
-            {% if 'github' in project %}
-            <span><a class="github" href={{project['github']}}> | Github</a></span>
-            {% endif %}
-        </div>
     </div>
-</div>
+</body>

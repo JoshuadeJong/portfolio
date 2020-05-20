@@ -1,0 +1,148 @@
+{
+  "name": "Joshua de Jong",
+  "title": "Software Developer",
+  "linkedin": "https://www.linkedin.com/in/joshua-de-jong/",
+  "github": "https://github.com/ManVanMaan",
+  "welcome": [
+    "I currently work at Expeditors Seattle as a software developer for the Enterprise Monitoring team. I have been working with the team to improve the performance of their java code base. So far I've improved multiple code blocks down to O(n) or O(log(n)) time! I have also been helping the team develop their CI/CD pipelines and infrastructure for the release of their Elastic Search based monitoring solution.",
+    "I originally started my career at Colorado State University where I studied mathematics and worked as a researcher in a chemistry lab. It was here where I found a passion for coding by developing machine vision tools and numerical models of experiments. After university I started work as a data analyst where I built predictive models, and built an item recommendation system using machine learning!",
+    "I am always seeking to challenge myself and learn new skills. If you feel I might be the right person for your team feel free to reach out!",
+    "You can find me on <a href=\"http://in.linkedin.com/in/joshua-de-jong/\">LinkedIn</a>, or see my repositories <a href=\"https://github.com/ManVanMaan\">here</a>.",
+    "Hope to hear from you!",
+    "Josh"
+  ],
+  "summary": "Test test test test teset test testsetse tsetsetstasdflkasdf as;dflak sdfalsdkfasldf a sldfls lsdlf lsdlfkasdf",
+  "experience": "",
+  "skills": [
+    {
+      "topic": "Languages",
+      "info": [
+        {
+          "name": "Java",
+          "image": "/static/images/skills/java.png"
+        },
+        {
+          "name": "Python",
+          "image": "/static/images/skills/python.png"
+        },
+        {
+          "name": "C",
+          "image": "/static/images/skills/c.png"
+        },
+        {
+          "name": "C++",
+          "image": "/static/images/skills/c++.png"
+        },
+        {
+          "name": "Scala",
+          "image": "/static/images/skills/scala.png"
+        }
+      ]
+    },
+    {
+      "topic": "Data Science",
+      "info": [
+        {
+          "name": "Matlab",
+          "image": "/static/images/skills/matlab.png"
+        },
+        {
+          "name": "Pandas",
+          "image": "/static/images/skills/pandas.png"
+        },
+        {
+          "name": "ScyPi",
+          "image": "/static/images/skills/scypi.png"
+        },
+        {
+          "name": "Scikit-Learn",
+          "image": "/static/images/skills/scikit.png"
+        },
+        {
+          "name": "NumPy",
+          "image": "/static/images/skills/numpy.png"
+        }
+      ]
+    },
+    {
+      "topic": "Databases",
+      "info": [
+        {
+          "name": "SQLite",
+          "image": "/static/images/skills/sqlite.png"
+        },
+        {
+          "name": "ElasticSearch",
+          "image": "/static/images/skills/elasticsearch.png"
+        },
+        {
+          "name": "MySQL",
+          "image": "/static/images/skills/mysql.png"
+        },
+        {
+          "name": "Access",
+          "image": "/static/images/skills/access.png"
+        },
+        {
+          "name": "Mongodb",
+          "image": "/static/images/skills/mongodb.png"
+        }
+      ]
+    },
+    {
+      "topic": "Other",
+      "info": [
+        {
+          "name": "Docker",
+          "image": "/static/images/skills/docker.png"
+        },
+        {
+          "name": "Flask",
+          "image": "/static/images/skills/flask.png"
+        },
+        {
+          "name": "Git",
+          "image": "/static/images/skills/git.png"
+        },
+        {
+          "name": "AWS",
+          "image": "/static/images/skills/aws.png"
+        },
+        {
+          "name": "Bash",
+          "image": "/static/images/skills/bash.png"
+        }
+      ]
+    },
+    {
+      "topic": "overflow",
+      "info": [
+          {
+          "name": "Selenium",
+          "image": "/static/images/skills/selenium.jpg"
+        },
+                {
+          "name": "Agile",
+          "image": ""
+        },
+                {
+          "name": "Matplotlib",
+          "image": "/static/images/skills/matplotlib.png"
+        },
+        {
+          "name": "Plotly",
+          "image": "/static/images/skills/plotly.jpg"
+        },
+        {
+          "name": "Dash",
+          "image": "/static/images/skills/dash.png"
+        },
+        {
+          "name": "LaTeX",
+          "image": "/static/images/skills/latex.png"
+        }
+      ]
+    }
+  ]
+
+}
