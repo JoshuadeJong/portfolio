@@ -85,3 +85,7 @@
   margin-bottom: -25px; /* maximum width of scrollbar */
   padding-bottom: 25px; /* maximum width of scrollbar */
 }
+
+.vcenter-close {
+    padding-top: 5px;
+}

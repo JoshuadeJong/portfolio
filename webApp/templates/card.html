@@ -6,7 +6,7 @@
 <body>
     <div class="col s12 m6 l4">
         <div class="card hoverable project">
-            <div class="card-image waves-effect waves-block waves-light">
+            <div class="card-image waves-effect waves-block waves-light activator">
                 {% if 'photos' in project %}
                 <img class="card-image activator" src={{project['photos'][0]}}/>
                 {% else %}
@@ -26,9 +26,9 @@
                     </div>
                 </div>
                 <div>
-                <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
-                    {{project['name']}}
-                </span>
+                    <span id="title" class="card-title activator grey-text text-darken-4" title="{{project['name']}}">
+                        {{project['name']}}
+                    </span>
                     <i class="material-icons right activator">more_vert</i>
                 </div>
                 <div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right">close</i></span>
+                <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right vcenter-close">close</i></span>
                 {% if 'Finished' == project['status'] %}
                     <div><span class="status">{{project['date']}}</span></div>
                 {% else %}

@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webApp/static/css/andrew.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/static/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/static/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/static/json/about.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/about/html/landing_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/about/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/about/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/errors/html/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/errors/html/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/errors/html/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/501.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/errors/html/501.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/home/html/landing_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/home/html/landing_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/home/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/andrew.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/project.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/terminal.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/terminal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/timeline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/json/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/json/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/json/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/json/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/images/skills/scypi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/json/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/json/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" afterDir="false" />
     </list>
@@ -53,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/webApp/static/images" />
@@ -122,25 +108,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589337695029" />
-    <state width="936" height="276" key="GridCell.Tab.0.bottom" timestamp="1589952928344">
+    <state width="1074" height="273" key="GridCell.Tab.0.bottom" timestamp="1590447423098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589952928344" />
+    <state width="1074" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590447423098" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="276" key="GridCell.Tab.0.center" timestamp="1589952928343">
+    <state width="1074" height="273" key="GridCell.Tab.0.center" timestamp="1590447423096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589952928343" />
+    <state width="1074" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590447423096" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="276" key="GridCell.Tab.0.left" timestamp="1589952928343">
+    <state width="1074" height="273" key="GridCell.Tab.0.left" timestamp="1590447423096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589952928343" />
+    <state width="1074" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590447423096" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="276" key="GridCell.Tab.0.right" timestamp="1589952928343">
+    <state width="1074" height="273" key="GridCell.Tab.0.right" timestamp="1590447423098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589952928343" />
+    <state width="1074" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590447423098" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
     <state width="1153" height="355" key="GridCell.Tab.1.bottom" timestamp="1589174549010">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -171,14 +157,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="647" height="703" key="XDebugger.FullValuePopup/0.0.2560.1400@0.0.2560.1400" timestamp="1589141465959" />
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589952417750">
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589996537510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589952417750" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589957232175">
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589996537510" />
+    <state x="914" y="0" width="1013" height="1047" key="dock-window-1" timestamp="1590381847808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589957232175" />
+    <state x="914" y="0" width="1013" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590381847808" />
+    <state x="561" y="0" width="913" height="1026" key="dock-window-2" timestamp="1590382955501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="0" width="913" height="1026" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1590382955501" />
+    <state x="914" y="0" width="1013" height="1047" key="dock-window-3" timestamp="1590391009784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="914" y="0" width="1013" height="1047" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1590391009784" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590434377171">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590434377171" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@
 .title-logo{
     height:24px;
     width:24px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 10px 10px;
     opacity: 0.4;
     filter: alpha(opacity=40);
     text-decoration:none;
@@ -28,11 +28,10 @@
 }
 
 .profile{
-    padding: 0px 10px 0px 10px;
-    max-height: 355px;
-    min-height: 250px;
-    max-width: 290px;
-    min-width: 275px;
+    max-height: 350px;
+    min-height: 275px;
+    max-width: 250px;
+    min-width: 170px;
 }
 
 .container-outer {
@@ -49,26 +48,277 @@
 }
 
 .card-avatar {
-    padding-top:10px;
+    padding: 10px 15px 0px 15px;
     max-width:400px;
     max-height:400px;
     display: flex;
     justify-content: center;
-
 }
 
 .card .card-avatar img.card-avatar {
-    max-height: 180px;
-    min-height: 180px;
-    width: auto;
+    max-width: 180px;
+    height: auto;
     border-radius: 50%;
 }
 
+.card .card-content {
+    padding: 15px 15px 15px 15px;
+    border-radius: 0 0 0 0;
+}
+
+.card .card-reveal {
+    overflow-y: hidden;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0 0 0 0;
+}
+
+/* View mode */
+@media only screen and (max-width: 600px) {
+    .hide-if-small{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .hide-if-large{
+        display: none;
+    }
+}
+
+/* Skills Section */
+
+.vcenter-close {
+    padding-top: 5px;
+}
+
+.fixed-height {
+    height: 80px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
 .col img.responsive-img {
-  margin: 0 auto;
-  height: 100px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    max-height: 80px;
+    width: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skill-tile {
+    margin-bottom: 5px;
+}
+
+.skill-title {
+    overflow: auto;
+    white-space: none;
+    text-overflow: unset;
+}
+
+.hr-one{
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.col-auto-height {
+    height: auto;
+}
+
+
+/* Bar Graph */
+
+.bar-level {
+    float: right;
+    padding-right: 10px;
+}
+
+.bar{
+  height: 30px;
+  margin-bottom: 4px;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.bar::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 0;
+  z-index: -2;
+  background: #ecf0f1;
+}
+
+.bar::after{
+  content: '';
+  background: #2ecc71;
+  height: 30px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: bar-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@-webkit-keyframes bar-before{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+/* Circle Graph */
+.circular-chart {
+  display: block;
+  margin: 2px auto 1px;
+  max-width: 100%;
+  max-height: 80px;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circle-label {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.42em;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+/* levels */
+
+.novice::after {
+    background-color: #FFB000;
+    max-width: 60%;
+}
+
+.novice {
+    stroke: #FFB000;
+}
+
+.novice-text {
+    width: 60%;
+}
+
+.skilled::after {
+    background-color: #FE6100;
+    max-width:70%;
+}
+
+.skilled {
+    stroke: #FE6100;
+}
+
+.skilled-text {
+    width: 70%;
+}
+
+.proficient::after {
+    background-color: #DC267F;
+    max-width: 80%;
+}
+
+.proficient {
+    stroke: #DC267F;
+}
+
+.proficient-text {
+    width: 80%;
+}
+
+.advanced::after {
+    background-color: #785EF0;
+    max-width: 90%;
+}
+
+.advanced {
+    stroke: #785EF0;
+}
+
+.advanced-text {
+    width: 90%;
+}
+
+.expert::after {
+    background-color: #648FFF;
+    max-width: 100%;
+}
+
+.expert {
+    stroke: #648FFF;
+}
+
+/* Experiences */
+
+.col img.experience-img {
+    max-height: 100px;
+    width: auto;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+    display: block;
+    margin: auto;
+}
+
+#title {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.location-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bullet {
+    margin-left: 10px;
+    list-style-type: disc !important;
+}
+
+/* random */
+
+.no-bottom-margin {
+    margin-bottom: 2px;
 }

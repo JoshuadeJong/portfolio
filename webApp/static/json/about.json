@@ -11,31 +11,84 @@
     "Hope to hear from you!",
     "Josh"
   ],
-  "summary": "Test test test test teset test testsetse tsetsetstasdflkasdf as;dflak sdfalsdkfasldf a sldfls lsdlf lsdlfkasdf",
-  "experience": "",
+  "summary": ["I am a detailed-oriented, responsible and committed developer, with a get-it-done, on-time and top-quality product spirit. Experienced with defining requirements, designing, and implementation of complex algorithms in high paced environments. Well versed in Java, Python, C, SQL, NOSQL, and DevOps practices."
+  ],
+  "experience": [
+    {
+      "company": "Expeditors International",
+      "image": "/static/images/companies/expeditors.png",
+      "title": "Software Engineer",
+      "location": "Seattle, Washington",
+      "summary": "",
+      "details": [
+        "Rewrote mission critical Java code exponentially improving the run time and stability of functions and classes.",
+        "Created and maintained fully automated, highly available, zero downtime releases CI/CD pipelines in Gitlab.",
+        "Automated common tickets improving response time, customer satisfaction, and alleviating work loads.",
+        "Prototyped enterprise monitoring solutions in Python integrating with existing systems and Elasticsearch."
+      ]
+    },
+    {
+      "company": "CafeParts.com",
+      "image": "/static/images/companies/cafeparts.png",
+      "title": "Junior Data Analyst",
+      "location": "Denver, Colorado",
+      "summary": "",
+      "details": [
+        "Developed and maintained standardized operational reports and dashboards to monitor sales and inventory.",
+        "Supported day-today inquiries providing prompt and efficient resolutions to a wide range of issues.",
+        "Scrapped, wrangled, and analyzed data from competitor's websites to competitively price products.",
+        "Forcasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
+        "Designed and implemented an item recommendation system based off of a customer's current shopping cart."
+      ]
+    },
+    {
+      "company": "Colorado State University",
+      "image": "/static/images/companies/csu.jpg",
+      "title": "Research Assistant",
+      "location": "Fort Collins, Colorado",
+      "summary": "",
+      "details": [
+        "Developed automated systems to aid in analysis and accurate empirical data collection of chemical reactions.",
+        "Modeled experiments and verified the model's integrity with PDE's, regressions, and cross-validation.",
+        "Created and maintained a relational database to store experiments and analytics for future enquiries.",
+        "Dynamically approached problems with a team and taught statistical modeling techniques to junior researchers."
+      ]
+    }
+
+  ],
   "skills": [
     {
       "topic": "Languages",
       "info": [
         {
           "name": "Java",
-          "image": "/static/images/skills/java.png"
+          "level": "expert",
+          "image": "/static/images/skills/java.png",
+          "url": "https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
         },
         {
           "name": "Python",
-          "image": "/static/images/skills/python.png"
+          "level": "expert",
+          "image": "/static/images/skills/python.png",
+          "url": "https://www.python.org/"
         },
         {
           "name": "C",
-          "image": "/static/images/skills/c.png"
+          "level": "proficient",
+          "image": "/static/images/skills/c.png",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "C++",
-          "image": "/static/images/skills/c++.png"
+          "level": "skilled",
+          "image": "/static/images/skills/c++.png",
+          "url": "https://isocpp.org/"
         },
         {
           "name": "Scala",
-          "image": "/static/images/skills/scala.png"
+          "level": "novice",
+          "image": "/static/images/skills/scala.png",
+          "url": "https://www.scala-lang.org/"
         }
       ]
     },
@@ -44,23 +97,39 @@
       "info": [
         {
           "name": "Matlab",
-          "image": "/static/images/skills/matlab.png"
+          "level": "expert",
+          "image": "/static/images/skills/matlab.png",
+          "url": "https://www.mathworks.com/products/matlab.html"
         },
         {
           "name": "Pandas",
-          "image": "/static/images/skills/pandas.png"
+          "level": "advanced",
+          "image": "/static/images/skills/pandas.png",
+          "url": "https://pandas.pydata.org/"
         },
         {
-          "name": "ScyPi",
-          "image": "/static/images/skills/scypi.png"
+          "name": "ScyPy",
+          "level": "proficient",
+          "image": "/static/images/skills/scypy.png",
+          "url": "https://www.scipy.org/"
         },
         {
           "name": "Scikit-Learn",
-          "image": "/static/images/skills/scikit.png"
+          "level": "proficient",
+          "image": "/static/images/skills/scikit.png",
+          "url": "https://scikit-learn.org/stable/"
         },
         {
           "name": "NumPy",
-          "image": "/static/images/skills/numpy.png"
+          "level": "advanced",
+          "image": "/static/images/skills/numpy.png",
+          "url": "https://numpy.org/"
+        },
+        {
+          "name": "Dash",
+          "level": "proficient",
+          "image": "/static/images/skills/dash.png",
+          "url": "https://plotly.com/dash/"
         }
       ]
     },
@@ -69,23 +138,68 @@
       "info": [
         {
           "name": "SQLite",
-          "image": "/static/images/skills/sqlite.png"
+          "level": "expert",
+          "image": "/static/images/skills/sqlite.png",
+          "url": "https://www.sqlite.org/index.html"
         },
         {
           "name": "ElasticSearch",
-          "image": "/static/images/skills/elasticsearch.png"
+          "level": "advanced",
+          "image": "/static/images/skills/elasticsearch.png",
+          "url": "https://www.elastic.co/"
         },
         {
           "name": "MySQL",
-          "image": "/static/images/skills/mysql.png"
+          "level": "proficient",
+          "image": "/static/images/skills/mysql.png",
+          "url": "https://www.mysql.com/"
         },
         {
           "name": "Access",
-          "image": "/static/images/skills/access.png"
+          "level": "advanced",
+          "image": "/static/images/skills/access.png",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/access"
         },
         {
           "name": "Mongodb",
-          "image": "/static/images/skills/mongodb.png"
+          "level": "novice",
+          "image": "/static/images/skills/mongodb.png",
+          "url": "https://www.mongodb.com/"
+        }
+      ]
+    },
+    {
+      "topic": "Workflow",
+      "info": [
+        {
+          "name": "Git",
+          "level": "advanced",
+          "image": "/static/images/skills/git.png",
+          "url": "https://git-scm.com/"
+        },
+        {
+          "name": "Git Runner",
+          "level": "proficient",
+          "image": "/static/images/skills/gitrunner.png",
+          "url": "https://docs.gitlab.com/runner/"
+        },
+        {
+          "name": "Docker",
+          "level": "novice",
+          "image": "/static/images/skills/docker.png",
+          "url": "https://www.docker.com/"
+        },
+        {
+          "name": "AWS",
+          "level": "novice",
+          "image": "/static/images/skills/aws.png",
+          "url": "https://aws.amazon.com/"
+        },
+        {
+          "name": "Chef",
+          "level": "skilled",
+          "image": "/static/images/skills/chef.png",
+          "url": "https://www.chef.io/"
         }
       ]
     },
@@ -93,56 +207,36 @@
       "topic": "Other",
       "info": [
         {
-          "name": "Docker",
-          "image": "/static/images/skills/docker.png"
-        },
-        {
           "name": "Flask",
-          "image": "/static/images/skills/flask.png"
-        },
-        {
-          "name": "Git",
-          "image": "/static/images/skills/git.png"
-        },
-        {
-          "name": "AWS",
-          "image": "/static/images/skills/aws.png"
+          "level": "expert",
+          "image": "/static/images/skills/flask.png",
+          "url": "https://flask.palletsprojects.com/en/1.1.x/"
         },
         {
           "name": "Bash",
-          "image": "/static/images/skills/bash.png"
-        }
-      ]
-    },
-    {
-      "topic": "overflow",
-      "info": [
-          {
-          "name": "Selenium",
-          "image": "/static/images/skills/selenium.jpg"
-        },
-                {
-          "name": "Agile",
-          "image": ""
-        },
-                {
-          "name": "Matplotlib",
-          "image": "/static/images/skills/matplotlib.png"
-        },
-        {
-          "name": "Plotly",
-          "image": "/static/images/skills/plotly.jpg"
-        },
-        {
-          "name": "Dash",
-          "image": "/static/images/skills/dash.png"
+          "level": "advanced",
+          "image": "/static/images/skills/bash.png",
+          "url": "https://www.gnu.org/software/bash/"
         },
         {
           "name": "LaTeX",
-          "image": "/static/images/skills/latex.png"
+          "level": "expert",
+          "image": "/static/images/skills/latex.png",
+          "url": "https://www.latex-project.org/"
+        },
+        {
+          "name": "Selenium",
+          "level": "proficient",
+          "image": "/static/images/skills/selenium.jpg",
+          "url": "https://www.selenium.dev/"
+        },
+        {
+          "name": "Inkscape",
+          "level": "advanced",
+          "image": "/static/images/skills/inkscape.png",
+          "url": "https://inkscape.org/"
         }
       ]
     }
   ]
-
 }

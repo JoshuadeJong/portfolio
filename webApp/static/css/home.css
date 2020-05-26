@@ -73,7 +73,7 @@ ul li a {
 }
 
 .mobile-view {
-  display: none;
+  display: block;
 }
 
 .desktop-view {

@@ -1,48 +1,49 @@
 {% extends "base.html" %}
 
 {% block base_head %}
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link type="text/css" rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/about.css') }}">
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
+
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/about.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 {% endblock %}
 
 {% block base_body %}
 <div class="container">
-    <div class="row">
-        <div class="col s6 m4 l3">
-            <div class="card profile-card">
-                <div class="card-avatar">
-                    <img class="card-avatar" src="\static\images\avatar.jpg">
-                </div>
-                <div class="container-outer">
-                    <div class="container-inner">
-                        <div>
-                            <div class="center">
-                                <h5>{{about['name']}}</h5>
-                            </div>
-                            <div class="center">
-                                <p>{{about['title']}}</p>
-                            </div>
-                            <div class="center">
-                                <div>
-                                    {% if about['github'] is not none %}
-                                    <a target="_blank" href={{about['github']}}>
-                                        <img class="title-logo" src="static/images/github.svg">
-                                    </a>
-                                    {% endif %}
-                                    {% if about['linkedin'] is not none %}
-                                    <a target="_blank" href={{about['linkedin']}}>
-                                        <img class="title-logo" src="static/images/linkedin-logo.svg">
-                                    </a>
-                                    {% endif %}
+    <div class="row no-margin-top">
+        <div class="col s12 m4 l3">
+            <div>
+                <div class="profile card">
+                    <div class="card-avatar">
+                        <img class="card-avatar" src="\static\images\avatar.jpg">
+                    </div>
+                    <div class="container-outer">
+                        <div class="container-inner">
+                            <div>
+                                <div class="center">
+                                    <h5>{{about['name']}}</h5>
+                                </div>
+                                <div class="center">
+                                    <p>{{about['title']}}</p>
+                                </div>
+                                <div class="center">
+                                    <div>
+                                        {% if about['github'] is not none %}
+                                        <a target="_blank" href={{about['github']}}>
+                                            <img class="title-logo" src="static/images/github.svg">
+                                        </a>
+                                        {% endif %}
+                                        {% if about['linkedin'] is not none %}
+                                        <a target="_blank" href={{about['linkedin']}}>
+                                            <img class="title-logo" src="static/images/linkedin-logo.svg">
+                                        </a>
+                                        {% endif %}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -52,45 +53,238 @@
         </div>
 
         <div class="col s12 m8 l9">
-            <h5>Summary</h5>
-            {{about['summary']}}
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col s12 m12 l12">
-            <h5>Experience</h5>
-
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col s12 m12 l12">
-            <h5>Skills</h5>
-            {% for block in about['skills'] %}
-            <div class="card">
-                <h5>{{block['topic']}}</h5>
-                <div class="row text-center">
-                    {% for skill in block['info'] %}
-                    <div class="col s6 m4 l2 center">
-                        <img class="responsive-img" src={{skill['image']}}>
-                        {{skill['name']}}
-                    </div>
+            <div class="card hoverable">
+                <div class="card-content">
+                    <span class="card-title">
+                        About
+                    </span>
+                    <hr class="hr-one">
+                    {% for par in about['summary'] %}
+                        <p>{{par|safe}}</p>
                     {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+            <h4>Experiences</h4>
+            {% for block in about['experience'] %}
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="row no-margin-bottom">
+                        <div class="col s0 m2 l2 hide-if-small">
+                            <div class="fixed-height">
+                                <img class="experience-img" src={{block['image']}}>
+                            </div>
+                        </div>
+                        <div class="col s12 m10 l10">
+                            <span class="skill-title" title={{block['company']}}>
+                                <span>
+                                    <h5 class="no-margin-top no-margin-bottom">{{block['title']}}<i class="material-icons right"></i></h5>
+                                </span>
+                                <span id="title" class="location-title">
+                                    {{block['company']}}
+                                </span>
+                                <br>
+                                {{block['location']}}
+                            </span>
+                        </div>
+                        <div class="col s0 m2 l2 hide-if-small">
+
+                        </div>
+                        <div class="col s12 m10 l10">
+                            <ul class="bullet">
+                                {% for detail in block['details'] %}
+                                    <li class="bullet">{{detail}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-reveal">
+
                 </div>
             </div>
             {% endfor %}
         </div>
-    </div>
 
-    <div class="row">
         <div class="col s12 m12 l12">
-            <h5>Projects</h5>
+            <h4>Skills</h4>
+            {% for block in about['skills'] %}
+            <div class="card hoverable">
+                <div class="card-content">
+                    <span class="card-title activator">
+                        {{block['topic']}}
+                        <i class="material-icons right activator">more_vert</i>
+                    </span>
+                    <hr class="hr-one">
+                    <div class="row text-center no-margin-bottom">
+                        {% for skill in block['info'] %}
+                        <div class="col s6 m4 l2 center skill-tile">
+                            <div>
+                                <div class="fixed-height">
+                                    <img class="responsive-img" src={{skill['image']}}>
+                                </div>
+                                {{skill['name']}}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title activator">
+                        Proficiency
+                        <i class="material-icons right vcenter-close activator">close</i>
+                    </span>
+                    <hr class="hr-one">
+                    {% for skill in block['info'] %}
+                        <div class="col s6 m12 l6">
+                            {% if skill['level'] == "novice" %}
+                                <div class="hide-if-small">
+                                    <div class="bar novice">
+                                        <div class="novice-text">
+                                            <b class="bar-label">{{skill['name']}}</b>
+                                            <b class="bar-level">Novice</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center hide-if-large">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg"
+                                            d="M18 2.0845
+                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                              a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <path class="circle novice"
+                                            stroke-dasharray="60, 100"
+                                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <text x="18" y="20.35" class="circle-label">Novice</text>
+                                    </svg>
+                                    {{skill['name']}}
+                                </div>
+                            {% elif skill['level'] == "skilled" %}
+                                <div class="hide-if-small">
+                                    <div class="bar skilled">
+                                        <div class="skilled-text">
+                                            <b class="bar-label">{{skill['name']}}</b>
+                                            <b class="bar-level skilled">Skilled</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center hide-if-large">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg"
+                                            d="M18 2.0845
+                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                              a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <path class="circle skilled"
+                                            stroke-dasharray="70, 100"
+                                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <text x="18" y="20.35" class="circle-label">Skilled</text>
+                                    </svg>
+                                    {{skill['name']}}
+                                </div>
+                            {% elif skill['level'] == "proficient" %}
+                                <div class="hide-if-small">
+                                    <div class="bar proficient">
+                                        <div class="proficient-text">
+                                            <b class="bar-label">{{skill['name']}}</b>
+                                            <b class="bar-level">Proficient</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center hide-if-large">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg"
+                                            d="M18 2.0845
+                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                              a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <path class="circle proficient"
+                                            stroke-dasharray="80, 100"
+                                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <text x="18" y="20.35" class="circle-label">Proficient</text>
+                                    </svg>
+                                    {{skill['name']}}
+                                </div>
+                            {% elif skill['level'] == "advanced" %}
+                                <div class="hide-if-small">
+                                    <div class="bar advanced">
+                                        <div class="advanced-text">
+                                            <b class="bar-label">{{skill['name']}}</b>
+                                            <b class="bar-level">Advanced</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center hide-if-large">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg"
+                                            d="M18 2.0845
+                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                              a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <path class="circle advanced"
+                                            stroke-dasharray="90, 100"
+                                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <text x="18" y="20.35" class="circle-label">Advanced</text>
+                                    </svg>
+                                    {{skill['name']}}
+                                </div>
+                            {% elif skill['level'] == "expert" %}
+                                <div class="hide-if-small">
+                                    <div class="bar expert">
+                                        <b class="bar-tabel">{{skill['name']}}</b>
+                                        <b class="bar-level">Expert</b>
+                                    </div>
+                                </div>
+                                <div class="center hide-if-large">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg"
+                                            d="M18 2.0845
+                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                              a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <path class="circle expert"
+                                            stroke-dasharray="100, 100"
+                                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        />
+                                        <text x="18" y="20.35" class="circle-label">Expert</text>
+                                    </svg>
+                                    {{skill['name']}}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="col s12 m12 l12">
+            <h4>Projects</h4>
         </div>
         {% for project in projects %}
-        {% include "card.html" %}
+            {% include "card.html" %}
         {% endfor %}
+
     </div>
+
 
 </div>
 {% endblock %}
