@@ -16,33 +16,46 @@
 {% block base_body %}
 <div class="container">
     <div class="row no-margin-top">
-        <div class="col s12 m4 l3">
-            <div>
-                <div class="profile card">
-                    <div class="card-avatar">
-                        <img class="card-avatar" src="\static\images\avatar.jpg">
-                    </div>
-                    <div class="container-outer">
-                        <div class="container-inner">
-                            <div>
-                                <div class="center">
-                                    <h5>{{about['name']}}</h5>
-                                </div>
-                                <div class="center">
-                                    <p>{{about['title']}}</p>
-                                </div>
-                                <div class="center">
-                                    <div>
-                                        {% if about['github'] is not none %}
-                                        <a target="_blank" href={{about['github']}}>
-                                            <img class="title-logo" src="static/images/github.svg">
-                                        </a>
-                                        {% endif %}
-                                        {% if about['linkedin'] is not none %}
-                                        <a target="_blank" href={{about['linkedin']}}>
-                                            <img class="title-logo" src="static/images/linkedin-logo.svg">
-                                        </a>
-                                        {% endif %}
+        <!-- Background for Header -->
+        <div class="fade">
+            <div class="hero-container">
+                <div class="hero-image" style="background-image: url('{{ url_for('static', filename = 'images/hero.png') }}');">
+                    <fade/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Card and About -->
+        <div class="row display-flex profile-container no-margin-top no-margin-bottom">
+            <!-- Profile Card -->
+            <div class="col s12 m4 l3">
+                <div>
+                    <div class="profile card hoverable">
+                        <div class="card-avatar">
+                            <img class="card-avatar" src="\static\images\avatar.jpg">
+                        </div>
+                        <div class="container-outer">
+                            <div class="container-inner">
+                                <div>
+                                    <div class="center">
+                                        <h5>{{about['name']}}</h5>
+                                    </div>
+                                    <div class="center">
+                                        <p>{{about['title']}}</p>
+                                    </div>
+                                    <div class="center">
+                                        <div>
+                                            {% if about['github'] is not none %}
+                                            <a target="_blank" href={{about['github']}}>
+                                                <img class="title-logo" src="static/images/github.svg">
+                                            </a>
+                                            {% endif %}
+                                            {% if about['linkedin'] is not none %}
+                                            <a target="_blank" href={{about['linkedin']}}>
+                                                <img class="title-logo" src="static/images/linkedin-logo.svg">
+                                            </a>
+                                            {% endif %}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -50,66 +63,68 @@
                     </div>
                 </div>
             </div>
+
+            <!-- About -->
+            <div class="col s12 m8 l9">
+                <div class="card hoverable align-bottom">
+                    <div class="card-content">
+                        <span class="card-title">
+                            About
+                        </span>
+                        <hr class="hr-one">
+                        {% for par in about['summary'] %}
+                            <p>{{par|safe}}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="col s12 m8 l9">
+        <!-- Experiences -->
+        <div class="col s12 m12 l12">
             <div class="card hoverable">
                 <div class="card-content">
                     <span class="card-title">
-                        About
+                        Experiences
                     </span>
                     <hr class="hr-one">
-                    {% for par in about['summary'] %}
-                        <p>{{par|safe}}</p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m12 l12">
-            <h4>Experiences</h4>
-            {% for block in about['experience'] %}
-            <div class="card hoverable">
-                <div class="card-content">
                     <div class="row no-margin-bottom">
-                        <div class="col s0 m2 l2 hide-if-small">
-                            <div class="fixed-height">
-                                <img class="experience-img" src={{block['image']}}>
+                        {% for block in about['experience'] %}
+                            <div class="col s0 m2 l2 hide-if-small">
+                                <div class="fixed-height">
+                                    <img class="experience-img" src={{block['image']}}>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col s12 m10 l10">
-                            <span class="skill-title" title={{block['company']}}>
-                                <span>
-                                    <h5 class="no-margin-top no-margin-bottom">{{block['title']}}<i class="material-icons right"></i></h5>
+                            <div class="col s12 m10 l10">
+                                <span class="skill-title" title={{block['company']}}>
+                                    <span>
+                                        <h5 class="no-margin-top no-margin-bottom">{{block['title']}}<i class="material-icons right"></i></h5>
+                                    </span>
+                                    <span class="location-title">
+                                        {{block['company']}}
+                                    </span>
+                                    <br>
+                                    {{block['location']}}
                                 </span>
-                                <span id="title" class="location-title">
-                                    {{block['company']}}
-                                </span>
-                                <br>
-                                {{block['location']}}
-                            </span>
-                        </div>
-                        <div class="col s0 m2 l2 hide-if-small">
+                            </div>
+                            <div class="col s0 m2 l2 hide-if-small">
 
-                        </div>
-                        <div class="col s12 m10 l10">
-                            <ul class="bullet">
-                                {% for detail in block['details'] %}
-                                    <li class="bullet">{{detail}}</li>
-                                {% endfor %}
-                            </ul>
-                        </div>
+                            </div>
+                            <div class="col s12 m10 l10">
+                                <ul class="bullet ul-margin">
+                                    {% for detail in block['details'] %}
+                                        <li class="bullet">{{detail}}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
-                <div class="card-reveal">
-
-                </div>
             </div>
-            {% endfor %}
         </div>
 
+        <!-- Skills -->
         <div class="col s12 m12 l12">
-            <h4>Skills</h4>
             {% for block in about['skills'] %}
             <div class="card hoverable">
                 <div class="card-content">
@@ -276,9 +291,7 @@
             {% endfor %}
         </div>
 
-        <div class="col s12 m12 l12">
-            <h4>Projects</h4>
-        </div>
+        <!-- Projects -->
         {% for project in projects %}
             {% include "card.html" %}
         {% endfor %}

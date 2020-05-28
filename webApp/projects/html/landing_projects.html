@@ -17,14 +17,15 @@
      {% if tags is not none %}
         <div class="row">
             <div class="col s12 m12 l12">
-                <span><h5>Filter: </h5></span>
-                {% for tag in tags %}
-                    <div class="md-chip md-chip-clickable">
-                        <a class="md-chip-link" href="{{ url_for('projects.landing') }}">
-                            {{tag}}
-                        </a>
-                    </div>
-                {% endfor %}
+                <span>Filter:
+                    {% for tag in tags %}
+                        <div class="md-chip md-chip-clickable">
+                            <a class="md-chip-link" href="{{ url_for('projects.landing') }}">
+                                {{tag}}
+                            </a>
+                        </div>
+                    {% endfor %}
+                </span>
             </div>
         </div>
     {% endif %}

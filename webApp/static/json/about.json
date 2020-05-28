@@ -169,41 +169,6 @@
       ]
     },
     {
-      "topic": "Workflow",
-      "info": [
-        {
-          "name": "Git",
-          "level": "advanced",
-          "image": "/static/images/skills/git.png",
-          "url": "https://git-scm.com/"
-        },
-        {
-          "name": "Git Runner",
-          "level": "proficient",
-          "image": "/static/images/skills/gitrunner.png",
-          "url": "https://docs.gitlab.com/runner/"
-        },
-        {
-          "name": "Docker",
-          "level": "novice",
-          "image": "/static/images/skills/docker.png",
-          "url": "https://www.docker.com/"
-        },
-        {
-          "name": "AWS",
-          "level": "novice",
-          "image": "/static/images/skills/aws.png",
-          "url": "https://aws.amazon.com/"
-        },
-        {
-          "name": "Chef",
-          "level": "skilled",
-          "image": "/static/images/skills/chef.png",
-          "url": "https://www.chef.io/"
-        }
-      ]
-    },
-    {
       "topic": "Other",
       "info": [
         {
@@ -224,17 +189,17 @@
           "image": "/static/images/skills/latex.png",
           "url": "https://www.latex-project.org/"
         },
-        {
-          "name": "Selenium",
-          "level": "proficient",
-          "image": "/static/images/skills/selenium.jpg",
-          "url": "https://www.selenium.dev/"
+                {
+          "name": "Git",
+          "level": "advanced",
+          "image": "/static/images/skills/git.png",
+          "url": "https://git-scm.com/"
         },
         {
-          "name": "Inkscape",
-          "level": "advanced",
-          "image": "/static/images/skills/inkscape.png",
-          "url": "https://inkscape.org/"
+          "name": "Git Runner",
+          "level": "proficient",
+          "image": "/static/images/skills/gitrunner.png",
+          "url": "https://docs.gitlab.com/runner/"
         }
       ]
     }
