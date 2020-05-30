@@ -8,5 +8,5 @@ def get_static_file(path):
 
 
 def get_static_json(file):
-    x = get_static_file('\\static\\json\\' + file)
+    x = get_static_file('\\json\\' + file)
     return json.load(open(x))
