@@ -15,11 +15,11 @@ if __name__ == '__main__':
     shutil.move('webApp/build', 'docs')
 
     # Move css, fonts, images, js out of the static directory
-    shutil.move('docs/static/css', 'docs/css')
-    shutil.move('docs/static/fonts', 'docs/fonts')
-    shutil.move('docs/static/images', 'docs/images')
-    shutil.move('docs/static/js', 'docs/js')
-    
+#    shutil.move('docs/static/css', 'docs/css')
+#    shutil.move('docs/static/fonts', 'docs/fonts')
+#    shutil.move('docs/static/images', 'docs/images')
+#    shutil.move('docs/static/js', 'docs/js')
+
     # Remove static directory
-    shutil.rmtree('docs/static', True)
+#    shutil.rmtree('docs/static', True)
 
