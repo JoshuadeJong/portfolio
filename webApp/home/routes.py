@@ -5,7 +5,6 @@ home_bp = Blueprint('home', __name__, template_folder='html')
 
 @home_bp.route('/')
 @home_bp.route('/home.html')
-@home_bp.route('/index.html')
 def landing():
     data = get_static_json('about.json')
     return render_template('landing_home.html', data=data)

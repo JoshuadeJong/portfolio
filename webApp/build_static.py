@@ -14,6 +14,9 @@ if __name__ == '__main__':
     # Move the files to the correct location for github pages
     shutil.move('webApp/build', 'docs')
 
+    # Copy home.html to index.html
+    shutil.copy('docs/home.html', 'docs/index.html')
+
     # Move css, fonts, images, js out of the static directory
 #    shutil.move('docs/static/css', 'docs/css')
 #    shutil.move('docs/static/fonts', 'docs/fonts')
