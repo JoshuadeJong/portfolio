@@ -54,7 +54,7 @@
 
 /* Profile Stuff */
 .profile-container {
-    padding: 20px 10.5px 0px 10.5px;
+    padding: 20px 0px 0px 0px;
 }
 
 .row.display-flex {
@@ -130,6 +130,10 @@
     .hide-if-small{
         display: none;
     }
+
+    .card .scroll-if-small{
+        overflow-y: scroll;
+    }
 }
 
 @media only screen and (min-width: 601px) {
@@ -137,6 +141,8 @@
         display: none;
     }
 }
+
+
 
 /* Skills Section */
 
@@ -146,14 +152,6 @@
 
 .fixed-height {
     height: 80px;
-}
-
-.no-margin-top {
-    margin-top: 0px;
-}
-
-.no-margin-bottom {
-    margin-bottom: 0px;
 }
 
 .col img.responsive-img {
@@ -180,6 +178,15 @@
 
 .hr-one{
     margin: 10px 0px 10px 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hr-two{
+    margin: 2px 0px 2px 0px;
+    width: 100%;
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -355,8 +362,12 @@
 }
 
 #title {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: 300;
+}
+
+h5 {
+    font-size: 1.5rem;
 }
 
 .ul-margin {
@@ -375,8 +386,33 @@
     list-style-type: disc !important;
 }
 
+/* project */
+
+.card-projects{
+    background-color: #F3F6F8;
+}
+
+/* reverse card reveal animation */
+
+
 /* random */
 
-.no-bottom-margin {
-    margin-bottom: 2px;
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.overflow-x {
+    overflow-x: hidden;
 }

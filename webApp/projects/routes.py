@@ -6,7 +6,7 @@ projects_bp = Blueprint('projects', __name__, template_folder='html')
 project_bp = Blueprint('project', __name__, template_folder='html')
 
 
-@projects_bp.route('/projects')
+@projects_bp.route('/projects.html')
 def landing():
     data = get_static_json('projects.json')['projects']
     data.sort(key=order_projects_by_date)
@@ -20,7 +20,7 @@ def landing():
     return render_template('landing_projects.html', projects=data, tags=tags)
 
 
-@project_bp.route('/projects/<title>')
+@project_bp.route('/projects/<title>.html')
 def project(title):
     projects = get_static_json('projects.json')['projects']
     project = next((project for project in projects if project['link'] == title), None)

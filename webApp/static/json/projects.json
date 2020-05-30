@@ -13,8 +13,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Seattle-Fire-Dispatch",
+      "icon": "/static/images/seattle-fire-dispatch/icon.png" ,
       "photos": [
-        "/static/images/seattle-fire-dispatch/icon.png"
       ]
     },
     {
@@ -30,8 +30,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/portfolio",
+      "icon":         "/static/images/portfolio/icon.png",
       "photos": [
-        "/static/images/portfolio/icon.png"
       ]
     },
     {
@@ -47,8 +47,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Tea-Scrapper",
+      "icon": "/static/images/website-scraper/icon.png",
       "photos": [
-        "/static/images/website-scraper/icon.png"
       ]
     },
     {
@@ -64,8 +64,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Used-Car-EDA",
+      "icon":         "/static/images/used-car-analysis/icon.png",
       "photos": [
-        "/static/images/used-car-analysis/icon.png"
       ]
     },
     {
@@ -81,8 +81,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Notakto",
+      "icon": "/static/images/notakto/icon.png",
       "photos": [
-        "/static/images/notakto/icon.png"
       ]
     },
     {
@@ -98,8 +98,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
+      "icon": "/static/images/mouse-listener/icon.png",
       "photos": [
-        "/static/images/mouse-listener/icon.png"
       ]
     },
     {
@@ -115,8 +115,8 @@
         "GitHub"
       ],
       "github": "https://github.com/ManVanMaan/Blackjack",
+      "icon": "/static/images/blackjack/icon.png",
       "photos": [
-        "/static/images/blackjack/icon.png"
       ]
     },
     {
@@ -132,8 +132,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Vending-Machine",
+      "icon": "/static/images/vending-machine/icon.png",
       "photos": [
-        "/static/images/vending-machine/icon.png"
       ]
     },
     {
@@ -149,6 +149,9 @@
         "Poster",
         "Github"
       ],
+      "icon": "/static/images/voronoi/icon.gif",
+      "photos": [
+      ],
       "github": "https://github.com/ManVanMaan/Voronoi-Art"
     },
     {
@@ -161,6 +164,9 @@
       "tags": [
         "Math",
         "Poster"
+      ],
+      "icon":         "/static/images/category/icon.png",
+      "photos": [
       ]
     },
     {
@@ -175,8 +181,8 @@
         "Code",
         "Math"
       ],
+      "icon":         "/static/images/neolithic-transition/icon.png",
       "photos": [
-        "/static/images/neolithic-transition/icon.png"
       ]
     },
     {
@@ -193,8 +199,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/E.D.C.T",
+      "icon":         "/static/images/vapor-to-particle-reaction/icon.png",
       "photos": [
-        "/static/images/vapor-to-particle-reaction/icon.png"
       ]
     },
     {
@@ -209,6 +215,9 @@
         "Research",
         "Code",
         "Poster"
+      ],
+      "icon":         "/static/images/waerden/icon.png",
+      "photos": [
       ]
     },
     {
@@ -222,8 +231,8 @@
         "Math",
         "Poster"
       ],
+      "icon":         "/static/images/powerline-communication/icon.png",
       "photos": [
-        "/static/images/powerline-communication/icon.png"
       ]
     },
     {
@@ -236,6 +245,9 @@
       "tags": [
         "Math",
         "Poster"
+      ],
+      "icon":         "/static/images/svd/icon.png",
+      "photos": [
       ]
     },
     {
@@ -249,8 +261,8 @@
         "Math",
         "Poster"
       ],
+      "icon":         "/static/images/one-cut/icon.png",
       "photos": [
-        "/static/images/one-cut/icon.png"
       ]
     },
     {
@@ -265,8 +277,8 @@
         "Art",
         "Code"
       ],
+      "icon":         "/static/images/a-new-way-to-knit/icon.png",
       "photos": [
-        "/static/images/a-new-way-to-knit/icon.png"
       ]
     },
     {
@@ -281,6 +293,9 @@
         "Poster",
         "Math",
         "Code"
+      ],
+      "icon":         "/static/images/laplacian/icon.png",
+      "photos": [
       ]
     },
     {
@@ -294,8 +309,8 @@
         "Code",
         "Matlab"
       ],
+      "icon":         "/static/images/flappy-bird-ai/icon.png",
       "photos": [
-        "/static/images/flappy-bird-ai/icon.png"
       ]
     },
     {
@@ -311,8 +326,8 @@
         "Github"
       ],
       "github": "https://github.com/ManVanMaan/Double-Pendulum",
+      "icon":         "static/images/double-pendulum/icon.png",
       "photos": [
-        "static/images/double-pendulum/icon.png"
       ]
     },
     {
@@ -328,8 +343,8 @@
         "MatLab",
         "Poster"
       ],
+      "icon":         "/static/images/birthday-paradox/icon.png",
       "photos": [
-        "/static/images/birthday-paradox/icon.png"
       ]
     },
     {
@@ -345,8 +360,8 @@
         "MatLab",
         "Poster"
       ],
+      "icon":         "/static/images/buffons-needle-drop/icon.png",
       "photos": [
-        "/static/images/buffons-needle-drop/icon.png"
       ]
     },
     {
@@ -360,8 +375,8 @@
         "CSGO",
         "Level Design"
       ],
+      "icon":         "/static/images/grind/icon.png",
       "photos": [
-        "/static/images/grind/icon.png"
       ]
     },
     {
@@ -376,8 +391,8 @@
         "Math",
         "Poster"
       ],
+      "icon":         "/static/images/graph-theory/icon.png",
       "photos": [
-        "/static/images/graph-theory/icon.png"
       ]
     },
     {
@@ -392,8 +407,8 @@
         "Book",
         "Math"
       ],
+      "icon":         "/static/images/ode-technical-manual/icon.png",
       "photos": [
-        "/static/images/ode-technical-manual/icon.png"
       ]
     },
     {
@@ -407,8 +422,8 @@
         "Math",
         "Hardware"
       ],
+      "icon":         "/static/images/8bit-logic-unit/icon.png",
       "photos": [
-        "/static/images/8bit-logic-unit/icon.png"
       ]
     },
     {
@@ -422,6 +437,9 @@
         "Math",
         "Research",
         "Code"
+      ],
+      "icon":         "/static/images/debruijn/icon.png",
+      "photos": [
       ]
     },
     {
@@ -435,8 +453,8 @@
         "Code",
         "Hardware"
       ],
+      "icon":         "/static/images/online-sprinkler-control/icon.png",
       "photos": [
-        "/static/images/online-sprinkler-control/icon.png"
       ]
     }
   ]

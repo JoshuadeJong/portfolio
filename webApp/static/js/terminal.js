@@ -6,7 +6,7 @@ $(function() {
       "<span class='caret'>$</span> job: Software Developer at <a href='http://www.expeditors.com//'>Expeditors CHQ</a><br/> ^100" +
       "<span class='caret'>$</span> alias: MaanMan<br/> ^100" +
       "<span class='caret'>$</span> hobbies: cooking, cello, video games, and beer<br/> ^300" +
-      "<span class='caret'>$</span> highlight:  <a href=''>Seattle Fire Dispatch</a>, <a href=''>System Monitoring Solution</a><br/>"
+      "<span class='caret'>$</span> highlight:  <a href='https://github.com/ManVanMaan/Seattle-Fire-Dispatch'>Seattle Fire Dispatch</a>, <a href='https://github.com/ManVanMaan/Notakto'>Notakto</a><br/>"
     ],
     showCursor: true,
     cursorChar: '_',

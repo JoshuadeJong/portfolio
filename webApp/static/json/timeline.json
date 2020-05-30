@@ -85,11 +85,6 @@
           "desc": "I finished my Bachelor of Science in Mathematics at Colorado State University! The past four years have been extremely busy but I wouldn't trade it for anything. I'm looking forward to joining the work force and one day returning to university to get that Phd!"
         },
         {
-          "name": "CSU Mathematics Poster Conference",
-          "icon": "emoji_people",
-          "desc": ""
-        },
-        {
           "name": "Neolithic Transition",
           "icon": "functions",
           "desc": "As part of my last semester in university I had to take a required course I had been delaying for far to long. This course was Plant Sciences 101, and to pass the course I would have to write a long paper on the medical or social impacts of a plant species. However, as a mathematician this project did not excite me one bit. So after a brief talk with the professor and ended up modeling the Neolithic Transition with his research team. The research was successful and I was saved the horror of reading about plants for the whole semester."
@@ -98,11 +93,6 @@
           "name": "Research Assistant",
           "icon": "work",
           "desc": "I had the honour of working in a chemistry lab as a mathematician and software developer. During my time there I built software implementing machine learning techniques to help capture, processed, and analyze data. I also derived partial differential equations to model and explain different chemical experiments. While I was unable to attend, the research won awards at the 2019 Joint Mathematics Meeting in Baltimore."
-        },
-        {
-          "name": "CSU Mathematics Poster Conference",
-          "icon": "emoji_people",
-          "desc": ""
         },
         {
           "name": "Southwestern Undergraduate Mathematics Research Conference, New Mexico",
@@ -122,7 +112,7 @@
         {
           "name": "Joint Mathematics Meeting, San Diego",
           "icon": "emoji_people",
-          "desc": ""
+          "desc": "While this was my second time attending this conference I still looked forward to it with the same gleam. We spent the first day seeing city, zoo, and surroundings. Then the following morning it was time to attend lectures and present. I was fortunate enough to present on de Bruijn sequences and attend the poster contest. While I didn't place high in the poster contest I was able to win a book from Springer as it was their 100th anniversary. I learned a lot, make strong connections with peers, and look forward to attending another in future."
         }
       ]
     },
@@ -130,17 +120,12 @@
       "date": 2017,
       "events": [
         {
-          "name": "CSU Mathematics Poster Conference",
-          "icon": "emoji_people",
-          "desc": "This was my first judged poster conference and while I had done a lot of public speaking the thought of being judge was nerve racking. I had made poster for my recent work on Graph Theory and also had a poster I helped a friend build on Laplacian Smoothing. What I thought would be a train wreck turned into a very fun experience where I got to share my work and network with new people. As a plus I found out I had placed in second for my Graph Theory poster and my friend had won first place!"
-        },
-        {
           "name": "Graph Theory",
           "icon": "functions",
           "desc": "While taking a graduate level combinatorics course at came across an interesting idea relating to graph theory. After taking to the professor about the idea I started to pursue research in the area. While I did not make any break throughs in the field, I was able to find a generalized method to solve a wide range of existing problems. I later presented these ideas at multiple conferences and published a paper detailing the method."
         },
         {
-          "name": "Joint Mathematics Meeting",
+          "name": "Joint Mathematics Meeting, Atlanta",
           "icon": "emoji_people",
           "desc": "At this point in my math career I had felt like I belonged to a community. When ever I meet with another someone I would have to veer away from mathematics or over simplify them. However, that all changed when I went to the JMM. Seeing a conference hall full of people who also shared the same passion as me was eye opening. While I didn't present, the act of attending the conference showed me that I still had a lot to learn and the variety of subjects in mathematics."
         }

@@ -3,6 +3,57 @@
   "title": "Software Developer",
   "linkedin": "https://www.linkedin.com/in/joshua-de-jong/",
   "github": "https://github.com/ManVanMaan",
+  "education": {
+    "university": "Colorado State University",
+    "logo": "/static/images/companies/csu.jpg",
+    "degree": "Bachelor of Science",
+    "degree_ab": "BS",
+    "focus": "Mathematics",
+    "date_start": "2014",
+    "date_end": "2018",
+    "activities": [
+      {
+        "group": "Math Club - President",
+        "details": [
+          "Planned and led weekly meetings for 25+ undergraduate students that engaged students to learn complex mathematical topics in creative ways.",
+          "Actively identified and secured key speakers from industry and academics to present at events."
+        ]
+      }
+    ],
+    "courses": [
+      {
+        "subject": "Math",
+        "classes": [
+          "Abstract Algebra",
+          "Combinatorics",
+          "Linear Algebra",
+          "Optimization",
+          "Coding Theory",
+          "Real Analysis",
+          "Calculus",
+          "Differential Eq.",
+          "Numerical Analysis"
+        ]
+      },
+      {
+        "subject": "Statistic",
+        "classes": [
+          "Data Analysis",
+          "Regressions",
+          "Probability"
+        ]
+      },
+      {
+        "subject": "Computer Science",
+        "classes": [
+          "Intro to C",
+          "Intro to Unix",
+          "Algorithms",
+          "Data Structures"
+        ]
+      }
+    ]
+  },
   "welcome": [
     "I currently work at Expeditors Seattle as a software developer for the Enterprise Monitoring team. I have been working with the team to improve the performance of their java code base. So far I've improved multiple code blocks down to O(n) or O(log(n)) time! I have also been helping the team develop their CI/CD pipelines and infrastructure for the release of their Elastic Search based monitoring solution.",
     "I originally started my career at Colorado State University where I studied mathematics and worked as a researcher in a chemistry lab. It was here where I found a passion for coding by developing machine vision tools and numerical models of experiments. After university I started work as a data analyst where I built predictive models, and built an item recommendation system using machine learning!",
@@ -35,7 +86,6 @@
       "summary": "",
       "details": [
         "Developed and maintained standardized operational reports and dashboards to monitor sales and inventory.",
-        "Supported day-today inquiries providing prompt and efficient resolutions to a wide range of issues.",
         "Scrapped, wrangled, and analyzed data from competitor's websites to competitively price products.",
         "Forcasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
         "Designed and implemented an item recommendation system based off of a customer's current shopping cart."
@@ -126,10 +176,10 @@
           "url": "https://numpy.org/"
         },
         {
-          "name": "Dash",
-          "level": "proficient",
-          "image": "/static/images/skills/dash.png",
-          "url": "https://plotly.com/dash/"
+          "name": "TensorFlow",
+          "level": "novice",
+          "image": "/static/images/skills/tensorflow.png",
+          "url": ""
         }
       ]
     },
@@ -161,6 +211,12 @@
           "url": "https://www.microsoft.com/en-us/microsoft-365/access"
         },
         {
+          "name": "Postgres",
+          "level": "skilled",
+          "image": "/static/images/skills/postgres.png",
+          "url": ""
+        },
+        {
           "name": "Mongodb",
           "level": "novice",
           "image": "/static/images/skills/mongodb.png",
@@ -178,18 +234,6 @@
           "url": "https://flask.palletsprojects.com/en/1.1.x/"
         },
         {
-          "name": "Bash",
-          "level": "advanced",
-          "image": "/static/images/skills/bash.png",
-          "url": "https://www.gnu.org/software/bash/"
-        },
-        {
-          "name": "LaTeX",
-          "level": "expert",
-          "image": "/static/images/skills/latex.png",
-          "url": "https://www.latex-project.org/"
-        },
-                {
           "name": "Git",
           "level": "advanced",
           "image": "/static/images/skills/git.png",
@@ -200,6 +244,12 @@
           "level": "proficient",
           "image": "/static/images/skills/gitrunner.png",
           "url": "https://docs.gitlab.com/runner/"
+        },
+        {
+          "name": "Docker",
+          "level": "novice",
+          "image": "/static/images/skills/docker.png",
+          "url": ""
         }
       ]
     }
