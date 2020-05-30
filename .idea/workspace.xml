@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/build_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/home/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,25 +121,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590877230967" />
-    <state width="1046" height="249" key="GridCell.Tab.0.bottom" timestamp="1590880670477">
+    <state width="950" height="249" key="GridCell.Tab.0.bottom" timestamp="1590881761928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1046" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590880670477" />
+    <state width="950" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590881761928" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="1046" height="249" key="GridCell.Tab.0.center" timestamp="1590880670477">
+    <state width="950" height="249" key="GridCell.Tab.0.center" timestamp="1590881761927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1046" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590880670477" />
+    <state width="950" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590881761927" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="1046" height="249" key="GridCell.Tab.0.left" timestamp="1590880670477">
+    <state width="950" height="249" key="GridCell.Tab.0.left" timestamp="1590881761927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1046" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590880670477" />
+    <state width="950" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590881761927" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="1046" height="249" key="GridCell.Tab.0.right" timestamp="1590880670477">
+    <state width="950" height="249" key="GridCell.Tab.0.right" timestamp="1590881761927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1046" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590880670477" />
+    <state width="950" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590881761927" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
     <state width="1153" height="355" key="GridCell.Tab.1.bottom" timestamp="1589174549010">
       <screen x="0" y="0" width="2560" height="1400" />
