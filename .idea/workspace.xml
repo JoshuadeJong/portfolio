@@ -3,154 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/chip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/error.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/terminal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/Handwritingfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/8bit-logic-unit/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/a-new-way-to-knit/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/birthday-paradox/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/blackjack/Bet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/blackjack/Moves.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/blackjack/RoundEnd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/blackjack/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/buffons-needle-drop/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/category/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/companies/cafeparts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/companies/csu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/companies/expeditors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/debruijn/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/dev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/double-pendulum/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/dynamic-systems/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/flappy-bird-ai/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/graph-theory/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/grind/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/laplacian/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/linkedin-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/mapcore-infographic/mapcore_infographic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/mouse-listener/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/neolithic-transition/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/notakto/First Turn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/notakto/Last Turn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/notakto/Options.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/notakto/Title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/notakto/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/ode-technical-manual/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/one-cut/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/online-sprinkler-control/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/portfolio/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/powerline-communication/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/seattle-fire-dispatch/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/access.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/aws.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/bash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/c++.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/chef.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/dash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/docker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/elasticsearch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/flask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/git.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/gitrunner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/inkscape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/latex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/matlab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/matplotlib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/mongodb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/mysql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/numpy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/pandas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/plotly.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/plotly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/postgres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/scala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/scikit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/scypy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/selenium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/sqlite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/skills/tensorflow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/svd/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/count_color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/dist_odo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/dist_price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/dist_year.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/make_count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/map_milage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/map_price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/map_year.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/odo_year.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/price_brand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/used-car-analysis/price_year.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/ColorSpec_CrossSections.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/ColorSpec_Histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/ColorSpec_RegionSelect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/CryAnalysis_AngleAndMagnitude.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/CryAnalysis_Material.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/CryAnalysis_Orientations.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/CryAnalysis_Regions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/LineSpec_Data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/Poster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/SpecLine_Region.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/TornadoPulse_MachineVision.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/TornadoPulse_Sample.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vapor-to-particle-reaction/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vending-machine/Purchase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/vending-machine/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_1_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_2_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_3_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_4_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_5_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Forest_6_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Land_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Land_1_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Land_2_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Land_3_Final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi-diagram-art/Poster Art.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/voronoi/icon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/waerden/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/images/website-scraper/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/terminal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/build_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build_static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/about/html/landing_about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,8 +48,29 @@
       <recent name="C:\Repositories\portfolio\webApp\static\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.build_static">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Deploy Static">
+    <configuration name="Deploy Static" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="portfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webApp/build_static.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Locally" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="portfolio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,31 +91,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="build_static" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="portfolio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Repositories\portfolio\webApp\build_static.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.Run Locally" />
+      <item itemvalue="Python.Deploy Static" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.build_static" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.Deploy Static" />
+        <item itemvalue="Python.Run Locally" />
       </list>
     </recent_temporary>
   </component>
@@ -265,29 +123,29 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="304" y="289" key="#__init__/0.0.2560.1400@0.0.2560.1400" timestamp="1589058379440" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590877230967">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590899219905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590877230967" />
-    <state width="936" height="249" key="GridCell.Tab.0.bottom" timestamp="1590897733284">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590899219905" />
+    <state width="950" height="249" key="GridCell.Tab.0.bottom" timestamp="1590899240606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590897733284" />
+    <state width="950" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590899240606" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="249" key="GridCell.Tab.0.center" timestamp="1590897733284">
+    <state width="950" height="249" key="GridCell.Tab.0.center" timestamp="1590899240603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590897733284" />
+    <state width="950" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590899240603" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="249" key="GridCell.Tab.0.left" timestamp="1590897733283">
+    <state width="950" height="249" key="GridCell.Tab.0.left" timestamp="1590899240603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590897733283" />
+    <state width="950" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590899240603" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="936" height="249" key="GridCell.Tab.0.right" timestamp="1590897733284">
+    <state width="950" height="249" key="GridCell.Tab.0.right" timestamp="1590899240605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590897733284" />
+    <state width="950" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590899240605" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
     <state width="950" height="347" key="GridCell.Tab.1.bottom" timestamp="1590886902562">
       <screen x="0" y="0" width="1920" height="1040" />

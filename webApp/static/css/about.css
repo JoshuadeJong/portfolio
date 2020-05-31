@@ -78,16 +78,16 @@
     min-width: 170px;
 }
 
-.card-avatar {
-    padding: 10px 15px 1px 15px;
+.card-image {
+    padding: 10px 15px 0px 15px;
     max-width:400px;
     max-height:400px;
     display: flex;
     justify-content: center;
 }
 
-.card .card-avatar img.card-avatar {
-    max-width: 180px;
+.card .card-image img.card-image {
+    max-height: 180px;
     height: auto;
     border-radius: 50%;
 }
