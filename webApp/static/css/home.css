@@ -90,3 +90,10 @@ ul li a {
 .text-content {
   margin:20px 0px 20px 0px;
 }
+
+@media screen and (max-width: 600px) {
+    .hide-if-small{
+        display: none !important;
+        height: 0px !important;
+    }
+}

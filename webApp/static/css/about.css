@@ -27,7 +27,6 @@
     margin-bottom: 0px;
 }
 
-
 .container-outer {
   overflow: hidden;
 }
@@ -133,12 +132,6 @@
 
     .card .scroll-if-small{
         overflow-y: scroll;
-    }
-}
-
-@media only screen and (min-width: 601px) {
-    .hide-if-large{
-        display: none;
     }
 }
 
