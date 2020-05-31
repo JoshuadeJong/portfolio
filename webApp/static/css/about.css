@@ -78,7 +78,7 @@
     min-width: 170px;
 }
 
-.card-image {
+.card-avatar {
     padding: 10px 15px 0px 15px;
     max-width:400px;
     max-height:400px;
@@ -86,7 +86,7 @@
     justify-content: center;
 }
 
-.card .card-image img.card-image {
+.card .card-image img.card-avatar {
     max-height: 180px;
     height: auto;
     border-radius: 50%;
@@ -141,7 +141,6 @@
         display: none;
     }
 }
-
 
 
 /* Skills Section */
