@@ -135,6 +135,18 @@
     }
 }
 
+@media (max-width: 600px) and (orientation: landscape) {
+    .hide-if-landscape {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hide-if-large{
+        display: none;
+    }
+}
+
 
 /* Skills Section */
 
@@ -343,8 +355,8 @@
 
 .col img.experience-img {
     position: relative;
-    height: auto;
-    max-width: 100px;
+    max-height: 100px;
+    width: auto;
 
     padding-top: 5px;
     padding-bottom: 5px;
