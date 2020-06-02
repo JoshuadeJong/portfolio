@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/about/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/about/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/errors/html/501.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/501.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/html/landing_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/html/landing_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/projects/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/timeline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/html/landing_timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/timeline/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,25 +127,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590899219905" />
-    <state width="674" height="298" key="GridCell.Tab.0.bottom" timestamp="1591082767985">
+    <state width="998" height="298" key="GridCell.Tab.0.bottom" timestamp="1591085534872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="674" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767985" />
+    <state width="998" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591085534872" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="674" height="298" key="GridCell.Tab.0.center" timestamp="1591082767984">
+    <state width="998" height="298" key="GridCell.Tab.0.center" timestamp="1591085534872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="674" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767984" />
+    <state width="998" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591085534872" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="674" height="298" key="GridCell.Tab.0.left" timestamp="1591082767984">
+    <state width="998" height="298" key="GridCell.Tab.0.left" timestamp="1591085534871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="674" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767984" />
+    <state width="998" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591085534871" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="674" height="298" key="GridCell.Tab.0.right" timestamp="1591082767985">
+    <state width="998" height="298" key="GridCell.Tab.0.right" timestamp="1591085534872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="674" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767985" />
+    <state width="998" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591085534872" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
     <state width="950" height="347" key="GridCell.Tab.1.bottom" timestamp="1591053796012">
       <screen x="0" y="0" width="1920" height="1040" />

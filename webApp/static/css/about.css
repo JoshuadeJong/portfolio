@@ -77,17 +77,17 @@
     min-width: 170px;
 }
 
-.card-avatar {
+.profile-img-container{
     padding: 10px 15px 0px 15px;
-    max-width:400px;
-    max-height:400px;
+    max-width: 400px;
+    max-height: 400px;
     display: flex;
     justify-content: center;
 }
 
-.card .card-image img.card-avatar {
-    max-height: 180px;
+.round-img {
     height: auto;
+    width: 100%;
     border-radius: 50%;
 }
 
