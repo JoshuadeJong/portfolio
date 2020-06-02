@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +96,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Run Locally" />
         <item itemvalue="Python.Deploy Static" />
+        <item itemvalue="Python.Run Locally" />
       </list>
     </recent_temporary>
   </component>

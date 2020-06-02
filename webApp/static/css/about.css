@@ -78,14 +78,16 @@
 }
 
 .profile-img-container{
-    padding: 10px 15px 0px 15px;
+    padding: 15px 15px 0px 15px;
     max-width: 400px;
     max-height: 400px;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
+
 }
 
-.round-img {
+.profile-img {
     height: auto;
     width: 100%;
     border-radius: 50%;
