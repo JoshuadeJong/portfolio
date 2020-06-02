@@ -3,8 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/about/html/landing_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/about/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/about/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/html/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/html/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/html/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/errors/html/501.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/html/501.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/home/html/landing_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/html/landing_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/projects/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/timeline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/timeline/html/landing_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/html/landing_timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/timeline/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +53,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Repositories\portfolio\webApp" />
-      <recent name="C:\Repositories\portfolio\rawImages" />
-      <recent name="D:\Repositories\portfolio\webApp\static\json" />
-      <recent name="D:\Repositories\portfolio\webApp\static\images\favicon" />
-      <recent name="D:\Repositories\portfolio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Repositories\portfolio\webApp\static\css" />
       <recent name="C:\Repositories\portfolio\webApp\static\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repositories\portfolio\webApp\pages" />
+      <recent name="C:\Repositories\portfolio\webApp" />
+      <recent name="C:\Repositories\portfolio\rawImages" />
+      <recent name="D:\Repositories\portfolio\webApp\static\json" />
+      <recent name="D:\Repositories\portfolio\webApp\static\images\favicon" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Deploy Static">
+  <component name="RunManager" selected="Python.Run Locally">
     <configuration name="Deploy Static" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="portfolio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +114,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Deploy Static" />
         <item itemvalue="Python.Run Locally" />
+        <item itemvalue="Python.Deploy Static" />
       </list>
     </recent_temporary>
   </component>
@@ -127,45 +144,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590899219905" />
-    <state width="878" height="249" key="GridCell.Tab.0.bottom" timestamp="1590990055946">
+    <state width="674" height="298" key="GridCell.Tab.0.bottom" timestamp="1591082767985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="878" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590990055946" />
+    <state width="674" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767985" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="878" height="249" key="GridCell.Tab.0.center" timestamp="1590990055930">
+    <state width="674" height="298" key="GridCell.Tab.0.center" timestamp="1591082767984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="878" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590990055930" />
+    <state width="674" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767984" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="878" height="249" key="GridCell.Tab.0.left" timestamp="1590990055930">
+    <state width="674" height="298" key="GridCell.Tab.0.left" timestamp="1591082767984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="878" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590990055930" />
+    <state width="674" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767984" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="878" height="249" key="GridCell.Tab.0.right" timestamp="1590990055945">
+    <state width="674" height="298" key="GridCell.Tab.0.right" timestamp="1591082767985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="878" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590990055945" />
+    <state width="674" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591082767985" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="950" height="347" key="GridCell.Tab.1.bottom" timestamp="1590886902562">
+    <state width="950" height="347" key="GridCell.Tab.1.bottom" timestamp="1591053796012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590886902562" />
+    <state width="950" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
     <state width="1153" height="355" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="950" height="347" key="GridCell.Tab.1.center" timestamp="1590886902562">
+    <state width="950" height="347" key="GridCell.Tab.1.center" timestamp="1591053796012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590886902562" />
+    <state width="950" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
     <state width="1153" height="355" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="950" height="347" key="GridCell.Tab.1.left" timestamp="1590886902562">
+    <state width="950" height="347" key="GridCell.Tab.1.left" timestamp="1591053796012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590886902562" />
+    <state width="950" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
     <state width="1153" height="355" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="950" height="347" key="GridCell.Tab.1.right" timestamp="1590886902562">
+    <state width="950" height="347" key="GridCell.Tab.1.right" timestamp="1591053796012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590886902562" />
+    <state width="950" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
     <state width="1153" height="355" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
     <state x="345" y="245" key="RollbackChangesDialog" timestamp="1589437383265">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -180,10 +197,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="647" height="703" key="XDebugger.FullValuePopup/0.0.2560.1400@0.0.2560.1400" timestamp="1589141465959" />
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590558990102">
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591070037137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590558990102" />
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591070037137" />
     <state x="361" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590904609497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
