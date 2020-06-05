@@ -31,7 +31,6 @@
 }
 
 .project {
-    padding: 10px 0px 10px 10px;
     max-height: 355px;
     min-height: 250px;
     max-width: 300px;
@@ -88,4 +87,26 @@
 
 .vcenter-close {
     padding-top: 5px;
+}
+
+.no-margin-top{
+    margin-top: 0px;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0px;
+}
+
+.col-reveal-title{
+    width: calc(100% - 30px);
+}
+
+.col-reveal-icon{
+    width: 30px;
+}
+
+.bottom-aligned{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25px;
 }

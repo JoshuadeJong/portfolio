@@ -5,7 +5,7 @@
 
 /* Quit Button */
 .modal-quit-button{
-    margin: 10px;
+    margin: 15px;
     color: #fff;
     border-radius: 50%;
     background-color: #bfbfbf;
@@ -57,6 +57,7 @@ img.icon-image {
 
 .title-margin {
     margin-top: 70px;
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 600px) {

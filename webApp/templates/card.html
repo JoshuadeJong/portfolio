@@ -37,17 +37,27 @@
                 </div>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">{{project['name']}}<i class="material-icons right vcenter-close">close</i></span>
+                <div class="row no-margin-top no-margin-bottom">
+                    <div class="col col-reveal-title">
+                        <span class="card-title grey-text text-darken-4">{{project['name']}}</span>
+                    </div>
+                    <div class="col col-reveal-icon">
+                        <span class="card-title activator" style="display: contents;"><i class="material-icons right vcenter-close">close</i></span>
+                    </div>
+                </div>
                 {% if 'Finished' == project['status'] %}
                     <div><span class="status">{{project['date']}}</span></div>
                 {% else %}
                     <div><span class="status">{{project['status']}}</span></div>
                 {% endif %}
                 <p>{{project['short']}}</p>
+
+                <div class="bottom-aligned">
                     <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
-                {% if 'github' in project %}
-                    <span><a class="github" href={{project['github']}}> | Github</a></span>
-                {% endif %}
+                    {% if 'github' in project %}
+                        <span><a class="github" href={{project['github']}}> | Github</a></span>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
