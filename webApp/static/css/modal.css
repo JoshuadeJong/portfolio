@@ -1,0 +1,63 @@
+.modal-window{
+    max-width: 928px !important;
+    width: 85% !important;
+}
+
+/* Quit Button */
+.modal-quit-button{
+    margin: 10px;
+    line-height: 32px;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 50%
+    background-color: #2196F3;
+}
+
+/* Header */
+.modal .modal-header{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+img.icon-image {
+    max-height: 180px;
+    width: auto;
+}
+
+.modal-title{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+
+.align-bottom{
+    margin-top: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .center-if-small{
+        text-align: center;
+        align-content: center;
+    }
+}
+
+/* Container */
+.modal .modal-content{
+
+}
+
+/* Footer */
+.modal .modal-footer{
+    height: 20px;
+}
+
+/* Other */
+.no-margin-bottom {
+    margin-bottom: 0px;
+}

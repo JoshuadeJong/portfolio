@@ -1,6 +1,4 @@
 <head>
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
 </head>
 
 <body>
@@ -32,9 +30,9 @@
                     <i class="material-icons right activator">more_vert</i>
                 </div>
                 <div>
-                    <span><a href="/projects/{{project['link']}}">Read More</a></span>
+                    <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
                     {% if 'github' in project %}
-                    <span><a class="github" href={{project['github']}}> | Github</a></span>
+                        <span><a class="github" href={{project['github']}}> | Github</a></span>
                     {% endif %}
                 </div>
             </div>
@@ -46,9 +44,9 @@
                     <div><span class="status">{{project['status']}}</span></div>
                 {% endif %}
                 <p>{{project['short']}}</p>
-                <span><a href="/projects/{{project['link']}}">Read More</a></span>
+                    <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
                 {% if 'github' in project %}
-                <span><a class="github" href={{project['github']}}> | Github</a></span>
+                    <span><a class="github" href={{project['github']}}> | Github</a></span>
                 {% endif %}
             </div>
         </div>

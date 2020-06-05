@@ -5,15 +5,18 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/modal.js') }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/modal.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 {% endblock %}
 
 {% block base_body %}
  <div class="container">
+     <!-- Filter -->
      {% if tags is not none %}
         <div class="row">
             <div class="col s12 m12 l12">
@@ -30,10 +33,47 @@
         </div>
     {% endif %}
 
+    <!-- Build Modal -->
+    {% for project in projects %}
+        <div id="modal-{{ project['name'] }}" class="modal modal-window">
+            <a href="#!" class="modal-action modal-close btn-floating btn-small waves-effect waves-light blue right margin-10"><i class="material-icons">close</i></a>
+            <div class="modal-header row no-margin-bottom">
+                <div class="col s12 m3 l3">
+                    <div class="icon-container">
+                        <img class="icon-image" src={{project['icon']}}>
+                    </div>
+                </div>
+                <div class="col s12 m9 l9">
+                    <div class="align-bottom center-if-small">
+                        <span class="modal-title">
+                            {{ project['name'] }}
+                        </span>
+                        <div class="md-chips container-inner ">
+                            {% for tag in project['tags'] %}
+                            <div class="md-chip md-chip-clickable">
+                                <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
+                                    {{tag}}
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content">
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    {% endfor %}
+
+    <!-- Build Cards -->
     <div class="row">
         {% for project in projects %}
             {% include "card.html" %}
         {% endfor %}
     </div>
+
 </div>
 {% endblock %}

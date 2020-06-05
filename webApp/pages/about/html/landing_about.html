@@ -10,6 +10,9 @@
 
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/about.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+
 {% endblock %}
 
 {% block base_body %}
@@ -33,30 +36,24 @@
                         <div class="profile-img-container">
                             <img class="profile-img" src="\static\images\avatar.jpg">
                         </div>
-                        <div class="container-outer">
-                            <div class="container-inner">
-                                <div>
-                                    <div class="center">
-                                        <h5>{{about['name']}}</h5>
-                                    </div>
-                                    <div class="center">
-                                        <p>{{about['title']}}</p>
-                                    </div>
-                                    <div class="center">
-                                        <div>
-                                            {% if about['github'] is not none %}
-                                            <a target="_blank" href={{about['github']}}>
-                                                <img class="title-logo" src="static/images/github.svg">
-                                            </a>
-                                            {% endif %}
-                                            {% if about['linkedin'] is not none %}
-                                            <a target="_blank" href={{about['linkedin']}}>
-                                                <img class="title-logo" src="static/images/linkedin-logo.svg">
-                                            </a>
-                                            {% endif %}
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="center">
+                            <h5>{{about['name']}}</h5>
+                        </div>
+                        <div class="center">
+                            <p>{{about['title']}}</p>
+                        </div>
+                        <div class="center">
+                            <div>
+                                {% if about['github'] is not none %}
+                                <a target="_blank" href={{about['github']}}>
+                                    <img class="title-logo" src="static/images/github.svg">
+                                </a>
+                                {% endif %}
+                                {% if about['linkedin'] is not none %}
+                                <a target="_blank" href={{about['linkedin']}}>
+                                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                                </a>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
