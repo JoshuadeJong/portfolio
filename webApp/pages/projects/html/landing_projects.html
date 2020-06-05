@@ -36,15 +36,15 @@
     <!-- Build Modal -->
     {% for project in projects %}
         <div id="modal-{{ project['name'] }}" class="modal modal-window">
-            <a href="#!" class="modal-action modal-close btn-floating btn-small waves-effect waves-light blue right margin-10"><i class="material-icons">close</i></a>
+            <a href="#!" class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light"><i class="material-icons">close</i></a>
             <div class="modal-header row no-margin-bottom">
-                <div class="col s12 m3 l3">
+                <div class="col col-icon">
                     <div class="icon-container">
                         <img class="icon-image" src={{project['icon']}}>
                     </div>
                 </div>
-                <div class="col s12 m9 l9">
-                    <div class="align-bottom center-if-small">
+                <div class="col col-title">
+                    <div class="center-if-small title-margin">
                         <span class="modal-title">
                             {{ project['name'] }}
                         </span>

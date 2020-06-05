@@ -6,17 +6,36 @@
 /* Quit Button */
 .modal-quit-button{
     margin: 10px;
-    line-height: 32px;
-    font-size: 13px;
     color: #fff;
-    border-radius: 50%
-    background-color: #2196F3;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    z-index: 2;
+    position: absolute;
+    right: 0;
 }
 
 /* Header */
 .modal .modal-header{
     margin-top: 30px;
     margin-bottom: 0px;
+}
+
+.col-icon {
+    width: 220px;
+}
+
+.col-title {
+    width: calc(100% - 225px)
+}
+
+@media only screen and (max-width: 600px){
+    .col-icon{
+        width: 100%;
+    }
+
+    .col-title{
+        width: 100%;
+    }
 }
 
 .icon-container {
@@ -36,14 +55,15 @@ img.icon-image {
     margin-bottom: 2px;
 }
 
-.align-bottom{
-    margin-top: auto !important;
+.title-margin {
+    margin-top: 70px;
 }
 
 @media only screen and (max-width: 600px) {
     .center-if-small{
         text-align: center;
         align-content: center;
+        margin-top: 0px;
     }
 }
 
