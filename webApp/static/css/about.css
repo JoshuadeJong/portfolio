@@ -126,9 +126,6 @@
         display: none;
     }
 
-    .card .scroll-if-small{
-        overflow-y: scroll;
-    }
 }
 
 @media (max-width: 600px) and (orientation: landscape) {
@@ -143,6 +140,9 @@
     }
 }
 
+.card .y-scroll{
+    overflow-y: scroll;
+}
 
 /* Skills Section */
 
@@ -410,7 +410,9 @@ h5 {
     margin-top: 0px;
 }
 
-0
+.no-padding {
+    padding: 0px !important;
+}
 
 .overflow-x {
     overflow-x: hidden;

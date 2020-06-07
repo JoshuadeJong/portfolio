@@ -49,7 +49,7 @@
   }
 
 .card-image {
-    padding-top:10px;
+    padding-top: 24px;
     max-width:400px;
     max-height:400px;
     display: flex;
@@ -57,13 +57,14 @@
 }
 
 .card .card-image img.card-image {
+    padding-top: 0px;
     max-height: 180px;
     min-height: 180px;
     width: auto;
 }
 
 .status {
-  color: #7699C2;
+  color: #969696;
 }
 
 .card-title {
@@ -74,6 +75,7 @@
 
 .container-outer {
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .container-inner {
@@ -94,7 +96,7 @@
 }
 
 .no-margin-bottom{
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
 
 .col-reveal-title{
@@ -108,5 +110,13 @@
 .bottom-aligned{
     position: absolute;
     bottom: 0;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
+}
+
+.card .card-reveal{
+    padding: 24px;
+}
+
+.card .card-content{
+    padding: 24px;
 }

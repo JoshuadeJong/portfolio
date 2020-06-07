@@ -2,88 +2,59 @@
   "projects": [
     {
       "name": "Seattle Fire Dispatch",
-      "link": "seattle-fire-dispatch",
-      "date": "",
-      "short": "A dashboard designed to show current and historical data about the Seattle Fire Dispatch.",
-      "long": "",
-      "status": "Work in Progress",
+      "icon": "/static/images/projects/seattle-fire-dispatch/icon.png" ,
       "tags": [
         "Code",
-        "Python",
-        "Github"
+        "Python"
       ],
       "github": "https://github.com/ManVanMaan/Seattle-Fire-Dispatch",
-      "icon": "/static/images/seattle-fire-dispatch/icon.png" ,
-      "photos": [
-      ]
+      "short": "A dashboard designed to show current and historical data about the Seattle Fire Dispatch."
     },
     {
       "name": "Portfolio",
-      "link": "portfolio",
-      "date": "",
-      "short": "My personal portfolio and personal website! If you are reading this you are on my website!",
-      "long": "",
-      "status": "Work in Progress",
+      "icon": "/static/images/projects/portfolio/icon.png",
       "tags": [
         "Code",
-        "Python",
-        "Github"
+        "Python"
       ],
       "github": "https://github.com/ManVanMaan/portfolio",
-      "icon":         "/static/images/portfolio/icon.png",
-      "photos": [
-      ]
+      "short": "My personal portfolio and personal website! If you are reading this you are on my website!"
     },
     {
       "name": "Website Scraper",
-      "link": "website-scrapper",
+      "icon": "/static/images/projects/website-scraper/icon.png",
       "date": "Dec 2019",
-      "short": "A beautiful soup script to scrap data from North America's largest tea distributor.",
-      "long": "",
-      "status": "Finished",
       "tags": [
         "Code",
-        "Python",
-        "Github"
+        "Python"
       ],
       "github": "https://github.com/ManVanMaan/Tea-Scrapper",
-      "icon": "/static/images/website-scraper/icon.png",
-      "photos": [
-      ]
+      "short": "A beautiful soup script to scrap data from North America's largest tea distributor."
     },
     {
       "name": "Used Car Analysis",
-      "link": "used-car-analysis",
+      "icon": "/static/images/projects/used-car-analysis/icon.png",
       "date": "Nov 2019",
-      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist.",
-      "long": "",
-      "status": "Finished",
       "tags": [
         "Code",
-        "Python",
-        "Github"
+        "Python"
       ],
       "github": "https://github.com/ManVanMaan/Used-Car-EDA",
-      "icon":         "/static/images/used-car-analysis/icon.png",
-      "photos": [
-      ]
+      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist."
     },
     {
       "name": "Notakto",
-      "link": "notakto",
+      "icon": "/static/images/projects/notakto/icon.png",
       "date": "Aug 2019",
-      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.",
-      "long": "",
-      "status": "Finished",
       "tags": [
         "Code",
-        "Java",
-        "Github"
+        "Java"
       ],
       "github": "https://github.com/ManVanMaan/Notakto",
-      "icon": "/static/images/notakto/icon.png",
-      "photos": [
-      ]
+      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.",
+      "html": "",
+      "long": [],
+      "photos": []
     },
     {
       "name": "Mouse Listener",
@@ -94,11 +65,10 @@
       "status": "Finished",
       "tags": [
         "Code",
-        "Java",
-        "Github"
+        "Java"
       ],
       "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
-      "icon": "/static/images/mouse-listener/icon.png",
+      "icon": "/static/images/projects/mouse-listener/icon.png",
       "photos": [
       ]
     },
@@ -111,11 +81,10 @@
       "status": "Finished",
       "tags": [
         "Code",
-        "Java",
-        "GitHub"
+        "Java"
       ],
       "github": "https://github.com/ManVanMaan/Blackjack",
-      "icon": "/static/images/blackjack/icon.png",
+      "icon": "/static/images/projects/blackjack/icon.png",
       "photos": [
       ]
     },
@@ -128,11 +97,10 @@
       "status": "Finished",
       "tags": [
         "Code",
-        "C/C++",
-        "Github"
+        "C/C++"
       ],
       "github": "https://github.com/ManVanMaan/Vending-Machine",
-      "icon": "/static/images/vending-machine/icon.png",
+      "icon": "/static/images/projects/vending-machine/icon.png",
       "photos": [
       ]
     },
@@ -146,10 +114,9 @@
       "tags": [
         "Math",
         "Art",
-        "Poster",
-        "Github"
+        "Poster"
       ],
-      "icon": "/static/images/voronoi/icon.gif",
+      "icon": "/static/images/projects/voronoi/icon.gif",
       "photos": [
       ],
       "github": "https://github.com/ManVanMaan/Voronoi-Art"
@@ -165,7 +132,7 @@
         "Math",
         "Poster"
       ],
-      "icon":         "/static/images/category/icon.png",
+      "icon": "/static/images/projects/category/icon.png",
       "photos": [
       ]
     },
@@ -181,7 +148,7 @@
         "Code",
         "Math"
       ],
-      "icon":         "/static/images/neolithic-transition/icon.png",
+      "icon": "/static/images/projects/neolithic-transition/icon.png",
       "photos": [
       ]
     },
@@ -195,11 +162,10 @@
       "tags": [
         "Math",
         "Poster",
-        "Code",
-        "Github"
+        "Code"
       ],
       "github": "https://github.com/ManVanMaan/E.D.C.T",
-      "icon":         "/static/images/vapor-to-particle-reaction/icon.png",
+      "icon": "/static/images/projects/vapor-to-particle-reaction/icon.png",
       "photos": [
       ]
     },
@@ -216,7 +182,7 @@
         "Code",
         "Poster"
       ],
-      "icon":         "/static/images/waerden/icon.png",
+      "icon": "/static/images/projects/waerden/icon.png",
       "photos": [
       ]
     },
@@ -231,7 +197,7 @@
         "Math",
         "Poster"
       ],
-      "icon":         "/static/images/powerline-communication/icon.png",
+      "icon": "/static/images/projects/powerline-communication/icon.png",
       "photos": [
       ]
     },
@@ -246,7 +212,7 @@
         "Math",
         "Poster"
       ],
-      "icon":         "/static/images/svd/icon.png",
+      "icon": "/static/images/projects/svd/icon.png",
       "photos": [
       ]
     },
@@ -261,7 +227,7 @@
         "Math",
         "Poster"
       ],
-      "icon":         "/static/images/one-cut/icon.png",
+      "icon": "/static/images/projects/one-cut/icon.png",
       "photos": [
       ]
     },
@@ -277,7 +243,7 @@
         "Art",
         "Code"
       ],
-      "icon":         "/static/images/a-new-way-to-knit/icon.png",
+      "icon": "/static/images/projects/a-new-way-to-knit/icon.png",
       "photos": [
       ]
     },
@@ -294,7 +260,7 @@
         "Math",
         "Code"
       ],
-      "icon":         "/static/images/laplacian/icon.png",
+      "icon": "/static/images/projects/laplacian/icon.png",
       "photos": [
       ]
     },
@@ -309,7 +275,7 @@
         "Code",
         "Matlab"
       ],
-      "icon":         "/static/images/flappy-bird-ai/icon.png",
+      "icon": "/static/images/projects/flappy-bird-ai/icon.png",
       "photos": [
       ]
     },
@@ -322,11 +288,10 @@
       "status": "Finished",
       "tags": [
         "Code",
-        "MatLab",
-        "Github"
+        "MatLab"
       ],
       "github": "https://github.com/ManVanMaan/Double-Pendulum",
-      "icon":         "static/images/double-pendulum/icon.png",
+      "icon": "static/images/projects/double-pendulum/icon.png",
       "photos": [
       ]
     },
@@ -343,7 +308,7 @@
         "MatLab",
         "Poster"
       ],
-      "icon":         "/static/images/birthday-paradox/icon.png",
+      "icon": "/static/images/projects/birthday-paradox/icon.png",
       "photos": [
       ]
     },
@@ -360,7 +325,7 @@
         "MatLab",
         "Poster"
       ],
-      "icon":         "/static/images/buffons-needle-drop/icon.png",
+      "icon": "/static/images/projects/buffons-needle-drop/icon.png",
       "photos": [
       ]
     },
@@ -375,7 +340,7 @@
         "CSGO",
         "Level Design"
       ],
-      "icon":         "/static/images/grind/icon.png",
+      "icon": "/static/images/projects/grind/icon.png",
       "photos": [
       ]
     },
@@ -391,7 +356,7 @@
         "Math",
         "Poster"
       ],
-      "icon":         "/static/images/graph-theory/icon.png",
+      "icon": "/static/images/projects/graph-theory/icon.png",
       "photos": [
       ]
     },
@@ -407,7 +372,7 @@
         "Book",
         "Math"
       ],
-      "icon":         "/static/images/ode-technical-manual/icon.png",
+      "icon": "/static/images/projects/ode-technical-manual/icon.png",
       "photos": [
       ]
     },
@@ -422,7 +387,7 @@
         "Math",
         "Hardware"
       ],
-      "icon":         "/static/images/8bit-logic-unit/icon.png",
+      "icon": "/static/images/projects/8bit-logic-unit/icon.png",
       "photos": [
       ]
     },
@@ -438,7 +403,7 @@
         "Research",
         "Code"
       ],
-      "icon":         "/static/images/debruijn/icon.png",
+      "icon": "/static/images/projects/debruijn/icon.png",
       "photos": [
       ]
     },
@@ -453,7 +418,7 @@
         "Code",
         "Hardware"
       ],
-      "icon":         "/static/images/online-sprinkler-control/icon.png",
+      "icon": "/static/images/projects/online-sprinkler-control/icon.png",
       "photos": [
       ]
     }

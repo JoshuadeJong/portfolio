@@ -40,25 +40,25 @@
         </div>
         <div class="wrapper scroll-wrapper">
             <div class="top-text">
-                <p class="text-title">{{ data['name'] }}</p>
+                <p class="text-title">{{ about['name'] }}</p>
                 <div>
-                    {% if data['github'] is not none %}
-                    <a target="_blank" href={{data['github']}}>
+                    {% if 'github' in about %}
+                    <a target="_blank" href={{about['github']}}>
                         <img class="title-logo" src="static/images/github.svg">
                     </a>
                     {% endif %}
-                    {% if data['linkedin'] is not none %}
-                    <a target="_blank" href={{data['linkedin']}}>
+                    {% if 'linkedin' in about %}
+                    <a target="_blank" href={{about['linkedin']}}>
                         <img class="title-logo" src="static/images/linkedin-logo.svg">
                     </a>
                     {% endif %}
                 </div>
             </div>
             <div class="middle-text">
-                {% if data['welcome'] is not none %}
-                    {% for block in data['welcome'] %}
+                {% if 'welcome' in about %}
+                    {% for par in about['welcome'] %}
                         <p class="text-content">
-                            {{block|safe}}
+                            {{par|safe}}
                         </p>
                     {% endfor %}
                 {% endif %}

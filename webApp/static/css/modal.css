@@ -1,11 +1,12 @@
 .modal-window{
     max-width: 928px !important;
     width: 85% !important;
+    max-height: 90%;
 }
 
 /* Quit Button */
 .modal-quit-button{
-    margin: 15px;
+    margin: 20px;
     color: #fff;
     border-radius: 50%;
     background-color: #bfbfbf;
@@ -70,15 +71,24 @@ img.icon-image {
 
 /* Container */
 .modal .modal-content{
-
+    padding: 12px 24px 12px 24px;
 }
 
 /* Footer */
 .modal .modal-footer{
-    height: 20px;
+    height: unset;
+    padding: 0px 24px 12px 24px;
 }
 
 /* Other */
 .no-margin-bottom {
     margin-bottom: 0px;
+}
+
+.hr-one{
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

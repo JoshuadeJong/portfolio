@@ -41,12 +41,10 @@ def order_projects_by_weight(projects):
 
 
 def order_projects_by_date(project):
-    if project['status'] == 'Work in Progress':
+    if 'date' not in project:
         status = 0
-    elif project['status'] == 'Finished':
-        status = 1
     else:
-        status = -1
+        status = 1
 
     try:
         date = -int(datetime.strptime(project['date'], "%b %Y").strftime("%Y%m%d"))
