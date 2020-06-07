@@ -212,11 +212,18 @@
 
                     <div class="row no-margin-bottom">
                         {% for block in about['experience'] %}
+                            <!-- Image -->
                             <div class="col s0 m2 l2 hide-if-small">
                                 <div class="fixed-height">
-                                    <img class="experience-img" src={{block['image']}}>
+                                    {% if 'logo' in block %}
+                                        <img class="experience-img" src={{block['logo']}}>
+                                    {% else %}
+                                        <img class="experience-img" src="/static/images/dev.jpg">
+                                    {% endif %}
                                 </div>
                             </div>
+
+                            <!-- Title -->
                             <div class="col s12 m10 l10">
                                 <span class="skill-title" title={{block['company']}}>
                                     <span>
@@ -229,9 +236,13 @@
                                     {{block['location']}}
                                 </span>
                             </div>
+
+                            <!-- Spacer -->
                             <div class="col s0 m2 l2 hide-if-small">
 
                             </div>
+
+                            <!-- Info -->
                             <div class="col s12 m10 l10 margin-bottom">
                                 <!-- Summary -->
                                 {% if 'summary' in block %}
