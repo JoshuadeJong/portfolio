@@ -4,7 +4,7 @@ from webApp.config import Config
 app = Flask(__name__)
 app.config.from_object(Config)
 
-from webApp.pages.errors.handlers import errors_bp
+from webApp.pages.errors.handlers import errors_bp # Error pages
 app.register_blueprint(errors_bp)
 from webApp.pages.home.routes import home_bp  # Add Homepage
 app.register_blueprint(home_bp)

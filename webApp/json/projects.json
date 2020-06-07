@@ -58,369 +58,252 @@
     },
     {
       "name": "Mouse Listener",
-      "link": "mouse-listener",
       "date": "Jul 2019",
-      "short": "A quick demo of how to track a mouse in Java for a friend.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/mouse-listener/icon.png",
       "tags": [
         "Code",
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
-      "icon": "/static/images/projects/mouse-listener/icon.png",
-      "photos": [
-      ]
+      "short": "A quick demo of how to track a mouse in Java for a friend."
     },
     {
       "name": "Blackjack",
-      "link": "blackjack",
       "date": "May 2019",
-      "short": "A terminal game of Blackjack writen in Java with an AI dealer and ASCII art.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/blackjack/icon.png",
       "tags": [
         "Code",
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Blackjack",
-      "icon": "/static/images/projects/blackjack/icon.png",
-      "photos": [
-      ]
+      "short": "A terminal game of Blackjack writen in Java with an AI dealer and ASCII art."
     },
     {
       "name": "Vending Machine",
-      "link": "vending-machine",
       "date": "Mar 2019",
-      "short": "A terminal based vending machine written in C with virtual snacks and prices.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/vending-machine/icon.png",
       "tags": [
         "Code",
         "C/C++"
       ],
       "github": "https://github.com/ManVanMaan/Vending-Machine",
-      "icon": "/static/images/projects/vending-machine/icon.png",
-      "photos": [
-      ]
+      "short": "A terminal based vending machine written in C with virtual snacks and prices."
     },
     {
       "name": "Voronoi Diagram Art",
-      "link": "voronoi-diagram-art",
       "date": "Dec 2018",
-      "short": "Code and a poster showing how Voronoi Diagrams could be used to create mosaic like art. ",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/voronoi/icon.gif",
       "tags": [
         "Math",
         "Art",
         "Poster"
       ],
-      "icon": "/static/images/projects/voronoi/icon.gif",
-      "photos": [
-      ],
-      "github": "https://github.com/ManVanMaan/Voronoi-Art"
+      "github": "https://github.com/ManVanMaan/Voronoi-Art",
+      "short": "Code and a poster showing how Voronoi Diagrams could be used to create mosaic like art."
     },
     {
       "name": "Category Theory",
-      "link": "category-theory",
       "date": "Nov 2018",
-      "short": "A brief introduction to category theory created for my real analysis course.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/category/icon.png",
       "tags": [
         "Math",
         "Poster"
       ],
-      "icon": "/static/images/projects/category/icon.png",
-      "photos": [
-      ]
+      "short": "A brief introduction to category theory created for my real analysis course."
     },
     {
       "name": "Neolithic Transition",
-      "link": "neolithic-transition",
       "date": "Aug 2018",
-      "short": "Researched and modeled the spread of agriculture throughout Europe.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/neolithic-transition/icon.png",
       "tags": [
         "Research",
         "Code",
         "Math"
       ],
-      "icon": "/static/images/projects/neolithic-transition/icon.png",
-      "photos": [
-      ]
+      "short": "Researched and modeled the spread of agriculture throughout Europe."
     },
     {
       "name": "Vapor-to-Particle Reactions",
-      "link": "vapor-to-particle-reactions",
       "date": "Jul 2018",
-      "short": "A compilation of code and posters created while researching chemical reactions.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/vapor-to-particle-reaction/icon.png",
       "tags": [
         "Math",
         "Poster",
         "Code"
       ],
       "github": "https://github.com/ManVanMaan/E.D.C.T",
-      "icon": "/static/images/projects/vapor-to-particle-reaction/icon.png",
-      "photos": [
-      ]
+      "short": "A compilation of code and posters created while researching chemical reactions."
     },
     {
       "name": "Van der Waerden",
-      "link": "van-der-waerden",
       "date": "May 2018",
-      "short": "Conducted research and developed a SAT Solver to improve known for Van der Waerden bounds.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/waerden/icon.png",
       "tags": [
         "Math",
         "Research",
         "Code",
         "Poster"
       ],
-      "icon": "/static/images/projects/waerden/icon.png",
-      "photos": [
-      ]
+      "short": "Conducted research and developed a SAT Solver to improve known for Van der Waerden bounds."
     },
     {
       "name": "Powerline Communication",
-      "link": "powerline-communication",
       "date": "Mar 2018",
-      "short": "A poster showing the mathematics of how powerlines could be used to communicate long distances.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/powerline-communication/icon.png",
       "tags": [
         "Math",
         "Poster"
       ],
-      "icon": "/static/images/projects/powerline-communication/icon.png",
-      "photos": [
-      ]
+      "short": "A poster showing the mathematics of how powerlines could be used to communicate long distances."
     },
     {
       "name": "Singular Value Decomposition",
-      "link": "singular-value-decomposition",
       "date": "Mar 2018",
-      "short": "A poster giving a brief introduction to what singular value decomposition is, how it was derived, and how it can be used.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/svd/icon.png",
       "tags": [
         "Math",
         "Poster"
       ],
-      "icon": "/static/images/projects/svd/icon.png",
-      "photos": [
-      ]
+      "short": "A poster giving a brief introduction to what singular value decomposition is, how it was derived, and how it can be used."
     },
     {
       "name": "One-Cut Origami",
-      "link": "one-cut-origami",
       "date": "Mar 2018",
-      "short": "A poster explaining the fold-and-cut theorem as well as the maths surrounding origami.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/one-cut/icon.png",
       "tags": [
         "Math",
         "Poster"
       ],
-      "icon": "/static/images/projects/one-cut/icon.png",
-      "photos": [
-      ]
+      "short": "A poster explaining the fold-and-cut theorem as well as the maths surrounding origami."
     },
     {
       "name": "A New Way to Knit",
-      "link": "a-new-way-to-knit",
       "date": "Feb 2018",
-      "short": "A presentation and coding project on how to recreate an image using a single piece of thread and a few anchor points.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/a-new-way-to-knit/icon.png",
       "tags": [
         "Math",
         "Art",
         "Code"
       ],
-      "icon": "/static/images/projects/a-new-way-to-knit/icon.png",
-      "photos": [
-      ]
+      "short": "A presentation and coding project on how to recreate an image using a single piece of thread and a few anchor points."
     },
     {
       "name": "Laplacian Smoothing",
-      "nameLong": "Laplacian Smoothing of Meshes",
-      "link": "laplacian-smoothing",
       "date": "Dec 2017",
-      "short": "A poster explaining the algorithm of laplacian smoothing on a mesh.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/laplacian/icon.png",
       "tags": [
         "Poster",
         "Math",
         "Code"
       ],
-      "icon": "/static/images/projects/laplacian/icon.png",
-      "photos": [
-      ]
+      "short": "A poster explaining the algorithm of laplacian smoothing on a mesh."
     },
     {
       "name": "Flappy Bird AI",
-      "link": "flappy-bird-ai",
       "date": "Nov 2017",
-      "short": "A hand written Q-learning algorithm to teach Flappy bird how get past all those pipes.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/flappy-bird-ai/icon.png",
       "tags": [
         "Code",
         "Matlab"
       ],
-      "icon": "/static/images/projects/flappy-bird-ai/icon.png",
-      "photos": [
-      ]
+      "short": "A hand written Q-learning algorithm to teach Flappy bird how get past all those pipes."
     },
     {
       "name": "Double Pendulum",
-      "link": "double-pendulum",
       "date": "Oct 2017",
-      "short": "A physics simulation of a two double pendulum with minor differences using the Runge-Kutta method.",
-      "long": "",
-      "status": "Finished",
+      "icon": "static/images/projects/double-pendulum/icon.png",
       "tags": [
         "Code",
         "MatLab"
       ],
       "github": "https://github.com/ManVanMaan/Double-Pendulum",
-      "icon": "static/images/projects/double-pendulum/icon.png",
-      "photos": [
-      ]
+      "short": "A physics simulation of a two double pendulum with minor differences using the Runge-Kutta method."
     },
     {
       "name": "Birthday Paradox",
-      "link": "birthday-paradox",
       "date": "Oct 2017",
-      "short": "A poster and monte carlo simulation to explain the probability of two people have matching birthdays in a group of people.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/birthday-paradox/icon.png",
       "tags": [
         "Math",
         "Code",
         "MatLab",
         "Poster"
       ],
-      "icon": "/static/images/projects/birthday-paradox/icon.png",
-      "photos": [
-      ]
+      "short": "A poster and monte carlo simulation to explain the probability of two people have matching birthdays in a group of people."
     },
     {
       "name": "Buffon's Needle Drop",
-      "link": "buffons-needle-drop",
       "date": "Oct 2017",
-      "short": "A poster and  monte carlo simulation to show how dropping a needle can approximate pi.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/buffons-needle-drop/icon.png",
       "tags": [
         "Math",
         "Code",
         "MatLab",
         "Poster"
       ],
-      "icon": "/static/images/projects/buffons-needle-drop/icon.png",
-      "photos": [
-      ]
+      "short": "A poster and  monte carlo simulation to show how dropping a needle can approximate pi."
     },
     {
       "name": "Grind, Level Design",
-      "link": "grind",
       "date": "Sep 2017",
-      "short": "Created a multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/grind/icon.png",
       "tags": [
         "CSGO",
         "Level Design"
       ],
-      "icon": "/static/images/projects/grind/icon.png",
-      "photos": [
-      ]
+      "short": "Created a multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre."
     },
     {
       "name": "Graph Theory",
-      "link": "graph-thoery",
       "date": "Aug 2017",
-      "short": "Researched graph theory and developed a technique to answer a wide range of combinatorial questions.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/graph-theory/icon.png",
       "tags": [
         "Research",
         "Math",
         "Poster"
       ],
-      "icon": "/static/images/projects/graph-theory/icon.png",
-      "photos": [
-      ]
+      "short": "Researched graph theory and developed a technique to answer a wide range of combinatorial questions."
     },
     {
       "name": "ODE Technical Manual",
-      "nameLong": "Technical Manual for Ordinary Differential Equations",
-      "link": "ode-technical-manual",
       "date": "Jul 2017",
-      "short": "Wrote a study manual and problem sets going over Ordinary Differential Equals and techniques to solve them",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/ode-technical-manual/icon.png",
       "tags": [
         "Book",
         "Math"
       ],
-      "icon": "/static/images/projects/ode-technical-manual/icon.png",
-      "photos": [
-      ]
+      "short": "Wrote a study manual and problem sets going over Ordinary Differential Equals and techniques to solve them"
     },
     {
       "name": "8 bit Arithmetic Logic Unit",
-      "link": "arithmetic-logic-unit",
       "date": "May 2017",
-      "short": "Designed and built a digital circuit to do basic math functions for my electrical engineering course.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/8bit-logic-unit/icon.png",
       "tags": [
         "Math",
         "Hardware"
       ],
-      "icon": "/static/images/projects/8bit-logic-unit/icon.png",
-      "photos": [
-      ]
+      "short": "Designed and built a digital circuit to do basic math functions for my electrical engineering course."
     },
     {
       "name": "De Bruijn",
-      "link": "de-bruijn",
       "date": "Aug 2016",
-      "short": "Research and developed algorithms to find de Bruijn graphs, sequences, and extensions",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/debruijn/icon.png",
       "tags": [
         "Math",
         "Research",
         "Code"
       ],
-      "icon": "/static/images/projects/debruijn/icon.png",
-      "photos": [
-      ]
+      "short": "Research and developed algorithms to find de Bruijn graphs, sequences, and extensions"
     },
     {
       "name": "Online Sprinkler Control System",
-      "link": "online-sprinkler-control-system",
       "date": "Jun 2015",
-      "short": "Built an Arduino system to control and schedule sprinklers from a web application.",
-      "long": "",
-      "status": "Finished",
+      "icon": "/static/images/projects/online-sprinkler-control/icon.png",
       "tags": [
         "Code",
         "Hardware"
       ],
-      "icon": "/static/images/projects/online-sprinkler-control/icon.png",
-      "photos": [
-      ]
+      "short": "Built an Arduino system to control and schedule sprinklers from a web application."
     }
   ]
 }

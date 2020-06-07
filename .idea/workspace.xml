@@ -3,96 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/json/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/json/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/json/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/json/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/json/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/json/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/home/html/landing_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/html/landing_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/home/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/home/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/projects/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/timeline/html/landing_timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/timeline/html/landing_timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/chip.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/chip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/timeline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/8bit-logic-unit/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/8bit-logic-unit/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/a-new-way-to-knit/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/a-new-way-to-knit/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/about/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/birthday-paradox/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/birthday-paradox/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/blackjack/Bet.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/blackjack/Bet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/blackjack/Moves.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/blackjack/Moves.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/blackjack/RoundEnd.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/blackjack/RoundEnd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/blackjack/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/blackjack/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/buffons-needle-drop/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/buffons-needle-drop/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/category/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/category/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/debruijn/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/debruijn/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/double-pendulum/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/double-pendulum/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/dynamic-systems/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/dynamic-systems/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/flappy-bird-ai/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/flappy-bird-ai/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/graph-theory/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/graph-theory/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/grind/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/grind/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/about/hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/laplacian/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/laplacian/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/mapcore-infographic/mapcore_infographic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/mapcore-infographic/mapcore_infographic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/mouse-listener/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/mouse-listener/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/neolithic-transition/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/neolithic-transition/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/notakto/First Turn.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/notakto/First Turn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/notakto/Last Turn.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/notakto/Last Turn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/notakto/Options.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/notakto/Options.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/notakto/Title.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/notakto/Title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/notakto/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/notakto/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/ode-technical-manual/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/ode-technical-manual/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/one-cut/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/one-cut/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/online-sprinkler-control/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/online-sprinkler-control/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/portfolio/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/portfolio/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/powerline-communication/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/powerline-communication/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/seattle-fire-dispatch/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/seattle-fire-dispatch/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/svd/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/svd/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/count_color.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/count_color.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/dist_odo.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/dist_odo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/dist_price.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/dist_price.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/dist_year.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/dist_year.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/make_count.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/make_count.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/map_milage.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/map_milage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/map_price.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/map_price.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/map_year.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/map_year.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/odo_year.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/odo_year.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/price_brand.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/price_brand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/used-car-analysis/price_year.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/used-car-analysis/price_year.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/ColorSpec_CrossSections.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/ColorSpec_CrossSections.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/ColorSpec_Histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/ColorSpec_Histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/ColorSpec_RegionSelect.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/ColorSpec_RegionSelect.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/CryAnalysis_AngleAndMagnitude.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/CryAnalysis_AngleAndMagnitude.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/CryAnalysis_Material.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Material.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/CryAnalysis_Orientations.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Orientations.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/CryAnalysis_Regions.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Regions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/LineSpec_Data.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/LineSpec_Data.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/Poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/Poster.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/SpecLine_Region.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/SpecLine_Region.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/TornadoPulse_MachineVision.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/TornadoPulse_MachineVision.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/TornadoPulse_Sample.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/TornadoPulse_Sample.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vapor-to-particle-reaction/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vapor-to-particle-reaction/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vending-machine/Purchase.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vending-machine/Purchase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/vending-machine/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/vending-machine/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_1_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_1_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_2_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_2_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_3_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_3_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_4_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_4_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_5_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_5_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Forest_6_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Forest_6_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Land_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Land_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Land_1_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Land_1_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Land_2_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Land_2_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Land_3_Final.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Land_3_Final.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi-diagram-art/Poster Art.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi-diagram-art/Poster Art.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/voronoi/icon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/voronoi/icon.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/waerden/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/waerden/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/images/website-scraper/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/images/projects/website-scraper/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,45 +129,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590899219905" />
-    <state width="999" height="269" key="GridCell.Tab.0.bottom" timestamp="1591491261848">
+    <state width="1899" height="269" key="GridCell.Tab.0.bottom" timestamp="1591497623800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="999" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591491261848" />
+    <state width="1899" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591497623800" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="999" height="269" key="GridCell.Tab.0.center" timestamp="1591491261848">
+    <state width="1899" height="269" key="GridCell.Tab.0.center" timestamp="1591497623800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="999" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591491261848" />
+    <state width="1899" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591497623800" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="999" height="269" key="GridCell.Tab.0.left" timestamp="1591491261847">
+    <state width="1899" height="269" key="GridCell.Tab.0.left" timestamp="1591497623800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="999" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591491261847" />
+    <state width="1899" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591497623800" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="999" height="269" key="GridCell.Tab.0.right" timestamp="1591491261848">
+    <state width="1899" height="269" key="GridCell.Tab.0.right" timestamp="1591497623800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="999" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591491261848" />
+    <state width="1899" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591497623800" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="950" height="347" key="GridCell.Tab.1.bottom" timestamp="1591053796012">
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom" timestamp="1591496898965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898965" />
     <state width="1153" height="355" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="950" height="347" key="GridCell.Tab.1.center" timestamp="1591053796012">
+    <state width="1019" height="347" key="GridCell.Tab.1.center" timestamp="1591496898963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
+    <state width="1019" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
     <state width="1153" height="355" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="950" height="347" key="GridCell.Tab.1.left" timestamp="1591053796012">
+    <state width="1019" height="347" key="GridCell.Tab.1.left" timestamp="1591496898963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
+    <state width="1019" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
     <state width="1153" height="355" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="950" height="347" key="GridCell.Tab.1.right" timestamp="1591053796012">
+    <state width="1019" height="347" key="GridCell.Tab.1.right" timestamp="1591496898963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591053796012" />
+    <state width="1019" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
     <state width="1153" height="355" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
     <state x="345" y="245" key="RollbackChangesDialog" timestamp="1589437383265">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -295,13 +209,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/webApp/build_static.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

@@ -127,6 +127,8 @@
                             <img class="card-image activator" src="/static/images/dev.jpg">
                         {% endif %}
                     </div>
+
+                    <!-- Card Content -->
                     <div class="card-content activator">
                         <!-- Project Name -->
                         <span id="title" class="no-margin-bottom card-title activator grey-text text-darken-4" title="{{project['name']}}">
@@ -161,6 +163,8 @@
                             <i class="material-icons right activator">more_vert</i>
                         {% endif %}
                     </div>
+
+                    <!-- Card Reveal -->
                     {% if 'short' in project %}
                         <div class="card-reveal">
                             <div class="row no-margin-top no-margin-bottom">
@@ -179,9 +183,14 @@
                             <p>{{project['short']}}</p>
 
                             <div class="bottom-aligned">
-                                <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
+                                {% if ('long' in project) or ('html' in project) %}
+                                    <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
+                                {% endif %}
+                                {% if (('long' in project) or ('html' in project)) and ('github' in project) %}
+                                    <span> | </span>
+                                {% endif %}
                                 {% if 'github' in project %}
-                                    <span><a class="github" href={{project['github']}}> | Github</a></span>
+                                    <span><a class="github" href={{project['github']}}>Github</a></span>
                                 {% endif %}
                             </div>
                         </div>
