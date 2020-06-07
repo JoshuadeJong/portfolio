@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- Custom css and js -->
     <script type="text/javascript" src="{{ url_for('static', filename = 'js/modal.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/modal.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
@@ -38,7 +39,7 @@
         {% if (project['long'] is not none) or (project['html'] is not none) %}
         <div id="modal-{{ project['name'] }}" class="modal modal-window">
             <!-- Close Button -->
-            <a href="#!" class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+            <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
                 <i class="material-icons">
                     close
                 </i>
@@ -89,9 +90,10 @@
                     {% endif %}
 
                     <!-- Project Photos -->
-                    {% if project['photos'] is not none%}
+                    {% if 'photos' in project %}
                         <h5>Images</h5>
                         <hr class="hr-one">
+
                     {% endif %}
 
                     <!-- Skills & Tech -->
@@ -148,20 +150,30 @@
                                 </div>
                             </div>
                         {% endif %}
-                        <!-- Read More -->
-                        {% if ('long' in project) or ('html' in project) %}
-                            <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
-                        {% endif %}
-                        {% if (('long' in project) or ('html' in project)) and ('github' in project) %}
-                            <span> | </span>
-                        {% endif %}
-                        {% if 'github' in project %}
-                            <span><a class="github" href={{project['github']}}>Github</a></span>
-                        {% endif %}
-                        <!-- show more -->
-                        {% if 'short' in project %}
-                            <i class="material-icons right activator">more_vert</i>
-                        {% endif %}
+                        <div class="row no-margin">
+                            <!-- Read More -->
+                            <div class="col col-reveal-title">
+                                {% if ('long' in project) or ('html' in project) %}
+                                    <span><a class="modal-trigger" href="#modal-{{ project['name'] }}">Read More</a></span>
+                                {% endif %}
+                                {% if (('long' in project) or ('html' in project)) and ('github' in project) %}
+                                    <span> | </span>
+                                {% endif %}
+                                {% if 'github' in project %}
+                                    <span><a class="github" href={{project['github']}}>Github</a></span>
+                                {% endif %}
+                            </div>
+
+                            <!-- show more -->
+                            <div class="col col-reveal-icon">
+                                {% if 'short' in project %}
+                                    <span>
+                                        <i class="material-icons right activator">more_vert</i>
+                                    </span>
+                                {% endif %}
+                            </div>
+                        </div>
+
                     </div>
 
                     <!-- Card Reveal -->

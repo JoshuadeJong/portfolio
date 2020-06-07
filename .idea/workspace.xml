@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/about/html/landing_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/json/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/json/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/css/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/js/modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +203,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1591492089340" />
+    <state x="851" y="0" width="1076" height="527" key="dock-window-4" timestamp="1591513197764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="851" y="0" width="1076" height="527" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1591513197764" />
+    <state x="233" y="0" width="592" height="1026" key="dock-window-5" timestamp="1591511428628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="233" y="0" width="592" height="1026" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1591511428628" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590565377114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

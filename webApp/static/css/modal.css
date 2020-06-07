@@ -74,6 +74,12 @@ img.icon-image {
     padding: 12px 24px 12px 24px;
 }
 
+.img-carousel{
+    position: relative;
+    max-height: 400px;
+    width: auto;
+}
+
 /* Footer */
 .modal .modal-footer{
     height: unset;

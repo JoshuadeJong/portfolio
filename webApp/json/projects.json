@@ -40,7 +40,25 @@
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/Used-Car-EDA",
-      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist."
+      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist.",
+      "long": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget mattis orci. Aliquam vestibulum elit orci, sed elementum sapien tempus sit amet. Aenean vitae sodales sapien. Morbi scelerisque diam vel tincidunt consequat. Etiam in ipsum semper, porttitor turpis non, efficitur libero. Nunc ut auctor ante. Maecenas dictum ac leo sed efficitur. Aenean molestie est et nisi fringilla, quis blandit lacus semper. Aenean viverra, velit vel vestibulum varius, urna elit volutpat eros, eget porttitor sapien ex sit amet libero. Mauris fringilla nisi ac volutpat sagittis. Nullam magna ipsum, consequat ut pellentesque eu, dapibus eget libero. Aenean interdum rutrum turpis ac volutpat. Suspendisse feugiat venenatis nisi, eu aliquam augue scelerisque vitae.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna."
+      ],
+      "photos": [
+        {
+          "path": "/static/images/projects/used-car-analysis/count_color.png",
+          "caption": "The number of used cars for sale on Craigslist by color."
+        },
+        {
+          "path": "/static/images/projects/used-car-analysis/map_milage.png",
+          "caption": "A map showing the mean milage of a car sold on Craigslist by state."
+        },
+        {
+          "path": "/static/images/projects/used-car-analysis/dist_year.png",
+          "caption": "A histogram the percent of cars sold on Craigslist by their year."
+        }
+      ]
     },
     {
       "name": "Notakto",
@@ -109,7 +127,8 @@
         "Math",
         "Poster"
       ],
-      "short": "A brief introduction to category theory created for my real analysis course."
+      "short": "A brief introduction to category theory created for my real analysis course.",
+      "long": ["HEllo"]
     },
     {
       "name": "Neolithic Transition",
