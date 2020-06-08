@@ -7,6 +7,10 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- flickity -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+
     <!-- Custom css and js -->
     <script type="text/javascript" src="{{ url_for('static', filename = 'js/modal.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/modal.css') }}">
@@ -17,6 +21,7 @@
 
 {% block base_body %}
  <div class="container">
+
      <!-- Filter -->
      {% if tags is not none %}
         <div class="row">
@@ -38,80 +43,89 @@
     {% for project in projects %}
         {% if (project['long'] is not none) or (project['html'] is not none) %}
         <div id="modal-{{ project['name'] }}" class="modal modal-window">
-            <!-- Close Button -->
-            <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
-                <i class="material-icons">
-                    close
-                </i>
-            </a>
+            <div class="modal-padding"></div>
+            <div class="modal-background">
+                <!-- Close Button -->
+                <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
+                    <i class="material-icons">
+                        close
+                    </i>
+                </a>
 
-            <!-- Modal Header -->
-            <div class="modal-header row no-margin-bottom">
-                <!-- Project Icon -->
-                <div class="col col-icon">
-                    <div class="icon-container">
-                        <img class="icon-image" src={{project['icon']}}>
+                <!-- Modal Header -->
+                <div class="modal-header row no-margin-bottom">
+                    <!-- Project Icon -->
+                    <div class="col col-icon">
+                        <div class="icon-container">
+                            <img class="icon-image" src={{project['icon']}}>
+                        </div>
+                    </div>
+
+                    <!-- Project Title & Tags -->
+                    <div class="col col-title">
+                        <div class="center-if-small title-margin">
+                            <span class="modal-title">
+                                {{ project['name'] }}
+                            </span>
+                            {% if 'tags' in project %}
+                                <div class="md-chips container-inner ">
+                                    {% for tag in project['tags'] %}
+                                    <div class="md-chip md-chip-clickable">
+                                        <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
+                                            {{tag}}
+                                        </a>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project Title & Tags -->
-                <div class="col col-title">
-                    <div class="center-if-small title-margin">
-                        <span class="modal-title">
-                            {{ project['name'] }}
-                        </span>
-                        {% if 'tags' in project %}
-                            <div class="md-chips container-inner ">
-                                {% for tag in project['tags'] %}
-                                <div class="md-chip md-chip-clickable">
-                                    <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
-                                        {{tag}}
-                                    </a>
-                                </div>
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <!-- Custom Layout -->
+                    {% if 'html' in project %}
+
+                    <!-- Auto Content -->
+                    {% else %}
+                        <!-- Project Description -->
+                        {% if 'long' in project %}
+                            {% for par in project['long'] %}
+                                <p>{{par|safe}}</p>
+                            {% endfor %}
+                        {% endif %}
+
+                        <!-- Project Photos -->
+                        {% if 'photos' in project %}
+                            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "imagesLoaded": true }'>
+                                {% for block in project['photos'] %}
+                                    <div class="gallery-cell">
+                                        <img class="carousel-image" src={{block['path']}}>
+                                        {{block['caption']}}
+                                    </div>
                                 {% endfor %}
                             </div>
                         {% endif %}
-                    </div>
+
+                        <!-- Skills & Tech -->
+
+                    {% endif %}
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <hr class="hr-one">
+                    <span>
+                        {% if 'date' in project %}
+                            <a class="status">Released: {{project['date']}}</a>
+                        {% else %}
+                            <a class="status">Work in Progress</a>
+                        {% endif %}
+                    </span>
                 </div>
             </div>
-
-            <!-- Modal Content -->
-            <div class="modal-content">
-                <!-- Custom Layout -->
-                {% if 'html' in project %}
-
-                <!-- Auto Content -->
-                {% else %}
-                    <!-- Project Description -->
-                    {% if 'long' in project %}
-                        {% for par in project['long'] %}
-                            <p>{{par|safe}}</p>
-                        {% endfor %}
-                    {% endif %}
-
-                    <!-- Project Photos -->
-                    {% if 'photos' in project %}
-                        <h5>Images</h5>
-                        <hr class="hr-one">
-
-                    {% endif %}
-
-                    <!-- Skills & Tech -->
-
-                {% endif %}
-            </div>
-
-            <!-- Modal Footer -->
-            <div class="modal-footer">
-                <hr class="hr-one">
-                <span>
-                    {% if 'date' in project %}
-                        <a class="status">Released: {{project['date']}}</a>
-                    {% else %}
-                        <a class="status">Work in Progress</a>
-                    {% endif %}
-                </span>
-            </div>
+            <div class="modal-padding"></div>
         </div>
         {% endif %}
     {% endfor %}
@@ -150,7 +164,7 @@
                                 </div>
                             </div>
                         {% endif %}
-                        <div class="row no-bottom-margin">
+                        <div class="row no-margin-bottom">
                             <!-- Read More -->
                             <div class="col col-reveal-title">
                                 {% if ('long' in project) or ('html' in project) %}

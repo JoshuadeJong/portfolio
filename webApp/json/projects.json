@@ -69,10 +69,7 @@
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Notakto",
-      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.",
-      "html": "",
-      "long": [],
-      "photos": []
+      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against."
     },
     {
       "name": "Mouse Listener",
@@ -127,8 +124,7 @@
         "Math",
         "Poster"
       ],
-      "short": "A brief introduction to category theory created for my real analysis course.",
-      "long": ["HEllo"]
+      "short": "A brief introduction to category theory created for my real analysis course."
     },
     {
       "name": "Neolithic Transition",
