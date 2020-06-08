@@ -18,7 +18,10 @@
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/portfolio",
-      "short": "My personal portfolio and personal website! If you are reading this you are on my website!"
+      "short": "My personal portfolio and personal website! If you are reading this you are on my website!",
+      "long": [
+                "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna."
+      ]
     },
     {
       "name": "Website Scraper",
@@ -29,7 +32,18 @@
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/Tea-Scrapper",
-      "short": "A beautiful soup script to scrap data from North America's largest tea distributor."
+      "short": "A beautiful soup script to scrap data from North America's largest tea distributor.",
+      "long": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget mattis orci. Aliquam vestibulum elit orci, sed elementum sapien tempus sit amet. Aenean vitae sodales sapien. Morbi scelerisque diam vel tincidunt consequat. Etiam in ipsum semper, porttitor turpis non, efficitur libero. Nunc ut auctor ante. Maecenas dictum ac leo sed efficitur. Aenean molestie est et nisi fringilla, quis blandit lacus semper. Aenean viverra, velit vel vestibulum varius, urna elit volutpat eros, eget porttitor sapien ex sit amet libero. Mauris fringilla nisi ac volutpat sagittis. Nullam magna ipsum, consequat ut pellentesque eu, dapibus eget libero. Aenean interdum rutrum turpis ac volutpat. Suspendisse feugiat venenatis nisi, eu aliquam augue scelerisque vitae.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna.",
+        "Suspendisse vel lobortis quam. Mauris congue sit amet sem sit amet consectetur. Pellentesque a turpis purus. Vivamus blandit augue eu lacus lacinia fringilla. Sed pellentesque erat at eros molestie lacinia. Vestibulum blandit posuere dapibus. Donec eu tellus quis nisi iaculis posuere non ac urna."
+      ]
     },
     {
       "name": "Used Car Analysis",

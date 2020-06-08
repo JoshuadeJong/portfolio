@@ -42,8 +42,8 @@
     <!-- Build Modal -->
     {% for project in projects %}
         {% if (project['long'] is not none) or (project['html'] is not none) %}
-        <div id="modal-{{ project['name'] }}" class="modal modal-window">
-            <div class="modal-padding"></div>
+        <div id="modal-{{ project['name'] }}" class="modal modal-window modal-action modal-close">
+            <div class="modal-padding modal-action modal-close"></div>
             <div class="modal-background">
                 <!-- Close Button -->
                 <a class="modal-action modal-close modal-quit-button btn-floating btn-small waves-effect waves-light">
@@ -125,7 +125,7 @@
                     </span>
                 </div>
             </div>
-            <div class="modal-padding"></div>
+            <div class="modal-padding modal-action modal-close"></div>
         </div>
         {% endif %}
     {% endfor %}
