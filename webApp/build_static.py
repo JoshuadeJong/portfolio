@@ -6,6 +6,13 @@ import glob
 
 freezer = Freezer(app)
 
+@freezer.register_generator
+def error_handlers():
+    yield "/403.html"
+    yield "/404.html"
+    yield "/500.html"
+    yield "/501.html"
+
 if __name__ == '__main__':
     # Create the static pages
     freezer.freeze()

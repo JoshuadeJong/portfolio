@@ -28,6 +28,7 @@
 }
 
 .modal-padding{
+    background-color: transparent;
     cursor: unset !important;
     height: 7.5%;
     max-height: 50px;
