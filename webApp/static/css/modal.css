@@ -1,9 +1,13 @@
 .modal-window{
+    /* Sizing */
     max-width: 928px !important;
     width: 85% !important;
     height: 100%;
     max-height: unset;
+
+    /* Background Color */
     background-color: transparent;
+
     /* overflow */
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -17,9 +21,22 @@
     display: none;  /* Safari and Chrome */
 }
 
+.flex-window {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
 .modal-padding{
     cursor: unset !important;
-    height: 50px;
+    height: 7.5%;
+    max-height: 50px;
+    min-height: 20px;
+}
+
+.modal-padding-extra{
+    cursor: unset !important;
+    flex-grow: 1;
 }
 
 .modal-background{
@@ -27,7 +44,6 @@
     webkit-box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
     box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
 }
-
 
 /* Quit Button */
 .modal-quit-button{
