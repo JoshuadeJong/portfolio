@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959e5b2b-1fbd-4c83-b870-547ca6278376" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/build_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/pages/errors/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/errors/handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/static/css/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/css/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/json/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/json/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/pages/projects/html/landing_projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/static/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/static/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/templates/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/templates/card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bgbZHp6qQ04E8KGVcZpStBFqoX" />
   <component name="ProjectViewState">
@@ -49,7 +58,7 @@
       <recent name="C:\Repositories\portfolio\rawImages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Deploy Static">
+  <component name="RunManager" selected="Python.Run Locally">
     <configuration name="Deploy Static" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="portfolio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,14 +101,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.Run Locally" />
-      <item itemvalue="Python.Deploy Static" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Deploy Static" />
         <item itemvalue="Python.Run Locally" />
+        <item itemvalue="Python.Deploy Static" />
       </list>
     </recent_temporary>
   </component>
@@ -128,45 +133,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590899219905" />
-    <state width="896" height="268" key="GridCell.Tab.0.bottom" timestamp="1591686984406">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1592262486157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="896" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591686984406" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592262486157" />
+    <state width="1274" height="268" key="GridCell.Tab.0.bottom" timestamp="1592467033635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1274" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592467033635" />
     <state width="1153" height="355" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="896" height="268" key="GridCell.Tab.0.center" timestamp="1591686984405">
+    <state width="1274" height="268" key="GridCell.Tab.0.center" timestamp="1592467033635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="896" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591686984405" />
+    <state width="1274" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592467033635" />
     <state width="1153" height="355" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="896" height="268" key="GridCell.Tab.0.left" timestamp="1591686984404">
+    <state width="1274" height="268" key="GridCell.Tab.0.left" timestamp="1592467033635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="896" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591686984404" />
+    <state width="1274" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592467033635" />
     <state width="1153" height="355" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="896" height="268" key="GridCell.Tab.0.right" timestamp="1591686984405">
+    <state width="1274" height="268" key="GridCell.Tab.0.right" timestamp="1592467033635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="896" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591686984405" />
+    <state width="1274" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592467033635" />
     <state width="1153" height="355" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="1019" height="347" key="GridCell.Tab.1.bottom" timestamp="1591496898965">
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom" timestamp="1592261853574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1019" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898965" />
+    <state width="1019" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592261853574" />
     <state width="1153" height="355" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="1019" height="347" key="GridCell.Tab.1.center" timestamp="1591496898963">
+    <state width="1019" height="347" key="GridCell.Tab.1.center" timestamp="1592261853573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1019" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
+    <state width="1019" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592261853573" />
     <state width="1153" height="355" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
-    <state width="1019" height="347" key="GridCell.Tab.1.left" timestamp="1591496898963">
+    <state width="1019" height="347" key="GridCell.Tab.1.left" timestamp="1592261853573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1019" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
+    <state width="1019" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592261853573" />
     <state width="1153" height="355" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549009" />
-    <state width="1019" height="347" key="GridCell.Tab.1.right" timestamp="1591496898963">
+    <state width="1019" height="347" key="GridCell.Tab.1.right" timestamp="1592261853574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1019" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591496898963" />
+    <state width="1019" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592261853574" />
     <state width="1153" height="355" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589174549010" />
     <state x="345" y="245" key="RollbackChangesDialog" timestamp="1589437383265">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -181,10 +190,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="647" height="703" key="XDebugger.FullValuePopup/0.0.2560.1400@0.0.2560.1400" timestamp="1589141465959" />
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591070037137">
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1592466313036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591070037137" />
+    <state x="240" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592466313036" />
     <state x="361" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591160058995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,20 +218,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="0" width="592" height="1026" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1591511428628" />
+    <state x="604" y="140" key="new project wizard" timestamp="1592262508881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592262508881" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590565377114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590565377114" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

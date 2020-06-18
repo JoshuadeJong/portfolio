@@ -48,7 +48,7 @@ This json file is used to generate the home and the about page. The fields conta
         * `name`: [String] The name of the skill.
         * `level`: [String] Your level of competence in the skill. From least experiences for most the choices are `novice`, `skilled`, `proficient`, `advanced`, `expert`.
         * `image`: [Image Path] The path to the images icon.
-* `projects`: [String Array] (Optional) The names of project you wish to highlight. The project names much match a project name found in `project.json`.
+* `projects`: [String Array] (Optional) The names of project you wish to highlight. The project names must match a project name found in `project.json`.
 
 ### `timeline.json`
 This json file is used to generate the timeline page. The fields are as follows:
