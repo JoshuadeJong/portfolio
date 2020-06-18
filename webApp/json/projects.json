@@ -83,7 +83,8 @@
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Notakto",
-      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against."
+      "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.",
+      "html": "/project_pages/notakto.html"
     },
     {
       "name": "Mouse Listener",

@@ -153,3 +153,13 @@ img.icon-image {
     width: 100%;
     object-fit: contain
 }
+
+
+/* Content */
+.ul-bullets {
+    padding-left: 30px !important;
+}
+
+.ul-bullets li {
+    list-style-type: disc !important;
+}

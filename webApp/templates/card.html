@@ -48,7 +48,7 @@
                     <div class="modal-content">
                         <!-- Custom Layout -->
                         {% if 'html' in project %}
-
+                            {% include project['html'] %}
                         <!-- Auto Content -->
                         {% else %}
                             <!-- Project Description -->
@@ -58,18 +58,18 @@
                                 {% endfor %}
                             {% endif %}
 
-                            <!-- Project Photos -->
-                            {% if 'photos' in project %}
-                                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "imagesLoaded": true, "resize": true }'>
-                                    {% for block in project['photos'] %}
-                                        <div class="gallery-cell" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
-                                            <img class="carousel-image" data-flickity-lazyload={{block['path']}}>
-                                        </div>
-                                    {% endfor %}
-                                </div>
-                            {% endif %}
+                        <!-- Project Photos -->
+                        {% if 'photos' in project %}
+                            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "imagesLoaded": true, "resize": true }'>
+                                {% for block in project['photos'] %}
+                                    <div class="gallery-cell" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
+                                        <img class="carousel-image" data-flickity-lazyload={{block['path']}}>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
 
-                            <!-- Skills & Tech -->
+                        <!-- Skills & Tech -->
 
                         {% endif %}
                     </div>
