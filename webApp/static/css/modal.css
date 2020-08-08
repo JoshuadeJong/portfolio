@@ -113,13 +113,13 @@ img.icon-image {
 
 /* Container */
 .modal .modal-content{
-    padding: 12px 24px 12px 24px;
+    padding: 12px 30px 12px 30px;
 }
 
 /* Footer */
 .modal .modal-footer{
     height: unset;
-    padding: 0px 24px 12px 24px;
+    padding: 0px 30px 12px 30px;
 }
 
 /* Other */
@@ -162,4 +162,31 @@ img.icon-image {
 
 .ul-bullets li {
     list-style-type: disc !important;
+}
+
+.title-box{
+    opacity: 0.4;
+    font-size: 16px;
+    color: #000000;
+}
+
+.title-box:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-decoration: none;
+}
+
+.title-logo{
+    height:28px;
+    width:28px;
+    margin: 0px 4px 0px 4px;
+    text-decoration:none;
+    vertical-align: bottom;
+    color: #000000 !important;
+}
+
+.title-logo:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    text-decoration:none;
 }

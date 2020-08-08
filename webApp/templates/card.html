@@ -30,7 +30,7 @@
                                     {{ project['name'] }}
                                 </span>
                                 {% if 'tags' in project %}
-                                    <div class="md-chips container-inner ">
+                                    <div class="md-chips container-inner" style="overflow-x: hidden;">
                                         {% for tag in project['tags'] %}
                                         <div class="md-chip md-chip-clickable">
                                             <a class="md-chip-link" href="{{ url_for('projects.landing', tags=tag) }}">
@@ -38,6 +38,16 @@
                                             </a>
                                         </div>
                                         {% endfor %}
+                                    </div>
+                                {% endif %}
+                                {% if project['github'] is not none %}
+                                    <div style="margin-top: 8px;">
+                                        <span class="title-box">
+                                            <a target="_blank" href={{project['github']}}>
+                                                <img class="title-logo" src="static/images/github.svg">
+                                            </a>
+                                            Github
+                                        </span>
                                     </div>
                                 {% endif %}
                             </div>
@@ -57,6 +67,7 @@
                                     <p>{{par|safe}}</p>
                                 {% endfor %}
                             {% endif %}
+                        {% endif %}
 
                         <!-- Project Photos -->
                         {% if 'photos' in project %}
@@ -71,7 +82,6 @@
 
                         <!-- Skills & Tech -->
 
-                        {% endif %}
                     </div>
 
                     <!-- Modal Footer -->
