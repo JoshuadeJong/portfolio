@@ -164,28 +164,28 @@ img.icon-image {
     list-style-type: disc !important;
 }
 
-.title-box{
+.media-box{
     opacity: 0.4;
     font-size: 16px;
     color: #000000;
 }
 
-.title-box:hover{
+.media-box:hover{
     opacity: 0.8;
     filter: alpha(opacity=80);
     text-decoration: none;
 }
 
-.title-logo{
-    height:28px;
-    width:28px;
+.media-logo{
+    height:27px;
+    width:27px;
     margin: 0px 4px 0px 4px;
     text-decoration:none;
     vertical-align: bottom;
     color: #000000 !important;
 }
 
-.title-logo:hover{
+.media-logo:hover{
     opacity: 0.8;
     filter: alpha(opacity=80);
     text-decoration:none;

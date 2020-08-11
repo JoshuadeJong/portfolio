@@ -84,10 +84,7 @@
       ],
       "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
       "short": "A quick demo of how to track a mouse events in Java for a friend.",
-      "long": [
-        "A friend, studing Computer Science in Germany, was struggling implementing mouse events for her Java homework. As it was quite late in the evening in Germany she reached out to her \"American\" friend for help. To help her out I made a very dumbed down version of paint (if I dare even call it that) where you can place colored shapes using the different types of mouse events.",
-        "While this project is not very advanced or impressive, I think it is important to publish example code like this to aid in others' learning. "
-      ]
+      "html": "/project_pages/listener.html"
     },
     {
       "name": "Blackjack",
@@ -125,10 +122,7 @@
       ],
       "github": "https://github.com/ManVanMaan/Vending-Machine",
       "short": "A terminal based vending machine written in C with virtual snacks and prices.",
-      "long": [
-        "During an interview I was asked a whiteboard question to design a vending machine in C. After the interview I took the time to implement my solution and identify design issues.",
-        "The program generates a random inventory from a list of possible snacks, sets a price, and a random quantity. The inventory is then displayed to the user in the terminal. The user is then able to select a item from the vending machine and choices how much they want to pay. If the user pays enough money for the snack, the machine dispenses the snack and change."
-      ],
+      "html": "/project_pages/vending_machine.html",
       "photos": [
         {
           "path": "/static/images/projects/vending-machine/Purchase.png",
@@ -190,7 +184,8 @@
         "CSGO",
         "Level Design"
       ],
-      "short": "Created a multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre."
+      "short": "A multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre.",
+      "html": "/project_pages/grind.html"
     },
     {
       "name": "Graph Theory",
