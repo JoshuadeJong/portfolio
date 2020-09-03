@@ -306,7 +306,7 @@
 
 .skilled::after {
     background-color: #FE6100;
-    max-width:70%;
+    max-width:80%;
 }
 
 .skilled {
@@ -314,12 +314,12 @@
 }
 
 .skilled-text {
-    width: 70%;
+    width: 80%;
 }
 
 .proficient::after {
     background-color: #DC267F;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .proficient {
@@ -327,7 +327,7 @@
 }
 
 .proficient-text {
-    width: 80%;
+    width: 70%;
 }
 
 .advanced::after {

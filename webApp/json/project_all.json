@@ -41,7 +41,8 @@
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/Used-Car-EDA",
-      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist."
+      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist.",
+      "html": "/project_pages/usedCarAnalysis.html"
     },
     {
       "name": "Notakto",
@@ -83,10 +84,7 @@
       ],
       "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
       "short": "A quick demo of how to track a mouse events in Java for a friend.",
-      "long": [
-        "A friend, studing Computer Science in Germany, was struggling implementing mouse events for her Java homework. As it was quite late in the evening in Germany she reached out to her \"American\" friend for help. To help her out I made a very dumbed down version of paint (if I dare even call it that) where you can place colored shapes using the different types of mouse events.",
-        "While this project is not very advanced or impressive, I think it is important to publish example code like this to aid in others' learning. "
-      ]
+      "html": "/project_pages/listener.html"
     },
     {
       "name": "Blackjack",

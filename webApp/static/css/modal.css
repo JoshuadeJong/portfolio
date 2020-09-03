@@ -190,3 +190,14 @@ img.icon-image {
     filter: alpha(opacity=80);
     text-decoration:none;
 }
+
+.article-img-container{
+    margin: auto;
+    display: flex;
+}
+
+.article-img{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,94 @@
+<p>
+    A toolset created in Matlab to aid in empirical data collection of vapor-to-particle reactions for a chemistry lab at Colorado State University.
+    The tool set consists of four main programs these being:
+</p>
+<ul>
+    <li>
+        <b>ColorSpec</b>
+        -
+        Analysis the RGB values of an image or video in a given region.
+        The user can specify to break the region into vertical or horizontal slices for further analysis.
+    </li>
+    <li>
+        <b>LineSpec</b>
+        -
+        Analyzes the color intensity and light intensity of an image or video on a given line.
+    </li>
+    <li>
+        <b>Crystal Analysis</b>
+        -
+        Maps regions of a particle or material to show the underlying crystal structure through the use of a 2d fourier transform.
+        If the region consists of only noise or no substantial phase cannot be found, the region is further broken up regions and analysed.
+    </li>
+    <li>
+        <b>TornadoPulse</b>
+        -
+        Analyzes the changing volume and perimeter of a particle cloud.
+        This allows the user to measure the volume of the vortex rings leaving the vapor-to-particle site as well as the frequency.
+    </li>
+</ul>
+
+<h5>Color Spec</h5>
+<p>
+    The user provides a photo or video to be analysed using a gui.
+    Once the media is loaded into memory the user then selects a region of the media.
+    The RGB values from the media is then analyzed as a histogram and then vertical cross sections.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_RegionSelect.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_Histogram.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/ColorSpec_CrossSections.png">
+</div>
+
+<h5>Line Spec</h5>
+<p>
+    The user loads in a photo or video and draws a pixel thin line on the media.
+    The pixels across the user's line are then analyzed per a frame and produces live data.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/SpecLine_region.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/LineSpec_Data.png">
+</div>
+
+<h5>Crystal Analysis</h5>
+<p>
+    The user provides an image from Digital Microscope (dm3).
+    The image is recursively broken up into regions to fit within the edges of the detected particle.
+    Each region then undergoes a 2d fourier transform to detect the orientation of crystalline structure with in the region.
+    Regions are then grouped together using a K clustering algorithm and colored according to its grouping.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Material.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/CryAnalysis_Orientations.png">
+</div>
+
+<h5>Tornado Pulse</h5>
+<p>
+    This application looks as the light intensity from a video and identifies a blob using standard deviations.
+    The area, center and perimeter of the blob are recorded over time, blobs whose center is outside of the blue bounding box are ignored.
+    The tool allows the user to measure the rate at which the aerosol leaves the droplet.
+</p>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/TornadoPulse_Sample.png">
+</div>
+
+<div class="article-img-container">
+    <img class="article-img" src="/static/images/projects/vapor-to-particle-reaction/TornadoPulse_MachineVision.png">
+</div>
+

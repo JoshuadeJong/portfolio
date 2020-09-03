@@ -4,7 +4,6 @@
       "name": "Seattle Fire Dispatch",
       "icon": "/static/images/projects/seattle-fire-dispatch/icon.png" ,
       "tags": [
-        "Code",
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/Seattle-Fire-Dispatch",
@@ -14,121 +13,43 @@
       "name": "Portfolio",
       "icon": "/static/images/projects/portfolio/icon.png",
       "tags": [
-        "Code",
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/portfolio",
-      "short": "My personal portfolio and personal website! If you are reading this you are on my website!",
-      "html": "/project_pages/portfolio.html"
-    },
-    {
-      "name": "Website Scraper",
-      "icon": "/static/images/projects/website-scraper/icon.png",
-      "date": "Dec 2019",
-      "tags": [
-        "Code",
-        "Python"
-      ],
-      "github": "https://github.com/ManVanMaan/Tea-Scrapper",
-      "short": "A beautiful soup script to scrap data from North America's largest tea distributor.",
-      "html": "/project_pages/websiteScraper.html"
-    },
-    {
-      "name": "Used Car Analysis",
-      "icon": "/static/images/projects/used-car-analysis/icon.png",
-      "date": "Nov 2019",
-      "tags": [
-        "Code",
-        "Python"
-      ],
-      "github": "https://github.com/ManVanMaan/Used-Car-EDA",
-      "short": "Exploratory data analysis on the used car market generated from postings on Craigslist."
+      "short": "My personal portfolio and personal website! If you are reading this you are on my website!"
     },
     {
       "name": "Notakto",
       "icon": "/static/images/projects/notakto/icon.png",
       "date": "Aug 2019",
       "tags": [
-        "Code",
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Notakto",
       "short": "A terminal game of Notakto, a variant of tick-tac-toe, with 3 levels of AIs to play against.",
-      "html": "/project_pages/notakto.html",
-      "photos": [
-        {
-          "path": "/static/images/projects/notakto/Title.png",
-          "caption": "The title screen."
-        },
-        {
-          "path": "/static/images/projects/notakto/Options.png",
-          "captions": "The option screen."
-        },
-        {
-          "path": "/static/images/projects/notakto/First Turn.png",
-          "caption": "The first turn against the AI."
-        },
-        {
-          "path": "/static/images/projects/notakto/Last Turn.png",
-          "caption": "The end of round and victory screen."
-        }
-      ]
-    },
-    {
-      "name": "Mouse Listener",
-      "date": "Jul 2019",
-      "icon": "/static/images/projects/mouse-listener/icon.png",
-      "tags": [
-        "Code",
-        "Java"
-      ],
-      "github": "https://github.com/ManVanMaan/Mouse-Listener-Demo",
-      "short": "A quick demo of how to track a mouse events in Java for a friend.",
-      "html": "/project_pages/listener.html"
+      "html": "/project_pages/notakto.html"
     },
     {
       "name": "Blackjack",
       "date": "May 2019",
       "icon": "/static/images/projects/blackjack/icon.png",
       "tags": [
-        "Code",
         "Java"
       ],
       "github": "https://github.com/ManVanMaan/Blackjack",
       "short": "A terminal game of Blackjack writen in Java with an AI dealer and ASCII art.",
-      "html": "/project_pages/blackjack.html",
-      "photos": [
-        {
-          "path": "/static/images/projects/blackjack/Bet.png",
-          "caption": "The title screen and the player's hand."
-        },
-        {
-          "path": "/static/images/projects/blackjack/Moves.png",
-          "caption": "The player's hand after taking a hit."
-        },
-        {
-          "path": "/static/images/projects/blackjack/RoundEnd.png",
-          "caption": "The end of round and player's bank."
-        }
-      ]
+      "html": "/project_pages/blackjack.html"
     },
     {
       "name": "Vending Machine",
       "date": "Mar 2019",
       "icon": "/static/images/projects/vending-machine/icon.png",
       "tags": [
-        "Code",
         "C/C++"
       ],
       "github": "https://github.com/ManVanMaan/Vending-Machine",
       "short": "A terminal based vending machine written in C with virtual snacks and prices.",
-      "html": "/project_pages/vending_machine.html",
-      "photos": [
-        {
-          "path": "/static/images/projects/vending-machine/Purchase.png",
-          "caption": ""
-        }
-      ]
+      "html": "/project_pages/vending_machine.html"
     },
     {
       "name": "Voronoi Diagram Art",
@@ -136,8 +57,7 @@
       "icon": "/static/images/projects/voronoi/icon.gif",
       "tags": [
         "Math",
-        "Art",
-        "Poster"
+        "Art"
       ],
       "github": "https://github.com/ManVanMaan/Voronoi-Art",
       "short": "Code and a poster showing how Voronoi Diagrams could be used to create mosaic like art.",
@@ -149,32 +69,11 @@
       "icon": "/static/images/projects/vapor-to-particle-reaction/icon.png",
       "tags": [
         "Math",
-        "Poster",
         "Code"
       ],
       "github": "https://github.com/ManVanMaan/E.D.C.T",
-      "short": "A compilation of code and posters created while researching chemical reactions."
-    },
-    {
-      "name": "Singular Value Decomposition",
-      "date": "Mar 2018",
-      "icon": "/static/images/projects/svd/icon.png",
-      "tags": [
-        "Math",
-        "Poster"
-      ],
-      "short": "A poster giving a brief introduction to what singular value decomposition is, how it was derived, and how it can be used."
-    },
-    {
-      "name": "Double Pendulum",
-      "date": "Oct 2017",
-      "icon": "static/images/projects/double-pendulum/icon.png",
-      "tags": [
-        "Code",
-        "MatLab"
-      ],
-      "github": "https://github.com/ManVanMaan/Double-Pendulum",
-      "short": "A physics simulation of a two double pendulum with minor differences using the Runge-Kutta method."
+      "short": "A compilation of code and posters created while researching chemical reactions.",
+      "html": "/project_pages/edct.html"
     },
     {
       "name": "Grind, Level Design",
@@ -186,27 +85,6 @@
       ],
       "short": "A multiplayer Counter Strike map with Konstantin Loffler and Cory De La Torre.",
       "html": "/project_pages/grind.html"
-    },
-    {
-      "name": "Graph Theory",
-      "date": "Aug 2017",
-      "icon": "/static/images/projects/graph-theory/icon.png",
-      "tags": [
-        "Research",
-        "Math",
-        "Poster"
-      ],
-      "short": "Researched graph theory and developed a technique to answer a wide range of combinatorial questions."
-    },
-    {
-      "name": "ODE Technical Manual",
-      "date": "Jul 2017",
-      "icon": "/static/images/projects/ode-technical-manual/icon.png",
-      "tags": [
-        "Book",
-        "Math"
-      ],
-      "short": "Wrote a study manual and problem sets going over Ordinary Differential Equals and techniques to solve them"
     }
   ]
 }

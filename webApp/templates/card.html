@@ -40,7 +40,7 @@
                                         {% endfor %}
                                     </div>
                                 {% endif %}
-                                {% if project['github'] is not none %}
+                                {% if 'github' in project %}
                                     <div style="margin-top: 8px;">
                                         <span class="media-box">
                                             <a target="_blank" href={{project['github']}}>
@@ -70,15 +70,6 @@
                         {% endif %}
 
                         <!-- Project Photos -->
-                        {% if 'photos' in project %}
-                            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "imagesLoaded": true, "resize": true }'>
-                                {% for block in project['photos'] %}
-                                    <div class="gallery-cell" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
-                                        <img class="carousel-image" data-flickity-lazyload={{block['path']}}>
-                                    </div>
-                                {% endfor %}
-                            </div>
-                        {% endif %}
 
                         <!-- Skills & Tech -->
 
