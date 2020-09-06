@@ -1,3 +1,4 @@
+# [ManVanMaan.github.io](https://manvanmaan.github.io/)
 
 This is my personal portfolio for hosting my project and information about me!
  Others are free to fork this project and use it as their own.
@@ -10,8 +11,6 @@ Here are some key features of this portfolio!
 * Dynamic page layouts to match your content - no need to fight the layout.
 * Awesome animations to prevent your skills from just being plain text.
 * Developed using Python, Flask, Jinja2, JS, HTML, CSS.
-
-You can view my portfolio at [ManVanMaan.github.io](https://manvanmaan.github.io/)
 
 ## Photos
 ### Home Page
