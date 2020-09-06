@@ -1,5 +1,6 @@
 from flask_frozen import Freezer
 from webApp import app
+from webApp.functions import build_terminal
 import shutil
 import os
 import glob
@@ -14,6 +15,9 @@ def error_handlers():
     yield "/501.html"
 
 if __name__ == '__main__':
+    # Build the terminal.js
+    build_terminal("webapp/static/js")
+
     # Create the static pages
     freezer.freeze()
 

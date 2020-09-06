@@ -26,13 +26,13 @@
                                 <a id="min" class="button" href="#"></a>
                                 <a id="max" class="button" href="#"></a>
                             </div>
-                            <span class="title">~/Public</span>
+                            <span class="title">{{terminal['title']}}</span>
                         </div>
                         <div class="message">
-                            <span class='prompt'><span class='user'>MaanMan</span><span class="at">@web-app</span><span
-                                    class="path">~/Public</span>><span class="caret">$</span></span>
+                            <span class='prompt'><span class='user'>{{terminal['user']}}</span><span class="at">{{terminal['at']}}</span><span
+                                    class="path">{{terminal['path']}}</span>><span class="caret">{{terminal['caret']}}</span></span>
                             <span class="typed"></span>
-                            <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"></input></form>
+                            <form>><span class="caret">{{terminal['caret']}}</span>&nbsp;<input type="text" name="response"></input></form>
                         </div>
                     </div>
                 </div>

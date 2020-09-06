@@ -4,7 +4,8 @@
       "name": "Seattle Fire Dispatch",
       "icon": "/static/images/projects/seattle-fire-dispatch/icon.png" ,
       "tags": [
-        "Python"
+        "Python",
+        "WIP"
       ],
       "github": "https://github.com/ManVanMaan/Seattle-Fire-Dispatch",
       "short": "A dashboard designed to show current and historical data about the Seattle Fire Dispatch."
@@ -12,11 +13,13 @@
     {
       "name": "Portfolio",
       "icon": "/static/images/projects/portfolio/icon.png",
+      "date": "Sep 2020",
       "tags": [
         "Python"
       ],
       "github": "https://github.com/ManVanMaan/portfolio",
-      "short": "My personal portfolio and personal website! If you are reading this you are on my website!"
+      "short": "My personal portfolio and personal website! If you are reading this you are on my website!",
+      "html": "/project_pages/portfolio.html"
     },
     {
       "name": "Notakto",

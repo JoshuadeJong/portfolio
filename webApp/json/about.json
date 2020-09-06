@@ -88,7 +88,7 @@
       "location": "Denver, Colorado",
       "details": [
         "Developed and maintained standardized operational reports and dashboards to monitor sales and inventory.",
-        "Scrapped, wrangled, and analyzed data from competitor's websites to competitively price products.",
+        "Scraped, wrangled, and analyzed data from competitor's websites to competitively price products.",
         "Forcasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
         "Designed and implemented an item recommendation system based off of a customer's current shopping cart."
       ]

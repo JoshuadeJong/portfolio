@@ -1,0 +1,16 @@
+{
+  "title": "~/Public",
+  "user": "MaanMan",
+  "at": "@web-server",
+  "path": "~/Public",
+  "caret": "$",
+  "content": [
+    "./josh.sh info",
+    "skills: coding, data analytics, machine learning, optimization",
+    "job: Software Engineer at <a href='http://www.expeditors.com//'>Expeditors CHQ</a>",
+    "alias: MaanMan",
+    "hobbies: cooking, cello, video games, and beer",
+    "highlight:  <a href='https://github.com/ManVanMaan/Seattle-Fire-Dispatch'>Seattle Fire Dispatch</a>, <a href='https://github.com/ManVanMaan/Notakto'>Notakto</a>"
+  ],
+  "cursor": "_"
+}

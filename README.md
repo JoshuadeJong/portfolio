@@ -2,13 +2,27 @@
 
 
 
+# Run the Portfolio Locally
+To run the portfolio locally use the `webApp/__init__.py` file. 
+
+# Static Website Generator
+This repo contains a static website generator script, `build_static.py`. 
+The script builds a static version of the portfolio using the Frozen-Flask library found on [pypi.org](https://pypi.org/project/Frozen-Flask/).
+All static files are built in `webApp/build` and then deployed to `../*.github.io`.
+
+If you wish to host your own version of this portfolio using github pages. 
+You  need to create a repo called `../<username>.github.io` which lives in the parent director of this project.
+Then by running the `build_static.py` script all static files will be deployed to `../<username>.github.io`. 
+After all files have been deployed make a push to your `<username>.github.io` repo with the changes. 
+Your portfolio will appear at `https://<username>.github.io` after a few minutes of the push.
+
 # Customize Content
 The content of this portfolio is dynamically generated from json files and images in `static/images`. 
-To add or modify content of this portfolio no knowledge of css, html, javascript, python, or flask is required. 
+To add or modify content of this portfolio no knowledge of css, html, javascript, or flask is required. 
 However, knowledge of any of these languages will allow for further customization.
 
 ## Json
-The portfolio is broken up into 3 different json files which populate the content, those being: `about.json`, `projects.json`, and `timeline.json`.
+The portfolio is broken up into 3 different json files which populate the content, those being: `about.json`, `projects.json`, `timeline.json`, and `terminal.json`.
 All of which live inside of the `webApp/json` directory.
 
 ### `about.json`
@@ -72,5 +86,14 @@ This json file is used to generate the project page, project cards and modals. T
     * `github`: [URL] (Optional) A github url to the project's page.
     * `short`: [String] A short description about the project.
     * `html`: [Path] (Optional) A custom html layout for the modal's content section.
-    * `long`: [String Array] (Optional) A long description about the project. Strings can contain HTML and are presented as paragraphs.
-    * `photos`: [Image Path Array] (Optional) An array of paths pointing to images relating to the project.
+    
+### `terminal.json`
+This json file is used to populate the terminal seen on the home or index page of the portfolio. The fields are as follows:
+
+* `title`: [String] The title of the terminal.
+* `user`: [String] The user's alias.
+* `at`: [String] The machine's alias.
+* `path`: [String] The current directory the user is in.
+* `caret`: [String] The output character.
+* `content`: [String Array] The content to be written out. 
+* `cursor`: [String] The input/cursor character.

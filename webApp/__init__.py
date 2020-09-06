@@ -1,5 +1,6 @@
 from flask import Flask
 from webApp.config import Config
+from webApp.functions import build_terminal
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -19,5 +20,7 @@ app.register_blueprint(about_bp)
 
 
 if __name__ == '__main__':
+    print("building terminal.js")
+    build_terminal("./static/js")
     print("running py app")
     app.run(host="127.0.0.1", port=5000, debug=True)
