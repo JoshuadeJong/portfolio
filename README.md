@@ -1,11 +1,43 @@
-# Porfolio
+
+This is my personal portfolio for hosting my project and information about me!
+ Others are free to fork this project and use it as their own.
+
+Here are some key features of this portfolio!
+ 
+* A fully reactive layout friendly for desktop, Iphone, and Android.
+* A modern sleek design to show off you and your projects.
+* An easy way to maintain and update the portfolio without knowing HTML, CSS, or JS. You only need to know Json, and Python!
+* Dynamic page layouts to match your content - no need to fight the layout.
+* Awesome animations to prevent your skills from just being plain text.
+* Developed using Python, Flask, Jinja2, JS, HTML, CSS.
+
+You can view my portfolio at [ManVanMaan.github.io](https://manvanmaan.github.io/)
+
+## Photos
+### Home Page
+![Home page](./webApp/static/images/projects/portfolio/home.png)
+
+### Project Page
+![Project Page](./webApp/static/images/projects/portfolio/project.png)
+
+### Timeline Page
+![Timeline Page](./webApp/static/images/projects/portfolio/timeline.png)
+
+### About Page
+![About Page 1](./webApp/static/images/projects/portfolio/about_1.png)
+...
+![About Page 2](./webApp/static/images/projects/portfolio/about_2.png)
 
 
+# I want to use this!
+You are welcome to use this repo for your own personal portfolio. 
+Just fork this repo and update the content!
+Below is information on how to change the portfolio's content using the `*.json` files.
 
-# Run the Portfolio Locally
+## Run the Portfolio Locally
 To run the portfolio locally use the `webApp/__init__.py` file. 
 
-# Static Website Generator
+## Static Website Generator
 This repo contains a static website generator script, `build_static.py`. 
 The script builds a static version of the portfolio using the Frozen-Flask library found on [pypi.org](https://pypi.org/project/Frozen-Flask/).
 All static files are built in `webApp/build` and then deployed to `../*.github.io`.
@@ -16,16 +48,16 @@ Then by running the `build_static.py` script all static files will be deployed t
 After all files have been deployed make a push to your `<username>.github.io` repo with the changes. 
 Your portfolio will appear at `https://<username>.github.io` after a few minutes of the push.
 
-# Customize Content
+## Customize Content
 The content of this portfolio is dynamically generated from json files and images in `static/images`. 
 To add or modify content of this portfolio no knowledge of css, html, javascript, or flask is required. 
 However, knowledge of any of these languages will allow for further customization.
 
-## Json
-The portfolio is broken up into 3 different json files which populate the content, those being: `about.json`, `projects.json`, `timeline.json`, and `terminal.json`.
+### Json
+The portfolio is broken up into 4 different json files which populate the content, those being: `about.json`, `projects.json`, `timeline.json`, and `terminal.json`.
 All of which live inside of the `webApp/json` directory.
 
-### `about.json`
+##### `about.json`
 This json file is used to generate the home and the about page. The fields contained in the file are as follows
 
 * `name`: [String] Your first and last name.
@@ -64,7 +96,7 @@ This json file is used to generate the home and the about page. The fields conta
         * `image`: [Image Path] The path to the images icon.
 * `projects`: [String Array] (Optional) The names of project you wish to highlight. The project names must match a project name found in `project.json`.
 
-### `timeline.json`
+#### `timeline.json`
 This json file is used to generate the timeline page. The fields are as follows:
 
 * `years`: [List]
@@ -75,7 +107,7 @@ This json file is used to generate the timeline page. The fields are as follows:
         * `desc`: [String] A one paragraph description of the event. HTML is allowed.
         * `link`: [URL] (Optional) You can provide an external link to the event.
 
-### `project.json`
+#### `project.json`
 This json file is used to generate the project page, project cards and modals. The fields are as follows:
 
 * `projects`: [List]
@@ -85,9 +117,11 @@ This json file is used to generate the project page, project cards and modals. T
     * `tags`: [String Array] (Optional) Tags or Hash-tags used to group similar projects. Note: filtering by tags does not work on the static version of this website.
     * `github`: [URL] (Optional) A github url to the project's page.
     * `short`: [String] A short description about the project.
-    * `html`: [Path] (Optional) A custom html layout for the modal's content section.
+    * `long` : [String Array] (Optional) A longer description about the project. Each string creates a new paragraph.
+    * `html`: [Path] (Optional) A custom html page for the modal's content section.
+
     
-### `terminal.json`
+#### `terminal.json`
 This json file is used to populate the terminal seen on the home or index page of the portfolio. The fields are as follows:
 
 * `title`: [String] The title of the terminal.
