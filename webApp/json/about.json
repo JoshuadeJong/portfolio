@@ -5,7 +5,7 @@
   "linkedin": "https://www.linkedin.com/in/joshua-de-jong/",
   "github": "https://github.com/ManVanMaan",
   "welcome": [
-   "I work as a Software Engineer at Expeditors Seattle for the Enterprise Monitoring team. I have a strong understanding of software development and have been helping the team support their legacy products. My work has been responsible for significant stability and performance improvements to the codebase. I also been critical for releasing an new Elasticsearch based monitoring solution for the company.",
+   "I work as a Software Engineer at Expeditors Seattle for the Enterprise Monitoring team. I have a strong understanding of software development and have been helping the team support their legacy products. My work has been responsible for significant stability and performance improvements to the codebase. I also been instrumental for releasing an new Elasticsearch based monitoring solution for the company.",
    "I am always seeking to challenge myself and learn new skills. If you feel I might be the right person for your team feel free to reach out!",
    "You can find me on <a href=\"http://in.linkedin.com/in/joshua-de-jong/\">LinkedIn</a>, or see my repositories <a href=\"https://github.com/ManVanMaan\">here</a>.",
    "Hope to hear from you!",
@@ -74,11 +74,11 @@
       "title": "Software Engineer",
       "location": "Seattle, Washington",
       "details": [
-        "Exponentially improved the performance and stability of mission critical code, reduced 250 minutes of computational to 1 minute per a day.",
-        "Created and maintained fully automated, highly available, zero downtime releases CI/CD pipelines in Gitlab.",
-        "Automated common tickets and tasks improving response time, customer satisfaction, and alleviating work loads.",
-        "Decreased the cost of support of multiple legacy applications by adding test converge, refactoring, and updating architecture.",
-        "Developed an automated test framework for our Logstash pipelines, improving the code quality and maintainability."
+        "Exponentially improved the performance and stability of mission critical code, reduced 250 minutes of computation to 1 minute per a day.",
+        "Created and maintained fully automated, highly available, zero downtime release CI/CD pipelines using Gitlab and Maven.",
+        "Improved response time, customer satisfaction, and alleviated work loads by automating common tasks using Python.",
+        "Built automated test frameworks for config files and Logstash pipelines, improving stability and maintainability.",
+        "Maintained and decreased the cost of support for multiple legacy applications in Java, C, Python, and Bash by adding features, improving testing coverage, refactoring, and updating architecture. "
       ]
     },
     {
@@ -87,10 +87,10 @@
       "title": "Junior Data Analyst",
       "location": "Denver, Colorado",
       "details": [
-        "Developed and maintained standardized operational reports and dashboards to monitor sales and inventory.",
-        "Scraped, wrangled, and analyzed data from competitor's websites to competitively price products.",
-        "Forcasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
-        "Designed and implemented an item recommendation system based off of a customer's current shopping cart."
+        "Implemented an item recommendation system based off of a customer's current shopping cart using scikit-learn.",
+        "Forecasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
+        "Developed and maintained operational reports and dashboards to monitor sales and inventory using Plotly Dash.",
+        "Scraped, wrangled, and analyzed data from competitor's websites to competitively price products using BeautifulSoup, Selenium, and Pandas."
       ]
     },
     {
@@ -99,9 +99,9 @@
       "title": "Research Assistant",
       "location": "Fort Collins, Colorado",
       "details": [
-        "Developed automated systems to aid in analysis and accurate empirical data collection of chemical reactions.",
+        "Developed a machine vision tool set to aid in analysis and accurate empirical data collection of chemical reactions.",
         "Modeled experiments and verified the model's integrity with PDE's, regressions, and cross-validation.",
-        "Created and maintained a relational database to store experiments and analytics for future enquiries.",
+        "Created and maintained a relational database using SQLite to store experiments and analytics for future enquiries.",
         "Dynamically approached problems with a team and taught statistical modeling techniques to junior researchers."
       ]
     }
@@ -130,6 +130,11 @@
           "name": "Scala",
           "level": "novice",
           "image": "/static/images/skills/scala.png"
+        },
+        {
+          "name": "Javascript",
+          "level": "novice",
+          "image": "/static/images/skills/js.png"
         }
       ]
     },
@@ -190,6 +195,11 @@
           "name": "Microsoft SQL",
           "level": "proficient",
           "image": "/static/images/skills/microsoftsql.png"
+        },
+        {
+          "name": "Redis",
+          "level": "novice",
+          "image": "/static/images/skills/redis.png"
         }
       ]
     },
@@ -215,6 +225,16 @@
           "name": "Docker",
           "level": "novice",
           "image": "/static/images/skills/docker.png"
+        },
+        {
+          "name": "Maven",
+          "level": "proficient",
+          "image": "/static/images/skills/maven.png"
+        },
+        {
+          "name": "AWS",
+          "level": "proficient",
+          "image": "/static/images/skills/aws.png"
         }
       ]
     }
