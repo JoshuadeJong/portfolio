@@ -75,10 +75,11 @@
       "location": "Seattle, Washington",
       "details": [
         "Exponentially improved the performance and stability of mission critical code, reduced 250 minutes of computation to 1 minute per a day.",
-        "Created and maintained fully automated, highly available, zero downtime release CI/CD pipelines using Gitlab and Maven.",
-        "Improved response time, customer satisfaction, and alleviated work loads by automating common tasks using Python.",
-        "Built automated test frameworks for config files and Logstash pipelines, improving stability and maintainability.",
-        "Maintained and decreased the cost of support for multiple legacy applications in Java, C, Python, and Bash by adding features, improving testing coverage, refactoring, and updating architecture. "
+        "Empowered our customers by building a web app and REST API with Flask to manage and deploy our products.",
+        "Increased team's knowledge and performance by mentoring team members and promoted best software practices.",
+        "Ensured stability of proprietary and legacy products by creating a test framework in Python for configuration files.",
+        "Built fully automated, highly available, zero downtime release CI/CD pipelines via Gitlab and Maven.",
+        "Decreased the cost of support for multiple legacy applications writen in Java, C, and Python by improving testing coverage, refactoring, and updating architecture."
       ]
     },
     {
@@ -87,10 +88,10 @@
       "title": "Junior Data Analyst",
       "location": "Denver, Colorado",
       "details": [
-        "Implemented an item recommendation system based off of a customer's current shopping cart using scikit-learn.",
+        "Supported day-today-day inquiries providing prompt and efficient resolutions to a wide range of issues using SQL.",
+        "Designed an item recommendation system based on customer's current shopping cart using scikit-learn.",
         "Forecasted company's growth and measured the success of advertising campaigns through the use of A/B Testing.",
-        "Developed and maintained operational reports and dashboards to monitor sales and inventory using Plotly Dash.",
-        "Scraped, wrangled, and analyzed data from competitor's websites to competitively price products using BeautifulSoup, Selenium, and Pandas."
+        "Developed and maintained operational reports and dashboards to monitor sales and inventory."
       ]
     },
     {
@@ -99,9 +100,8 @@
       "title": "Research Assistant",
       "location": "Fort Collins, Colorado",
       "details": [
-        "Developed a machine vision tool set to aid in analysis and accurate empirical data collection of chemical reactions.",
+        "Developed machine vision tools to aid in analysis and accurate empirical data collection of chemical reactions.",
         "Modeled experiments and verified the model's integrity with PDE's, regressions, and cross-validation.",
-        "Created and maintained a relational database using SQLite to store experiments and analytics for future enquiries.",
         "Dynamically approached problems with a team and taught statistical modeling techniques to junior researchers."
       ]
     }
@@ -125,11 +125,6 @@
           "name": "C",
           "level": "skilled",
           "image": "/static/images/skills/c.png"
-        },
-        {
-          "name": "Scala",
-          "level": "novice",
-          "image": "/static/images/skills/scala.png"
         },
         {
           "name": "Javascript",
@@ -169,17 +164,37 @@
       ]
     },
     {
+      "topic": "Frontend",
+      "info": [
+        {
+          "name": "HTML",
+          "level": "advanced",
+          "image": "/static/images/skills/html.png"
+        },
+        {
+          "name": "CSS",
+          "level": "advanced",
+          "image": "/static/images/skills/css.png"
+        },
+        {
+          "name": "Sass",
+          "level": "novice",
+          "image": "/static/images/skills/sass.png"
+        },
+        {
+          "name": "Flask",
+          "level": "expert",
+          "image": "/static/images/skills/flask.png"
+        }
+      ]
+    },
+    {
       "topic": "Databases",
       "info": [
         {
           "name": "SQLite",
-          "level": "expert",
-          "image": "/static/images/skills/sqlite.png"
-        },
-        {
-          "name": "ElasticSearch",
           "level": "advanced",
-          "image": "/static/images/skills/elasticsearch.png"
+          "image": "/static/images/skills/sqlite.png"
         },
         {
           "name": "MySQL",
@@ -192,9 +207,9 @@
           "image": "/static/images/skills/postgres.png"
         },
         {
-          "name": "Microsoft SQL",
-          "level": "proficient",
-          "image": "/static/images/skills/microsoftsql.png"
+          "name": "ElasticSearch",
+          "level": "advanced",
+          "image": "/static/images/skills/elasticsearch.png"
         },
         {
           "name": "Redis",
@@ -206,11 +221,6 @@
     {
       "topic": "Other",
       "info": [
-        {
-          "name": "Flask",
-          "level": "expert",
-          "image": "/static/images/skills/flask.png"
-        },
         {
           "name": "Git",
           "level": "advanced",
@@ -227,14 +237,19 @@
           "image": "/static/images/skills/docker.png"
         },
         {
-          "name": "Maven",
-          "level": "proficient",
-          "image": "/static/images/skills/maven.png"
-        },
-        {
           "name": "AWS",
           "level": "proficient",
           "image": "/static/images/skills/aws.png"
+        },
+        {
+          "name": "Scrum",
+          "level": "advanced",
+          "image": "/static/images/skills/scrum.png"
+        },
+        {
+          "name": "Agile",
+          "level": "skilled",
+          "image": "/static/images/skills/agile.png"
         }
       ]
     }
