@@ -4,11 +4,11 @@
       "name": "Seattle Fire Dispatch",
       "icon": "/static/images/projects/seattle-fire-dispatch/icon.png" ,
       "tags": [
-        "Python",
+        "Fullstack",
         "WIP"
       ],
-      "github": "https://github.com/ManVanMaan/Seattle-Fire-Dispatch",
-      "short": "A dashboard designed to show current and historical data about the Seattle Fire Dispatch."
+      "short": "A dashboard designed to show current and historical data about the Seattle Fire Dispatch.",
+      "html": "/project_pages/seattle-fire.html"
     },
     {
       "name": "Portfolio",
